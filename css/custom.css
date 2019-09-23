@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900&display=swap');
 @import url('icon/themify-icons/themify-icons.css');
 
-body{
+body {
     font-family: 'Nunito Sans', sans-serif;
     overflow-x: hidden;
     overflow-y: auto;
@@ -13,8 +13,7 @@ html {
     scroll-behavior: smooth;
 }
 
-/*Side Scroll START*/
-
+/*------------- Main Scroll START -------------*/
 /*width*/
 ::-webkit-scrollbar {
     width: 5px;
@@ -35,7 +34,8 @@ html {
     background: #1027d6;
 }
 
-/*Side Scroll END*/
+/*------------- Main Scroll END -------------*/
+
 h1 {
     font-family: 'Playfair Display', serif !important;
     font-size: 24px;
@@ -57,41 +57,17 @@ p {
     color: #111111;
     line-height: 27px;
 }
-a{
+
+a {
     color: #2B44FF;
     font-weight: 700;
 }
-a:hover{
+
+a:hover {
     text-decoration: none;
 }
-.header-bg{
-    -webkit-box-shadow: 0 4px 8px -5px rgba(0,0,0,0.3);
-    -moz-box-shadow: 0 4px 8px -5px rgba(0,0,0,0.3);
-    box-shadow: 0 4px 8px -5px rgba(0,0,0,0.3);
-    margin: 0 0 5px 0;
-    /*padding: 5px 0;*/
-}
-.brand-logo {
-    font-size: 18px;
-    font-weight: 800;
-    color: #111111;
-}
-.navbar-custom{
-    padding: .5rem 0;
-}
-.header-nav .nav-link{
-    font-size: 16px;
-    font-weight: 600;
-    color: #111111;
-    margin: 0 10px;
-    border-bottom: 3px solid transparent;
-    transition: all .3s ease-in-out;
-}
-.header-nav .nav-link:hover{
-    color: #2B44FF;
-    border-bottom: 3px solid #2B44FF;
-}
-.primary-btn-custom{
+
+.primary-btn-custom {
     background: #2B44FF;
     color: #fff;
     padding: 8px 30px;
@@ -99,13 +75,15 @@ a:hover{
     border-radius: 4px;
     transition: all .3s ease-in-out;
 }
-.primary-btn-custom:hover{
+
+.primary-btn-custom:hover {
     background: #1027d6;
-    -webkit-box-shadow: 5px 5px 4px -5px rgba(0,0,0,0.75);
-    -moz-box-shadow: 5px 5px 4px -5px rgba(0,0,0,0.75);
-    box-shadow: 5px 5px 4px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 5px 5px 4px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 4px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 4px -5px rgba(0, 0, 0, 0.75);
 }
-.secondary-btn-cut{
+
+.secondary-btn-cut {
     background: #ffffff;
     border: 1px solid #2B44FF;
     color: #2B44FF;
@@ -115,195 +93,298 @@ a:hover{
     transition: all .3s ease-in-out;
     font-weight: 600;
 }
-.secondary-btn-cut:hover{
+
+.secondary-btn-cut:hover {
     background: #f7f7f7;
-    -webkit-box-shadow: 5px 5px 4px -5px rgba(0,0,0,0.75);
-    -moz-box-shadow: 5px 5px 4px -5px rgba(0,0,0,0.75);
-    box-shadow: 5px 5px 4px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 5px 5px 4px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 4px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 4px -5px rgba(0, 0, 0, 0.75);
 }
-.header-right-bnr{
+
+/*BG colors START*/
+.ap-light-box {
+    background: rgba(244, 244, 248, 1);
+    background: #f4f4f8;
+}
+
+.ap-pink-box {
+    background: rgba(171, 28, 76, 0.1);
+}
+
+.ap-blue-box {
+    background: rgba(244, 248, 252, 1);
+}
+
+.shopify-color {
+    background: rgba(149, 191, 70, 0.1);
+}
+
+.etsy-color {
+    background: rgba(251, 102, 23, 0.1);
+}
+
+.amazon-color {
+    background: rgba(255, 154, 40, 0.1);
+}
+
+.magento-color {
+    background: rgba(242, 105, 60, 0.1);
+}
+
+.amour-bg {
+    background: rgba(216, 90, 141, 0.06);
+    background: #fdf5f8;
+}
+
+.cerulean-bg {
+    background: rgba(1, 176, 246, 0.06);
+}
+
+.geraldine-bg {
+    background: rgba(253, 138, 147, 0.15);
+}
+.alabaster-bg{
+    background: rgba(251,251,251,1);
+    /*background: #FBFBFB;*/
+}
+/*BG colors END*/
+/*------------- Header NAV CSS START -------------*/
+.header-bg {
+    -webkit-box-shadow: 0 4px 8px -5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 4px 8px -5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px -5px rgba(0, 0, 0, 0.3);
+    margin: 0 0 5px 0;
+    /*padding: 5px 0;*/
+}
+
+.brand-logo {
+    font-size: 18px;
+    font-weight: 800;
+    color: #111111;
+}
+
+.navbar-custom {
+    padding: .5rem 0;
+}
+
+.header-nav .nav-link {
+    font-size: 16px;
+    font-weight: 600;
+    color: #111111;
+    margin: 0 10px;
+    border-bottom: 3px solid transparent;
+    transition: all .3s ease-in-out;
+}
+
+.header-nav .nav-link:hover {
+    color: #2B44FF;
+    border-bottom: 3px solid #2B44FF;
+}
+
+/*------------- Header Nav CSS END -------------*/
+
+/*------------- Home page CSS START -------------*/
+.header-right-bnr {
     background: url('../img/header-right-bnr.png') center repeat-y;
     position: relative;
     left: 12%;
 }
-.header-img{
+
+.header-img {
     padding: 20px 0 20px 50px;
 }
-.header-heading{
-    margin: 50px 0 0 0;
+
+.header-heading {
+    /*margin: 50px 0 0 0;*/
 }
-.header-heading h1{
+
+.header-heading h1 {
     font-size: 52px;
     color: #111111;
     line-height: 70px;
     font-weight: 600;
 }
-.header-heading p{
+
+.header-heading p {
     width: 70%;
     margin: 20px 0;
 }
-.header-heading span{
+
+.header-heading span {
     display: block;
     font-size: 14px;
     color: #111111;
     margin: 10px 0;
 }
-.recent-orders p{
+
+.recent-orders p {
     font-weight: 700;
 }
-.location-icon{
+
+.location-icon {
     padding: 0 5px 0 0;
 }
+
 .location-icon span {
     font-size: 25px;
     color: #2B44FF;
 }
+
 .recent-locations span {
     font-size: 14px;
     color: #777777;
 }
-.pdo-icon span{
+
+.pdo-icon span {
     font-size: 40px;
 }
-.pdo-heading p{
+
+.pdo-heading p {
     font-weight: 700;
     margin: 5px 0;
 }
-.pdo-text p{
+
+.pdo-text p {
     font-size: 15px;
 }
 
-.amazing-products{
+.amazing-products {
     margin-top: 6%;
 }
-.ap-main-heading p{
+
+.ap-main-heading p {
     font-weight: 600;
 }
-.ap-light-box{
-    background: rgba(244,244,248,1);
-}
-.ap-pink-box{
-    background: rgba(171,28,76,0.1);
-}
-.ap-blue-box{
-    background: rgba(244,248,252,1);
-}
-.ap-boxes{
+
+.ap-boxes {
     height: 375px;
-    -webkit-box-shadow: 0 0 8px -4px rgba(0,0,0,0.3);
-    -moz-box-shadow: 0 0 8px -4px rgba(0,0,0,0.3);
-    box-shadow: 0 0 8px -4px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.3);
     padding: 10px;
     transition: all .3s ease-in-out;
 }
-.ap-boxes:hover{
-    -webkit-box-shadow: 0 0 10px -1px rgba(0,0,0,0.4);
-    -moz-box-shadow: 0 0 10px -1px rgba(0,0,0,0.4);
-    box-shadow: 0 0 10px -1px rgba(0,0,0,0.4);
+
+.ap-boxes:hover {
+    -webkit-box-shadow: 0 0 10px -1px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 0 10px -1px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 10px -1px rgba(0, 0, 0, 0.4);
 }
-.ap-boxes:hover a{
+
+.ap-boxes:hover a {
     text-decoration: none;
 }
-.ap-item-img img{
+
+.ap-item-img img {
     width: 100%;
     height: 275px;
     object-fit: contain;
 }
-.ap-text-info{
+
+.ap-text-info {
     position: relative;
     top: 20px;
 }
-.connect-store{
+
+/*Connect store CSS START*/
+.connect-store {
     padding-top: 6%;
     background: url('../img/connect-store-bnr.png') center;
     background-size: 100% 100%;
 }
-.cont-str-box{
+
+.cont-str-box {
     height: 345px;
-    -webkit-box-shadow: 0 0 8px -4px rgba(0,0,0,0.3);
-    -moz-box-shadow: 0 0 8px -4px rgba(0,0,0,0.3);
-    box-shadow: 0 0 8px -4px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.3);
     padding: 20px 10px;
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
-.cont-str-box:hover{
+
+.cont-str-box:hover {
     transform: scale(1.05);
-    /*background: rgba(29,31,32,0.1);*/
-    /*-webkit-box-shadow: 0 0 10px -1px rgba(0,0,0,0.4);*/
-    /*-moz-box-shadow: 0 0 10px -1px rgba(0,0,0,0.4);*/
-    /*box-shadow: 0 0 10px -1px rgba(0,0,0,0.4);*/
-    /*-webkit-box-shadow: 0 0 10px -1px rgba(0,0,0,0.2), inset 0 0 135px -32px rgba(0,0,0,0.4);*/
-    /*-moz-box-shadow: 0 0 10px -1px rgba(0,0,0,0.2), inset 0 0 135px -32px rgba(0,0,0,0.4);*/
-    box-shadow: 0 0 10px -1px rgba(0,0,0,0.1), inset 0 0 135px -32px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px -1px rgba(0, 0, 0, 0.1), inset 0 0 135px -32px rgba(0, 0, 0, 0.1);
 }
-.cont-str-img img{
+
+.cont-str-img img {
     width: 100%;
     height: 120px;
     object-fit: contain;
     padding: 10px;
 }
-.cont-str-text{
+
+.cont-str-text {
     margin-top: 12px;
 }
-.cont-str-text .cont-text{
+
+.cont-str-text .cont-text {
     font-weight: 600;
     margin: 10px 0;
     font-size: 15px;
 }
-.cont-direction{
-    position: absolute;
-    bottom: 12%;
+
+.cont-direction {
+    position: relative;
+    /* bottom: -20px; */
     left: 0;
     right: 0;
+    top: 25px;
 }
-.cont-direction span{
+
+.cont-direction span {
     font-size: 25px;
     color: #2B44FF;
 }
-.shopify-color{
-    background: rgba(149,191,70,0.1);
+
+.coming-soon {
+    background: #2B44FF;
+    color: #ffffff;
+    width: 140px;
+    font-size: 12px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    border-radius: 4px;
+    padding: 3px 0;
 }
-.etsy-color{
-    background: rgba(251,102,23,0.1);
-}
-.amazon-color{
-    background: rgba(255,154,40,0.1);
-}
-.magento-color{
-    background: rgba(242,105,60,0.1);
-}
-.allyouneed{
+
+/*Connect store CSS END*/
+
+.allyouneed {
     margin-top: 6%;
 }
 
-.makingmoney{
+.makingmoney {
     margin-top: 6%;
 }
-.mm-calc p{
+
+.mm-calc p {
     line-height: 27px;
 }
-.mm-calc p a{
+
+.mm-calc p a {
     color: #2B44FF !important;
 }
-.mm-calc span{
+
+.mm-calc span {
     font-weight: 800;
 }
-.mm-btn-text span{
+
+.mm-btn-text span {
     margin-top: 15px;
     display: block;
     font-size: 14px;
     font-weight: 700;
 }
 
-.proud-moment{
+.proud-moment {
     margin-top: 3%;
 }
-.team-img-left{
-    /*border-right: 1px solid #777;*/
-    /*border-bottom: 1px solid #777;*/
+
+.team-img-left {
     height: 130px;
     width: 100%;
     text-align: left;
@@ -311,11 +392,13 @@ a:hover{
     align-items: center;
     align-content: center;
 }
-.team-img-left .img-position{
+
+.team-img-left .img-position {
     position: absolute;
     left: 0;
 }
-.team-img-right{
+
+.team-img-right {
     height: 130px;
     width: 100%;
     text-align: right;
@@ -323,15 +406,18 @@ a:hover{
     align-items: center;
     align-content: center;
 }
-.team-img-right .img-position{
+
+.team-img-right .img-position {
     position: absolute;
     right: 0;
 }
-.team-imgs{
+
+.team-imgs {
     width: 150px;
     height: auto;
 }
-.pm-bg-img{
+
+.pm-bg-img {
     position: absolute;
     right: 0;
     width: 170px;
@@ -339,66 +425,246 @@ a:hover{
     margin: 60px 0 0 0;
 }
 
-.main-footer{
+/*------------- Home page CSS END -------------*/
+
+/*------------- Footer CSS START -------------*/
+.main-footer {
     background: #F8F8F8;
 }
-.footer-links h6{
+
+.footer-links h6 {
     font-size: 16px;
     font-weight: 700;
     color: #111111;
 }
-.footer-links ul{
+
+.footer-links ul {
     padding: 0;
     margin: 0;
 }
-.footer-links ul li{
+
+.footer-links ul li {
     list-style: none;
     line-height: 32px;
 }
-.footer-links ul li a{
+
+.footer-links ul li a {
     font-size: 14px;
     color: #000000;
     font-weight: 500;
     transition: all .3s ease-in-out;
 }
-.footer-links ul li a:hover{
+
+.footer-links ul li a:hover {
     text-decoration: underline;
     color: #2B44FF;
 }
-.footer-copyright p{
+
+.footer-copyright p {
     margin: 8px 0;
 }
-.footer-copyright p i{
+
+.footer-copyright p i {
     font-weight: 700;
 }
-.footer-copyright span{
+
+.footer-copyright span {
     font-size: 14px;
 }
-.footer-social{
+
+.footer-social {
     text-align: right;
     position: absolute;
     bottom: 0;
     right: 0;
 }
-.footer-social ul{
+
+.footer-social ul {
     padding: 0;
     margin: 0;
 }
-.footer-social ul li{
+
+.footer-social ul li {
     list-style: none;
     display: inline;
-    transition: all .3s ease-in-out;
+    transition: all .2s ease-in-out;
 }
-.footer-social ul li a{
+
+.footer-social ul li a {
     font-size: 16px;
     color: #777777;
     margin: 0 5px;
     border: 1px solid #777777;
     border-radius: 100%;
     padding: 8px 10px 5px 10px;
-    transition: all .3s ease-in-out;
+    transition: all .2s ease-in-out;
 }
-.footer-social ul li:hover a{
-    background: #777777;
+
+.footer-social ul li:hover a {
+    background: #000000;
+    border: 1px solid #000000;
     color: #ffffff;
 }
+
+/*------------- Footer CSS END -------------*/
+
+/*------------- How it works Page CSS START -------------*/
+.htw-steps {
+    margin-top: 1%;
+}
+
+.htw-head-bg {
+    position: absolute;
+    right: -24%;
+    width: 305px;
+    z-index: -11;
+    top: 28%;
+}
+
+.htw-top-img {
+    position: relative;
+    left: 12%;
+    width: 115%;
+    height: auto;
+}
+
+.htw-qt-as {
+    padding: 0 22% 0 0;
+}
+
+.htw-qt-as h5 {
+    font-size: 20px;
+    color: #111111;
+    font-weight: 700;
+}
+
+.htw-qt-as p {
+    font-weight: 600;
+}
+
+.pick-design {
+    margin-top: 6%;
+}
+
+.pick-design .container {
+    border-radius: 2px;
+    padding: 20px 35px 80px 35px;
+}
+
+.htw-pic-dsg-bg img {
+    position: absolute;
+    top: 30%;
+    right: 44%;
+    z-index: -1;
+    width: 400px;
+}
+
+.htw-text h6 {
+    color: #111111;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.htw-text h2 {
+    font-size: 48px;
+    line-height: 60px;
+    margin-top: 3%;
+}
+
+.htw-text p {
+    line-height: 30px;
+    margin-top: 3%;
+}
+
+.dyp-main-img {
+    position: relative;
+    left: 12%;
+}
+
+.htw-dsg-psn-bg img {
+    position: absolute;
+    top: 42%;
+    left: 20%;
+    z-index: -1;
+    width: 400px;
+}
+
+.htw-ovr-mng-bg img {
+    position: absolute;
+    top: 10%;
+    z-index: -1;
+    left: 0;
+}
+
+/*------------- How it works Page CSS END -------------*/
+
+/*Contact Us Page CSS START*/
+.eager-help{
+}
+.cus-eger-text p{
+    padding: 2% 30% 0 0;
+}
+.cus-eger-text a{
+    display: block;
+    line-height: 40px;
+}
+.cus-eger-text a span{
+    position: relative;
+    top: 2px;
+}
+.cus-right-bg{
+    position: absolute;
+    left: 10%;
+    width: 115%;
+    z-index: -1;
+}
+.cus-right-img{
+    position: relative;
+    left: 12%;
+    top: 10px;
+}
+.cont-options{
+    margin-top: 2%;
+}
+.contact-box{
+    min-height: 280px;
+    padding: 12% 10%;
+    border-radius: 5px;
+}
+.v-center{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.cont-mode{
+    margin: 0 auto;
+    text-align: center;
+}
+.cont-mode h5{
+    font-size: 22px;
+    font-weight: 700;
+}
+.cont-mode a{
+    color: #111111;
+    font-weight: 800;
+}
+.contact-form{
+    margin-top: 2%;
+}
+.form-start{
+    border-radius: 5px;
+}
+.contact-bg-art img{
+    position: absolute;
+    top: -12%;
+    left: -10%;
+    width: 300px;
+    z-index: -1;
+}
+/*Contact Us Page CSS END*/
