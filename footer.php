@@ -70,7 +70,7 @@
 
         <div class="row justify-content-sm-between p-5">
             <div class="col-md-6 mt-3">
-                <div>
+                <div class="footer-logo">
                     <a class="navbar-brand brand-logo" href="#"><img src="/img/withink_logo.png" class="img-fluid">
                         Everything With Ink</a>
                 </div>
@@ -160,6 +160,7 @@
             .find(".more-less")
             .toggleClass('ti-plus ti-minus');
     }
+
     $('.panel-group').on('hidden.bs.collapse', toggleIcon);
     $('.panel-group').on('shown.bs.collapse', toggleIcon);
 </script>
