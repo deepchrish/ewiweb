@@ -1,5 +1,5 @@
 <?php
-$title = "Home";
+$title = "Product Description";
 $pageDescription = "Home page description";
 include('header.php');
 ?>
@@ -55,6 +55,13 @@ include('header.php');
                     <!--/.Carousel Wrapper-->
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 col-12 mt-4">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb custom-breadcrumbs">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item"><a href="#">Men’s Clothing</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Unisex Raglan T-Shirt</li>
+                        </ol>
+                    </nav>
                     <div class="flex-column pro-details-info">
                         <h1 class="p-1">Unisex Raglan T-Shirt</h1>
                         <p class="mb-0 p-1"><strong>SKU:</strong> Unisex-raglan-t-shit-white/-forest</p>

@@ -32,7 +32,7 @@
                     <h6>Resources</h6>
                     <ul>
                         <li><a href="#">Blog</a></li>
-                        <li><a href="#">FAQs</a></li>
+                        <li><a href="faqs.php">FAQs</a></li>
                         <li><a href="#">Press Release</a></li>
                         <li><a href="#">Careers</a></li>
                         <li><a href="#">Sitemap</a></li>
@@ -62,7 +62,7 @@
                         <li><a href="#">Reviews</a></li>
                         <li><a href="#">Customers</a></li>
                         <li><a href="#">Quality</a></li>
-                        <li><a href="#">Terms of use</a></li>
+                        <li><a href="terms-of-service.php">Terms of use</a></li>
                     </ul>
                 </div>
             </div>
@@ -103,6 +103,7 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/custom.js"></script>
 
+<!--Index page auto latest orders update START-->
 <script>
     var roles = ['Florida, USA', 'Georgia, USA', 'Indiana, USA'];
     var roleId = 0;
@@ -149,5 +150,19 @@
         }
     }, 3500);
 </script>
+<!--Index page auto latest orders update END-->
+
+<!--Faq page plus mins START-->
+<script>
+    function toggleIcon(e) {
+        $(e.target)
+            .prev('.panel-heading')
+            .find(".more-less")
+            .toggleClass('ti-plus ti-minus');
+    }
+    $('.panel-group').on('hidden.bs.collapse', toggleIcon);
+    $('.panel-group').on('shown.bs.collapse', toggleIcon);
+</script>
+<!--Faq page plus mins END-->
 </body>
 </html>

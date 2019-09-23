@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900&display=swap');
-@import url('http://cdn.materialdesignicons.com/4.4.95/css/materialdesignicons.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/4.4.95/css/materialdesignicons.min.css');
 @import url('icon/themify-icons/themify-icons.css');
 
 body {
@@ -144,10 +144,12 @@ a:hover {
 .geraldine-bg {
     background: rgba(253, 138, 147, 0.15);
 }
-.alabaster-bg{
-    background: rgba(251,251,251,1);
+
+.alabaster-bg {
+    background: rgba(251, 251, 251, 1);
     /*background: #FBFBFB;*/
 }
+
 /*BG colors END*/
 /*------------- Header NAV CSS START -------------*/
 .header-bg {
@@ -600,40 +602,48 @@ a:hover {
 
 /*------------- How it works Page CSS END -------------*/
 
-/*Contact Us Page CSS START*/
-.eager-help{
+/*------------- Contact Us Page CSS START -------------*/
+.eager-help {
 }
-.cus-eger-text p{
+
+.cus-eger-text p {
     padding: 2% 30% 0 0;
 }
-.cus-eger-text a{
+
+.cus-eger-text a {
     display: block;
     line-height: 40px;
 }
-.cus-eger-text a span{
+
+.cus-eger-text a span {
     position: relative;
     top: 2px;
 }
-.cus-right-bg{
+
+.cus-right-bg {
     position: absolute;
     left: 10%;
     width: 115%;
     z-index: -1;
 }
-.cus-right-img{
+
+.cus-right-img {
     position: relative;
     left: 12%;
     top: 10px;
 }
-.cont-options{
+
+.cont-options {
     margin-top: 2%;
 }
-.contact-box{
+
+.contact-box {
     min-height: 280px;
     padding: 12% 10%;
     border-radius: 5px;
 }
-.v-center{
+
+.v-center {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -643,56 +653,68 @@ a:hover {
     -ms-flex-align: center;
     align-items: center;
 }
-.cont-mode{
+
+.cont-mode {
     margin: 0 auto;
     text-align: center;
 }
-.cont-mode h5{
+
+.cont-mode h5 {
     font-size: 22px;
     font-weight: 700;
 }
-.cont-mode a{
+
+.cont-mode a {
     color: #111111;
     font-weight: 800;
 }
-.contact-form{
+
+.contact-form {
     margin-top: 2%;
 }
-.form-start{
+
+.form-start {
     border-radius: 5px;
 }
-.contact-bg-art img{
+
+.contact-bg-art img {
     position: absolute;
     top: -12%;
     left: -10%;
     width: 300px;
     z-index: -1;
 }
-/*Contact Us Page CSS END*/
 
-/*About us Page CSS START*/
-.about-us-bg{
+/*------------- Contact Us Page CSS END -------------*/
+
+/* ------------- About us Page CSS START -------------*/
+.about-us-bg {
     position: absolute;
     left: 5%;
     width: 115%;
     z-index: -1;
     top: -40px;
 }
-.about-ceo{
+
+.about-ceo {
     margin-top: 6%;
 }
-.ceo-img span{
+
+.ceo-img span {
     display: block;
 }
-.about-ewi-text{
+
+.about-ewi-text {
     padding: 0 0 0 10%;
 }
-.about-ewi-text h3{
+
+.about-ewi-text h3 {
     font-size: 32px;
     font-weight: 700;
     line-height: 45px;
 }
-.abt-braces{
+
+.abt-braces {
     position: absolute;
     font-size: 150px;
     bottom: 63%;
@@ -700,119 +722,145 @@ a:hover {
     color: #2c44ff;
     transform: skewX(-30deg) skewy(0deg);
 }
-.print-process{
+
+.print-process {
     margin-top: 6%;
 }
-.abt-print-heading{
+
+.abt-print-heading {
     padding: 0 10% 0 10%;
 }
-.abt-print-heading h2{
+
+.abt-print-heading h2 {
     line-height: 55px;
 }
-.abt-tfe h6{
+
+.abt-tfe h6 {
     font-size: 20px;
     font-weight: 700;
 }
-.abt-nmbrs{
+
+.abt-nmbrs {
     margin-top: 2%;
     padding: 4% 0 3% 0;
 }
-.abt-pricing-heading{
+
+.abt-pricing-heading {
     font-weight: 700;
 }
-.abt-nubrs-list h4{
+
+.abt-nubrs-list h4 {
     font-size: 26px;
     font-weight: 900;
 }
-.abt-whtdo{
+
+.abt-whtdo {
     margin-top: 6%;
 }
-.abt-print-bg{
+
+.abt-print-bg {
     position: absolute;
     left: 90%;
     top: 0;
     right: -35%;
 }
-.abt-number-bg{
+
+.abt-number-bg {
     position: absolute;
     z-index: -1;
     left: -54px;
 }
-.abt-ceo-bg{
+
+.abt-ceo-bg {
     position: absolute;
     left: -30%;
     top: -15%;
     z-index: -1;
 }
-/*About us Page CSS END*/
 
-/*----------------------- Product Catalogue CSS START *----------------------- */
-.pro-cat-data{
+/*------------- About us Page CSS END -------------*/
+
+/*------------- Product Catalogue CSS START ------------- */
+.pro-cat-data {
     margin-top: 2%;
 }
-.pro-search .input-group-text{
+
+.pro-search .input-group-text {
     border: none;
     background: #F5F5F5;
 }
-.pro-search .form-control{
+
+.pro-search .form-control {
     border: none;
     background: #F5F5F5;
     padding: 22px 5px;
 }
-.pro-search .form-control:focus{
+
+.pro-search .form-control:focus {
     box-shadow: none;
 }
-.pro-custom-pills .nav-link{
+
+.pro-custom-pills .nav-link {
     border-left: 5px solid transparent;
     border-radius: 2px;
     line-height: 27px;
     color: #111;
 }
-.pro-custom-pills .nav-link.active, .nav-pills .show>.nav-link{
+
+.pro-custom-pills .nav-link.active, .nav-pills .show > .nav-link {
     color: #2c44ff;
-    background: rgba(43,68,255,0.1);
+    background: rgba(43, 68, 255, 0.1);
     border-left: 5px solid #2c44ff;
 }
 
-/*products catalogue v2 START*/
-.pro-catalogue{
+/*------------- products catalogue v2 START -------------*/
+.pro-catalogue {
     min-height: 415px;
     transition: all .2s ease-in-out;
 }
-.pro-catalogue:hover{
+
+.pro-catalogue:hover {
     transform: scale(1.05);
 }
-.pro-imgarea{
+
+.pro-imgarea {
     border: 1px solid #e9ecef;
     min-height: 260px;
 }
-.pro-foto{
+
+.pro-foto {
     height: 250px;
     width: 100%;
     display: flex;
     background: #fff;
 }
-.pro-foto a{
+
+.pro-foto a {
     display: flex;
 }
-.pro-foto img{
+
+.pro-foto img {
     object-fit: contain;
     margin: 0 auto;
 }
-.pro-cat-action{
+
+.pro-cat-action {
     border: 1px solid #e9ecef;
     font-weight: 600;
     background: #fff;
     transition: all .3s ease-in-out;
 }
-.pro-cat-action a{
+
+.pro-cat-action a {
     color: #111111;
     font-size: 12px;
 }
-.pro-cat-action:hover{
+
+.pro-cat-action:hover {
     background: #e9ecef;
 }
-.pro-multi-option{
+
+.pro-multi-option {
     position: absolute;
     left: 0;
     right: 0;
@@ -820,23 +868,27 @@ a:hover {
     margin: 0 10px;
     display: none;
     /*transition: all .3s ease-in-out;*/
-    transition:width 2s;
-    -moz-transition:width 2s; /* Firefox 4 */
-    -webkit-transition:width 2s; /* Safari and Chrome */
-    -o-transition:width 2s;
+    transition: width 2s;
+    -moz-transition: width 2s; /* Firefox 4 */
+    -webkit-transition: width 2s; /* Safari and Chrome */
+    -o-transition: width 2s;
 }
-.pro-catalogue:hover .pro-multi-option{
+
+.pro-catalogue:hover .pro-multi-option {
     display: block;
     margin: 0 0;
 }
-.pro-main-info{
+
+.pro-main-info {
     position: relative;
     top: 5px;
 }
-.pro-cat-rating .rating > label{
+
+.pro-cat-rating .rating > label {
     margin: 5px 0;
 }
-.pro-cat-heading h3{
+
+.pro-cat-heading h3 {
     color: #111111;
     font-size: 18px;
     font-weight: 700;
@@ -845,41 +897,49 @@ a:hover {
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.pro-cat-text{
+
+.pro-cat-text {
     font-size: 14px;
     font-weight: 600;
     color: #111111;
 }
-.pro-cat-twins{
+
+.pro-cat-twins {
     border: 1px solid #e9ecef;
     display: inline-block;
     border-radius: 2px;
 }
-.pro-cat-twins .color-item{
+
+.pro-cat-twins .color-item {
     width: 10px !important;
     height: 20px !important;
     margin: 0 !important;
     border: none;
     border-radius: 0;
 }
-.pro-cat-color{
+
+.pro-cat-color {
     margin: 0;
 }
-.pro-cat-more-color a{
+
+.pro-cat-more-color a {
     font-size: 14px;
     font-weight: 700;
     color: #0094FF;
 }
-/*products catalogue v2 END*/
 
-/* Product rating STARTS here*/
+/*------------- products catalogue v2 END -------------*/
+
+/*------------- Product rating STARTS here -------------*/
 .rating {
     border: none;
     float: left;
 }
+
 .rating > input {
     display: none;
 }
+
 .rating > label:before {
     margin: 2px;
     font-size: 14px;
@@ -888,20 +948,24 @@ a:hover {
     display: inline-block;
     content: "\f4ce";
 }
+
 .rating > .half:before {
     content: "\f4ce";
     position: absolute;
 }
+
 .rating > label {
     color: #ddd;
     float: right;
 }
+
 /***** CSS Magic to Highlight Stars on Hover *****/
 .rating > input:checked ~ label, /* show gold star when clicked */
 .rating:not(:checked) > label:hover, /* hover current star */
 .rating:not(:checked) > label:hover ~ label {
     color: #FFD700;
 }
+
 /* hover previous stars in list */
 .rating > input:checked + label:hover, /* hover current star when changing rating */
 .rating > input:checked ~ label:hover,
@@ -909,12 +973,13 @@ a:hover {
 .rating > input:checked ~ label:hover ~ label {
     color: #FFED85;
 }
+
 /*Product rating END here*/
 
 /*color palette START*/
 .component-colors-preview {
     clear: both;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .component-colors-preview .color-item {
@@ -925,29 +990,29 @@ a:hover {
     border-radius: 2px;
     margin: 2px 2px 2px 2px;
 }
+
 /*color palette END*/
 
-/*----------------------- Product Catalogue CSS END ----------------------- */
+/*------------- Product Catalogue CSS END -------------*/
 
-/*Product Detail CSS START*/
-.pro-info-slider{
-    /*display: grid;*/
-    /*position: absolute;*/
-    /*right: 72%;*/
-    /*top: 0;*/
+/*------------- Product Detail CSS START -------------*/
+.pro-info-slider {
     left: auto;
     bottom: auto;
 }
-.pro-info-star-rating{
+
+.pro-info-star-rating {
     display: inline-grid;
 }
-.pro-info-star-rating a{
+
+.pro-info-star-rating a {
     font-size: 14px;
     font-weight: 700;
     color: #0094FF;
     text-decoration: underline;
 }
-.pro-info-pricing h3{
+
+.pro-info-pricing h3 {
     font-size: 22px;
     color: #111111;
     font-weight: 700;
@@ -956,7 +1021,6 @@ a:hover {
 .thumb-img {
     display: grid;
     position: absolute;
-    /* right: 44px; */
     top: 0;
     left: -100%;
     bottom: auto;
@@ -970,9 +1034,6 @@ a:hover {
     width: 60px;
     height: 75px;
     object-fit: cover;
-    /* position: relative; */
-    /* left: 20em; */
-    /* top: -14em; */
     border: 2px solid #e9ecef;
     margin: 5px;
     background: #fff;
@@ -992,7 +1053,6 @@ a:hover {
 }
 
 .carousel-indicators .active img {
-    /*border: 2px solid #777;*/
     border-bottom: 3px solid #2c44ff;
     transition: all .2s ease-in-out;
 }
@@ -1000,17 +1060,188 @@ a:hover {
 .checkbox-btn {
     border: 1px solid #e9ecef;
     border-radius: 4px;
-    padding: 8px 20px;
+    padding: 8px 18px;
     color: #000000;
     font-weight: 700;
     margin: 0 1px;
 }
-.pro-details-info h1{
+
+.pro-details-info h1 {
     font-size: 28px;
     font-weight: 700;
 }
-.pro-dets-des h3{
+
+.pro-dets-des h3 {
     font-size: 20px;
     font-weight: 700;
 }
-/*Product Detail CSS END*/
+
+.custom-breadcrumbs {
+    background: no-repeat;
+    margin: 0;
+    padding: 10px 5px;
+}
+
+.custom-breadcrumbs .breadcrumb-item {
+    font-style: italic;
+    font-size: 14px;
+}
+
+.custom-breadcrumbs .breadcrumb-item a {
+    color: #777777;
+}
+
+.custom-breadcrumbs .breadcrumb-item.active {
+    color: #111111;
+    font-weight: 700;
+}
+
+/*------------- Product Detail CSS END -------------*/
+
+/*------------- Blog CSS START -------------*/
+
+.blog-bg {
+    position: absolute;
+    left: 45%;
+    width: 115%;
+    z-index: -1;
+    top: -56px;
+}
+
+.blog-bg img {
+    border-radius: 10px;
+}
+
+.blog-store-bg {
+    position: absolute;
+    left: -58%;
+    top: 8%;
+    z-index: -1;
+}
+
+.blog-integrated {
+    margin-top: 6%;
+}
+
+.blog-intes-text h5 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.blog-post-area {
+    max-height: 390px;
+    overflow: hidden;
+}
+
+.blog-posts {
+    margin-top: 6%;
+}
+
+.blog-post-img img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.blog-post-area h6 {
+    font-weight: 700;
+}
+
+.blog-post-area p {
+    max-height: 100px;
+    overflow: hidden;
+}
+
+/*------------- Blog CSS END -------------*/
+
+/*------------- FAQS CSS START -------------*/
+.faqs-accordion {
+    margin-top: 1%;
+}
+
+.faqs-acco-bg {
+    position: absolute;
+    left: -25%;
+    top: 0;
+    z-index: -1;
+    margin: -10% 0 0 0;
+}
+
+.accordion-panel {
+    padding: 20px;
+}
+
+.panel-default > .panel-heading {
+    padding: 0;
+    border-radius: 0;
+    color: #212121;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px -1px rgba(23, 38, 48, 0.06);
+    margin-bottom: 20px;
+}
+
+.panel-default > .panel-heading a {
+    color: #111111;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.panel-default > .panel-heading a i {
+    color: #2c44ff;
+}
+
+.panel-title {
+    font-size: 14px;
+}
+
+.panel-title > a {
+    display: block;
+    padding: 30px 20px 28px 20px;
+    text-decoration: none;
+}
+
+.more-less {
+    float: right;
+    color: #212121;
+}
+
+/*------------- FAQs CSS END -------------*/
+
+/*------------- Terms of use and service CSS START -------------*/
+.term-use {
+    margin-top: 5%;
+}
+
+.term-text h5 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.term-text h6 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.term-summery {
+    background: #f2f4ff;
+    padding: 5% 3%;
+    border-radius: 10px;
+}
+
+.term-summery p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.term-list {
+    padding: 0;
+    margin: 0 10px;
+}
+
+.term-list li {
+    margin: 15px 0;
+    list-style-position: inside;
+}
+
+/*------------- Terms of use and service CSS END -------------*/

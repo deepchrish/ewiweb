@@ -41,7 +41,7 @@
                                 <a class="nav-link" href="about-us.php">About us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Blog</a>
+                                <a class="nav-link" href="blog.php">Blog</a>
                             </li>
                         </ul>
                         <form class="form-inline my-2 my-lg-0">
