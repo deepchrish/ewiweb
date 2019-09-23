@@ -58,7 +58,7 @@
                     <h6>Everything With Ink</h6>
                     <ul>
                         <li><a href="contact-us.php">Contacts</a></li>
-                        <li><a href="#">About us</a></li>
+                        <li><a href="about-us.php">About us</a></li>
                         <li><a href="#">Reviews</a></li>
                         <li><a href="#">Customers</a></li>
                         <li><a href="#">Quality</a></li>

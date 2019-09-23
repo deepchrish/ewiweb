@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title><?php echo $title; ?> - Everything With Ink</title>
     <meta name="description" content="<?php echo $pageDescription; ?>">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="img/withink_logo.png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/custom.css">
@@ -27,7 +29,7 @@
                     <div class="collapse navbar-collapse header-nav" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Catalog</a>
+                                <a class="nav-link" href="product-cataogue.php">Catalog</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="how-it-works.php">How It Works</a>
@@ -36,7 +38,7 @@
                                 <a class="nav-link" href="#">Pricing</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link" href="#">About us</a>
+                                <a class="nav-link" href="about-us.php">About us</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Blog</a>
