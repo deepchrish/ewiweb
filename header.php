@@ -18,15 +18,20 @@
         <div class="row">
             <div class="col-md-12">
                 <nav class="navbar navbar-expand-lg navbar-custom">
-                    <a class="navbar-brand brand-logo" href="/"><img src="/img/withink_logo.png" class="img-fluid">
+                    <a class="navbar-brand brand-logo" href="/"><img src="img/withink_logo.png" class="img-fluid">
                         Everything With Ink</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    <button class="navbar-toggler custom-hamburger" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <div id="nav-icon3">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
                     </button>
 
-                    <div class="collapse navbar-collapse header-nav" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse header-nav custom-nav-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item">
                                 <a class="nav-link" href="product-cataogue.php">Catalog</a>

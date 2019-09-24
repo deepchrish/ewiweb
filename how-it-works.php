@@ -7,11 +7,11 @@ include('header.php');
     <section class="htw-steps">
         <div class="container">
             <div class="row">
-                <div class="col-md-5 mt-2">
+                <div class="col-lg-5 col-md-6 col-sm-12 col-12 mt-3 text-center text-md-left">
                     <div class="header-heading">
                         <h1>How it works- A Three Step Guide to Success</h1>
                     </div>
-                    <div class="htw-qt-as">
+                    <div class="htw-qt-as mt-3">
                         <h5>Pick and Design</h5>
                         <p>Pick a product from our catalogue and use our design tool to customise it.</p>
                         <h5>Sell it on your store</h5>
@@ -20,7 +20,7 @@ include('header.php');
                         <p>Sync your products with your preferred store and sell them online.</p>
                     </div>
                 </div>
-                <div class="col-md-7 mt-2">
+                <div class="col-lg-7 col-md-6 col-sm-12 col-12 mt-3">
                     <div class="htw-head-bg">
                         <img class="img-fluid" src="img/howitworks-header-bg.png" alt="header background">
                     </div>
@@ -37,7 +37,7 @@ include('header.php');
     <section class="pick-design">
         <div class="container amour-bg">
             <div class="row">
-                <div class="col-md-6 mt-2">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-3">
                     <div class="htw-pick-desg">
                         <img class="img-fluid" src="img/pick-design.png" alt="Pick a Design">
                     </div>
@@ -45,7 +45,7 @@ include('header.php');
                         <img class="img-fluid" src="img/pick-design-bg.png" alt="Pick design">
                     </div>
                 </div>
-                <div class="col-md-6 mt-2">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-3 text-center text-md-left">
                     <div class="htw-text">
                         <h6>Pick what you want</h6>
                         <h2>Pick and design what you want.</h2>
@@ -61,7 +61,7 @@ include('header.php');
     <section class="pick-design">
         <div class="container cerulean-bg">
             <div class="row flex-row-reverse">
-                <div class="col-md-6 mt-2">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-3">
                     <div class="htw-pick-desg">
                         <img class="img-fluid dyp-main-img" src="img/design-passions.png" alt="Design your passion">
                     </div>
@@ -69,7 +69,7 @@ include('header.php');
                         <img class="img-fluid" src="img/design-passion-bg.png" alt="Design your passion">
                     </div>
                 </div>
-                <div class="col-md-6 mt-2">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-3 text-center text-md-left">
                     <div class="htw-text">
                         <h6>Design your passion</h6>
                         <h2>Design what you want, however you want</h2>
@@ -85,7 +85,7 @@ include('header.php');
     <section class="pick-design">
         <div class="container geraldine-bg">
             <div class="row">
-                <div class="col-md-6 mt-2">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-3">
                     <div class="htw-pick-desg">
                         <img class="img-fluid" src="img/overview-manage.png" alt="Pick a Design">
                     </div>
@@ -93,7 +93,7 @@ include('header.php');
                         <img class="img-fluid" src="img/overview-bg.png" alt="Pick design">
                     </div>
                 </div>
-                <div class="col-md-6 mt-2">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-3 text-center text-md-left">
                     <div class="htw-text">
                         <h6>Overview and Manage</h6>
                         <h2>Manage all of your orders in one place.</h2>
@@ -109,7 +109,7 @@ include('header.php');
     <section class="connect-store">
         <div class="container">
             <div class="row text-center">
-                <div class="col-md-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="ap-main-heading">
                         <h2>Connect your store</h2>
                         <p class="mt-3">From a one-man business till a large ecommerce store.</p>
@@ -118,11 +118,11 @@ include('header.php');
             </div>
 
             <div class="row text-center">
-                <div class="col-md-3 p-0">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 p-0 mt-2">
                     <a href="#">
                         <div class="shopify-color cont-str-box m-2">
                             <div class="cont-str-img">
-                                <img class="img-fluid" src="/img/shopify.png">
+                                <img class="img-fluid" src="img/shopify.png">
                             </div>
                             <div class="cont-str-text">
                                 <p class="m-0">Shopify</p>
@@ -134,11 +134,11 @@ include('header.php');
                         </div>
                     </a>
                 </div>
-                <div class="col-md-3 p-0">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 p-0 mt-2">
                     <a href="#">
                         <div class="etsy-color cont-str-box m-2">
                             <div class="cont-str-img">
-                                <img class="img-fluid" src="/img/etsy.png">
+                                <img class="img-fluid" src="img/etsy.png">
                             </div>
                             <div class="cont-str-text">
                                 <p class="m-0">Etsy</p>
@@ -151,11 +151,11 @@ include('header.php');
                         </div>
                     </a>
                 </div>
-                <div class="col-md-3 p-0">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 p-0 mt-2">
                     <a href="#">
                         <div class="amazon-color cont-str-box m-2">
                             <div class="cont-str-img">
-                                <img class="img-fluid" src="/img/amazon.png">
+                                <img class="img-fluid" src="img/amazon.png">
                             </div>
                             <div class="cont-str-text">
                                 <p class="m-0">Amazon</p>
@@ -167,15 +167,15 @@ include('header.php');
                         </div>
                     </a>
                 </div>
-                <div class="col-md-3 p-0">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 p-0 mt-2">
                     <a href="#">
                         <div class="magento-color cont-str-box m-2">
                             <div class="cont-str-img">
-                                <img class="img-fluid" src="/img/magento.png">
+                                <img class="img-fluid" src="img/magento.png">
                             </div>
                             <div class="cont-str-text">
                                 <p class="m-0">Magento 2</p>
-                                <p class="cont-text">An ecommerce platform for enterprises and ecommerce experts.</p>
+                                <p class="cont-text">An ecommerce platform for enterprises and e-commerce experts.</p>
                             </div>
                             <div class="cont-direction">
                                 <div class="coming-soon">Coming Soon</div>

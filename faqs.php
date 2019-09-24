@@ -7,7 +7,7 @@ include('header.php');
     <section class="eager-help">
         <div class="container">
             <div class="row">
-                <div class="col-md-5 mt-4">
+                <div class="col-lg-5 col-md-6 col-sm-12 col-12 mt-4 text-center text-md-left">
                     <div class="header-heading">
                         <h1>Frequently asked questions</h1>
                     </div>
@@ -16,7 +16,7 @@ include('header.php');
                         <button class="btn primary-btn-custom">Ask a question</button>
                     </div>
                 </div>
-                <div class="col-md-7 mt-4">
+                <div class="col-lg-7 col-md-6 col-sm-12 col-12 mt-4">
                     <div class="blog-bg">
                         <img class="img-fluid" src="img/faqs-bg.png" alt="faqs">
                     </div>
@@ -32,10 +32,10 @@ include('header.php');
     <section class="faqs-accordion">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="faqs-acco-bg"><img class="img-fluid" src="img/faqs-acco-bg.png" alt="Acccordion"></div>
                 </div>
-                <div class="col-md-12 col-sm-12 col-12 accordion-panel">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12 accordion-panel">
                     <div class="panel-group" id="accordion">
                         <div class="panel panel-default">
                             <div class="panel-heading " id="headingOne">

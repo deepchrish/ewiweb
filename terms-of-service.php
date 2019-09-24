@@ -39,7 +39,7 @@ include('header.php');
                         <h5>Terms of Service</h5>
                         <p>Thank you for using Everything With Ink,! Before using or accessing our platform, please read
                             this Terms of Service (the “Terms of Service”) carefully. This document is a legally binding
-                            contract between Printify and you, the User (as defined below), for the use of the
+                            contract between EWI and you, the User (as defined below), for the use of the
                             applications, software, products and services provided by Everything With Ink (collectively,
                             the “Service”) and as such, we have tried to make it as clear as possible. In addition to
                             the full legal terms and text, we have provided short non-binding summaries with each
@@ -94,14 +94,14 @@ include('header.php');
                         <ul class="term-list">
                             <li>Except as they may be supplemented by additional terms and conditions, policies,
                                 guidelines or standards, the Agreement constitutes the entire understanding between
-                                Printify and You pertaining to the subject matter hereof, and supersedes any and all
-                                prior oral or written understandings or agreements between Printify and You in relation
+                                EWI and You pertaining to the subject matter hereof, and supersedes any and all
+                                prior oral or written understandings or agreements between EWI and You in relation
                                 to the access to and use of the Service.
                             </li>
                             <li>Except as they may be supplemented by additional terms and conditions, policies,
                                 guidelines or standards, the Agreement constitutes the entire understanding between
-                                Printify and You pertaining to the subject matter hereof, and supersedes any and all
-                                prior oral or written understandings or agreements between Printify and You in relation
+                                EWI and You pertaining to the subject matter hereof, and supersedes any and all
+                                prior oral or written understandings or agreements between EWI and You in relation
                                 to the access to and use of the Service.
                             </li>
                             <li>If any provision of these Terms of Service are held to be invalid or unenforceable, such
@@ -119,14 +119,14 @@ include('header.php');
                         <ul class="term-list">
                             <li>Except as they may be supplemented by additional terms and conditions, policies,
                                 guidelines or standards, the Agreement constitutes the entire understanding between
-                                Printify and You pertaining to the subject matter hereof, and supersedes any and all
-                                prior oral or written understandings or agreements between Printify and You in relation
+                                EWI and You pertaining to the subject matter hereof, and supersedes any and all
+                                prior oral or written understandings or agreements between EWI and You in relation
                                 to the access to and use of the Service.
                             </li>
                             <li>Except as they may be supplemented by additional terms and conditions, policies,
                                 guidelines or standards, the Agreement constitutes the entire understanding between
-                                Printify and You pertaining to the subject matter hereof, and supersedes any and all
-                                prior oral or written understandings or agreements between Printify and You in relation
+                                EWI and You pertaining to the subject matter hereof, and supersedes any and all
+                                prior oral or written understandings or agreements between EWI and You in relation
                                 to the access to and use of the Service.
                             </li>
                         </ul>

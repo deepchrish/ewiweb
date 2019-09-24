@@ -1,8 +1,8 @@
 <!--footer start-->
 <footer class="main-footer mt-5">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-2 mt-5">
+        <div class="row justify-content-md-center text-center text-sm-left">
+            <div class="col-md-2 col-sm-4 col-12 mt-5">
                 <div class="footer-links">
                     <h6>Products</h6>
                     <ul>
@@ -14,7 +14,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-3 mt-5">
+            <div class="col-md-3 col-sm-4 col-12 mt-5">
                 <div class="footer-links">
                     <h6>Services</h6>
                     <ul>
@@ -27,11 +27,11 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-2 mt-5">
+            <div class="col-md-2 col-sm-4 col-12 mt-5">
                 <div class="footer-links">
                     <h6>Resources</h6>
                     <ul>
-                        <li><a href="#">Blog</a></li>
+                        <li><a href="blog.php">Blog</a></li>
                         <li><a href="faqs.php">FAQs</a></li>
                         <li><a href="#">Press Release</a></li>
                         <li><a href="#">Careers</a></li>
@@ -40,7 +40,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-2 mt-5">
+            <div class="col-md-2 col-sm-4 col-12 mt-5">
                 <div class="footer-links">
                     <h6>Features</h6>
                     <ul>
@@ -53,7 +53,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-2 mt-5">
+            <div class="col-md-2 col-sm-4 col-12 mt-5">
                 <div class="footer-links">
                     <h6>Everything With Ink</h6>
                     <ul>
@@ -68,10 +68,10 @@
             </div>
         </div>
 
-        <div class="row justify-content-sm-between p-5">
-            <div class="col-md-6 mt-3">
+        <div class="row justify-content-sm-between p-md-5 text-center text-md-left pb-5">
+            <div class="col-md-6 col-sm-12 mt-md-3 mt-4">
                 <div class="footer-logo">
-                    <a class="navbar-brand brand-logo" href="#"><img src="/img/withink_logo.png" class="img-fluid">
+                    <a class="navbar-brand brand-logo" href="#"><img src="img/withink_logo.png" class="img-fluid">
                         Everything With Ink</a>
                 </div>
                 <div class="footer-copyright">
@@ -79,7 +79,7 @@
                     <span>Everything With Ink © 2019</span>
                 </div>
             </div>
-            <div class="col-md-6 mt-3">
+            <div class="col-md-6 col-sm-12 mt-md-3 mt-4">
                 <div class="footer-social">
                     <ul>
                         <li><a href="#" title="Facebook"><span class="ti-facebook"></span></a></li>
@@ -102,6 +102,31 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/custom.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
+            $(this).toggleClass('open');
+        });
+    });
+</script>
+
+
+<!--Sticky Navbar START-->
+<script>
+    $(document).ready(function(){
+        $(window).bind('scroll', function() {
+            var navHeight = $( window ).height() - 400;
+            if ($(window).scrollTop() > navHeight) {
+                $('.header-bg').addClass('stickynav');
+            }
+            else {
+                $('.header-bg').removeClass('stickynav');
+            }
+        });
+    });
+</script>
+<!--Sticky Navbar END-->
 
 <!--Index page auto latest orders update START-->
 <script>

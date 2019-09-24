@@ -3,29 +3,28 @@ $title = "Home";
 $pageDescription = "Home page description";
 include('header.php');
 ?>
-
     <!--Main banner are START-->
     <section class="middle-header">
         <div class="container">
             <div class="row">
-                <div class="col-md-5">
-                    <div class="header-heading mt-5">
+                <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12 text-center text-md-left">
+                    <div class="header-heading mt-4 mt-md-2 mt-lg-4">
                         <h1>The All-in-One Print-on-Demand Solution.</h1>
                         <p>Start selling products and making money online today with Everything With Ink.</p>
                         <button class="btn primary-btn-custom" type="submit">Start Selling</button>
                         <span>100% payouts · Easy to use  · 200+ Vendors</span>
                     </div>
-                    <div class="recent-orders mt-4">
+                    <div class="recent-orders mt-md-2 mt-lg-4">
                         <p class="m-0">Latest Orders from:</p>
                         <div class="d-flex">
-                            <div class="d-flex align-items-center p-2">
+                            <div class="d-flex align-items-center pt-2 pr-2 m-auto m-md-0 pt-3">
                                 <div class="location-icon"><span class="ti-location-pin"></span></div>
                                 <div class="recent-locations">
                                     <p class="mb-0" id="role">Ohio, USA</p>
                                     <span id="role2">2 Minutes ago</span>
                                 </div>
                             </div>
-                            <div class="d-flex align-items-center p-2">
+                            <div class="d-flex align-items-center pt-2 pt-lg-2 m-auto m-md-0 pt-3">
                                 <div class="location-icon"><span class="ti-location-pin"></span></div>
                                 <div class="recent-locations">
                                     <p class="mb-0" id="role3">Vanvcouver, Canada</p>
@@ -35,9 +34,9 @@ include('header.php');
                         </div>
                     </div>
                 </div>
-                <div class="col-md-7 header-right-bnr p-0">
+                <div class="col-xl-7 col-lg-7 col-md-6 col-sm-12 col-12 header-right-bnr p-0 mt-5 mt-lg-3 mt-md-2">
                     <div class="header-img">
-                        <img class="img-fluid" src="/img/vector.png">
+                        <img class="img-fluid" src="img/vector.png">
                     </div>
                 </div>
             </div>
@@ -48,8 +47,8 @@ include('header.php');
     <!--Custom, sell Fulfill START-->
     <section class="product-design-options mt-5">
         <div class="container">
-            <div class="row text-center">
-                <div class="col-md-4">
+            <div class="row text-center justify-content-center">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mt-2">
                     <div class="d-flex flex-column bd-highlight p-3">
                         <div class="pdo-icon"><span class="ti-brush-alt"></span></div>
                         <div class="pdo-heading"><p>Create custom products</p></div>
@@ -57,7 +56,7 @@ include('header.php');
                                 decor, stickers, and more.</p></div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mt-2">
                     <div class="d-flex flex-column bd-highlight p-3">
                         <div class="pdo-icon"><span class="ti-shopping-cart-full"></span></div>
                         <div class="pdo-heading"><p>Sell your products</p></div>
@@ -65,7 +64,7 @@ include('header.php');
                                 syncing.</p></div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mt-2">
                     <div class="d-flex flex-column bd-highlight p-3">
                         <div class="pdo-icon"><span class="ti-truck"></span></div>
                         <div class="pdo-heading"><p>Fulfill with best vendors</p></div>
@@ -82,19 +81,19 @@ include('header.php');
     <section class="amazing-products">
         <div class="container">
             <div class="row text-center">
-                <div class="col-md-12">
+                <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="ap-main-heading">
                         <h2>Amazing products, ready for your design</h2>
                         <p class="mt-3">Printed and shipped on demand, under your brand!</p>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4 text-center">
+            <div class="row justify-content-center">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 text-center mt-md-4 mt-4">
                     <a href="#">
                         <div class="ap-light-box ap-boxes">
                             <div class="ap-item-img">
-                                <img class="img-fluid" src="/img/mug.png">
+                                <img class="img-fluid" src="img/mug.png">
                             </div>
                             <div class="ap-text-info">
                                 <p class="m-0">Coffee Mugs</p>
@@ -104,11 +103,11 @@ include('header.php');
                     </a>
                 </div>
 
-                <div class="col-md-4 text-center">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 text-center mt-md-4 mt-4">
                     <a href="#">
                         <div class="ap-pink-box ap-boxes">
                             <div class="ap-item-img">
-                                <img class="img-fluid" src="/img/cup.png">
+                                <img class="img-fluid" src="img/cup.png">
                             </div>
                             <div class="ap-text-info">
                                 <p class="m-0">Glasses</p>
@@ -118,11 +117,11 @@ include('header.php');
                     </a>
                 </div>
 
-                <div class="col-md-4 text-center">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 text-center mt-md-4 mt-4">
                     <a href="#">
                         <div class="ap-blue-box ap-boxes">
                             <div class="ap-item-img">
-                                <img class="img-fluid" src="/img/tees.png">
+                                <img class="img-fluid" src="img/tees.png">
                             </div>
                             <div class="ap-text-info">
                                 <p class="m-0">T-shirts</p>
@@ -133,7 +132,7 @@ include('header.php');
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-md-12 mt-4">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12 mt-4">
                     <button class="btn secondary-btn-cut">See all Products</button>
                 </div>
             </div>
@@ -145,7 +144,7 @@ include('header.php');
     <section class="connect-store">
         <div class="container">
             <div class="row text-center">
-                <div class="col-md-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="ap-main-heading">
                         <h2>Connect your store</h2>
                         <p class="mt-3">From a one-man business till a large ecommerce store.</p>
@@ -154,11 +153,11 @@ include('header.php');
             </div>
 
             <div class="row text-center">
-                <div class="col-md-3 p-0">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 p-0 mt-2">
                     <a href="#">
                         <div class="shopify-color cont-str-box m-2">
                             <div class="cont-str-img">
-                                <img class="img-fluid" src="/img/shopify.png">
+                                <img class="img-fluid" src="img/shopify.png">
                             </div>
                             <div class="cont-str-text">
                                 <p class="m-0">Shopify</p>
@@ -170,11 +169,11 @@ include('header.php');
                         </div>
                     </a>
                 </div>
-                <div class="col-md-3 p-0">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 p-0 mt-2">
                     <a href="#">
                         <div class="etsy-color cont-str-box m-2">
                             <div class="cont-str-img">
-                                <img class="img-fluid" src="/img/etsy.png">
+                                <img class="img-fluid" src="img/etsy.png">
                             </div>
                             <div class="cont-str-text">
                                 <p class="m-0">Etsy</p>
@@ -187,11 +186,11 @@ include('header.php');
                         </div>
                     </a>
                 </div>
-                <div class="col-md-3 p-0">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 p-0 mt-2">
                     <a href="#">
                         <div class="amazon-color cont-str-box m-2">
                             <div class="cont-str-img">
-                                <img class="img-fluid" src="/img/amazon.png">
+                                <img class="img-fluid" src="img/amazon.png">
                             </div>
                             <div class="cont-str-text">
                                 <p class="m-0">Amazon</p>
@@ -203,11 +202,11 @@ include('header.php');
                         </div>
                     </a>
                 </div>
-                <div class="col-md-3 p-0">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 p-0 mt-2">
                     <a href="#">
                         <div class="magento-color cont-str-box m-2">
                             <div class="cont-str-img">
-                                <img class="img-fluid" src="/img/magento.png">
+                                <img class="img-fluid" src="img/magento.png">
                             </div>
                             <div class="cont-str-text">
                                 <p class="m-0">Magento 2</p>
@@ -228,7 +227,7 @@ include('header.php');
     <section class="allyouneed">
         <div class="container">
             <div class="row text-center">
-                <div class="col-md-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12 ">
                     <div class="ap-main-heading">
                         <h2>We’re giving all you need</h2>
                         <p class="mt-3">From a one-man business till a large ecommerce store.</p>
@@ -236,8 +235,8 @@ include('header.php');
                 </div>
             </div>
 
-            <div class="row text-center">
-                <div class="col-md-4">
+            <div class="row text-center justify-content-center">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-md-2">
                     <div class="d-flex flex-column bd-highlight p-3">
                         <div class="pdo-icon"><span class="ti-tag"></span></div>
                         <div class="pdo-heading"><p>200+ Unique Products</p></div>
@@ -245,7 +244,7 @@ include('header.php');
                                 decor, stickers, and more.</p></div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-md-2">
                     <div class="d-flex flex-column bd-highlight p-3">
                         <div class="pdo-icon"><span class="ti-vector"></span></div>
                         <div class="pdo-heading"><p>Interactive Design Studio</p></div>
@@ -253,7 +252,7 @@ include('header.php');
                                 with your stores to earn money.</p></div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-md-2">
                     <div class="d-flex flex-column bd-highlight p-3">
                         <div class="pdo-icon"><span class="ti-stats-up"></span></div>
                         <div class="pdo-heading"><p>Custom Campaigns</p></div>
@@ -261,7 +260,7 @@ include('header.php');
                                 page.</p></div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-md-2">
                     <div class="d-flex flex-column bd-highlight p-3">
                         <div class="pdo-icon"><span class="ti-ink-pen"></span></div>
                         <div class="pdo-heading"><p>Easy Ink Feature</p></div>
@@ -270,7 +269,7 @@ include('header.php');
                                 our entire catalogue.</p></div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-md-2">
                     <div class="d-flex flex-column bd-highlight p-3">
                         <div class="pdo-icon"><span class="ti-package"></span></div>
                         <div class="pdo-heading"><p>Manual Ordering</p></div>
@@ -278,7 +277,7 @@ include('header.php');
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-md-2">
                     <div class="d-flex flex-column bd-highlight p-3">
                         <div class="pdo-icon"><span class="ti-world"></span></div>
                         <div class="pdo-heading"><p>Global Vendor network</p></div>
@@ -294,7 +293,7 @@ include('header.php');
     <section class="makingmoney">
         <div class="container">
             <div class="row text-center">
-                <div class="col-md-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12 ">
                     <div class="ap-main-heading">
                         <h2>Making money with us is easy</h2>
                         <p class="mt-3">This is how you make money with Everything With Ink.</p>
@@ -303,24 +302,24 @@ include('header.php');
             </div>
 
             <div class="row">
-                <div class="col-md-6 mm-calc">
-                    <div class="row mt-5">
-                        <div class="col-md-8"><p>You sell your t-shirt at a retail price of</p></div>
-                        <div class="col-md-4 text-right"><span>$26.00</span></div>
-                        <div class="col-md-8"><p>Vendor <a>you choose</a> ships it for</p></div>
-                        <div class="col-md-4 text-right"><span>$12.00</span></div>
+                <div class="col-lg-6 col-md-6 col-sm-12 mm-calc mt-4">
+                    <div class="row mt-md-5">
+                        <div class="col-md-8 col-sm-8 col-8"><p>You sell your t-shirt at a retail price of</p></div>
+                        <div class="col-md-4 col-sm-4 col-4 text-right"><span>$26.00</span></div>
+                        <div class="col-md-8 col-sm-8 col-8"><p>Vendor <a>you choose</a> ships it for</p></div>
+                        <div class="col-md-4 col-sm-4 col-4 text-right"><span>$12.00</span></div>
                     </div>
                     <div class="row border-top">
-                        <div class="col-md-8 mt-4"><p>Your Profit</p></div>
-                        <div class="col-md-4 mt-4 text-right"><span>$14.00</span></div>
+                        <div class="col-md-8 col-sm-8 col-8 mt-4"><p>Your Profit</p></div>
+                        <div class="col-md-4 col-sm-4 col-4 mt-4 text-right"><span>$14.00</span></div>
                     </div>
-                    <div class="mt-2 mm-btn-text">
+                    <div class="mt-2 mm-btn-text text-center text-md-left">
                         <button class="btn primary-btn-custom">Start Selling</button>
-                        <span>100% payouts · Easy to use  · 200+ Vendors</span>
+                        <span>100% payouts · Easy to use · 200+ Vendors</span>
                     </div>
                 </div>
 
-                <div class="col-md-6 header-right-bnr p-0">
+                <div class="col-lg-6 col-md-6 col-sm-12 header-right-bnr p-0 mt-4">
                     <div>
                         <img class="img-fluid" src="img/lady-tees.png" alt="Lady image">
                     </div>
@@ -334,7 +333,7 @@ include('header.php');
     <section class="proud-moment">
         <div class="container">
             <div class="row text-center">
-                <div class="col-md-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12 ">
                     <div class="ap-main-heading">
                         <h2>We’re proud to our team in this journey</h2>
                         <p class="mt-3">Partners who already are a part of Everything With Ink</p>
@@ -344,39 +343,39 @@ include('header.php');
 
             <div class="row justify-content-center mt-3">
                 <img class="img-fluid pm-bg-img" src="img/bots-bg.png" alt="dots">
-                <div class="col-md-5">
+                <div class="col-lg-5 col-md-7 col-sm-12">
                     <div class="row">
-                        <div class="col-md-6 p-0">
+                        <div class="col-md-6 col-sm-6 col-6 p-0">
                             <div class="team-img-left border-right border-bottom">
                                 <div class="img-position"><img class="img-fluid team-imgs" src="img/1-josephjoseph.png"
                                                                alt="logo"></div>
                             </div>
                         </div>
-                        <div class="col-md-6 p-0">
+                        <div class="col-md-6 col-sm-6 col-6 p-0">
                             <div class="team-img-right border-bottom">
                                 <div class="img-position"><img class="img-fluid team-imgs" src="img/6-klober.png"
                                                                alt="logo"></div>
                             </div>
                         </div>
-                        <div class="col-md-6 p-0">
+                        <div class="col-md-6 col-sm-6 col-6 p-0">
                             <div class="team-img-left border-right border-bottom">
                                 <div class="img-position"><img class="img-fluid team-imgs" src="img/2-louispoulsen.png"
                                                                alt="logo"></div>
                             </div>
                         </div>
-                        <div class="col-md-6 p-0">
+                        <div class="col-md-6 col-sm-6 col-6 p-0">
                             <div class="team-img-right border-bottom">
                                 <div class="img-position"><img class="img-fluid team-imgs" src="img/5-alessi.png"
                                                                alt="logo"></div>
                             </div>
                         </div>
-                        <div class="col-md-6 p-0">
+                        <div class="col-md-6 col-sm-6 col-6 p-0">
                             <div class="team-img-left border-right">
                                 <div class="img-position"><img class="img-fluid team-imgs" src="img/3-evasolo.png"
                                                                alt="logo"></div>
                             </div>
                         </div>
-                        <div class="col-md-6 p-0">
+                        <div class="col-md-6 col-sm-6 col-6 p-0">
                             <div class="team-img-right">
                                 <div class="img-position"><img class="img-fluid team-imgs" src="img/4-magisso.png"
                                                                alt="logo"></div>
@@ -386,7 +385,7 @@ include('header.php');
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-md-12 mt-4">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12 mt-4">
                     <button class="btn secondary-btn-cut">See all partners</button>
                 </div>
             </div>

@@ -49,7 +49,7 @@ h2 {
     font-size: 40px;
     font-weight: 700;
     color: #111111;
-    line-height: 27px;
+    line-height: 45px;
 }
 
 p {
@@ -100,6 +100,9 @@ a:hover {
     -webkit-box-shadow: 5px 5px 4px -5px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 5px 5px 4px -5px rgba(0, 0, 0, 0.75);
     box-shadow: 5px 5px 4px -5px rgba(0, 0, 0, 0.75);
+}
+button:focus{
+    outline: none;
 }
 
 /*BG colors START*/
@@ -157,9 +160,28 @@ a:hover {
     -moz-box-shadow: 0 4px 8px -5px rgba(0, 0, 0, 0.3);
     box-shadow: 0 4px 8px -5px rgba(0, 0, 0, 0.3);
     margin: 0 0 5px 0;
-    /*padding: 5px 0;*/
+    -webkit-transition: position 3s;
+    -moz-transition: position 3s;
+    -ms-transition: position 3s;
+    -o-transition: position 3s;
+    transition: position 3s;
 }
-
+.stickynav{
+    background: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1024;
+    animation: smoothScroll 0.5s forwards;
+}
+@keyframes smoothScroll {
+    0% {
+        transform: translateY(-40px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
 .brand-logo {
     font-size: 18px;
     font-weight: 800;
@@ -183,6 +205,96 @@ a:hover {
     color: #2B44FF;
     border-bottom: 3px solid #2B44FF;
 }
+
+/*Hamburger Menu START*/
+.custom-hamburger{
+    /*background: #2b44ff;*/
+    padding: 6px 6px 8px 6px;
+}
+#nav-icon3{
+    width: 20px;
+    height: 16px;
+    position: relative;
+    margin: 0 auto;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+#nav-icon3 span{
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: #000000;
+    border-radius: 10px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+
+/* Icon 3 */
+
+#nav-icon3 span:nth-child(1) {
+    top: 0;
+}
+
+#nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
+    top: 8px;
+}
+
+#nav-icon3 span:nth-child(4) {
+    top: 16px;
+}
+
+#nav-icon3.open span:nth-child(1) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+}
+
+#nav-icon3.open span:nth-child(2) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#nav-icon3.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+#nav-icon3.open span:nth-child(4) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+}
+
+.custom-nav-collapse{
+    margin: 0 auto;
+    text-align: center;
+}
+.custom-nav-collapse form{
+    display: block;
+}
+/*Hamburger Menu END*/
+
 
 /*------------- Header Nav CSS END -------------*/
 
@@ -842,6 +954,7 @@ a:hover {
 .pro-foto img {
     object-fit: contain;
     margin: 0 auto;
+    width: 100%;
 }
 
 .pro-cat-action {
@@ -1245,3 +1358,76 @@ a:hover {
 }
 
 /*------------- Terms of use and service CSS END -------------*/
+
+
+
+
+/*Responsive web design START*/
+
+/*==========  Mobile First Method  ==========*/
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Extra large devices (large laptops and desktops, 1200px and Down) */
+@media only screen and (max-width: 1200px) {}
+@media only screen and (max-width: 1024px){}
+/* Large devices (laptops/desktops, 992px and Down) */
+@media only screen and (max-width: 992px) {
+    h2{font-size: 34px;}
+    .header-heading h1{font-size: 38px; line-height: 55px;}
+    .header-heading p{width: 100%;margin: 10px 0;}
+    /*.header-right-bnr{left: 20%}*/
+    .header-img{padding: 20px 0 0 0;}
+    .amazing-products {margin-top: 3%;}
+    .proud-moment{margin-top: 6%;}
+    .htw-qt-as h5{font-size: 16px;}
+    .htw-qt-as p{font-size: 14px;}
+    .htw-qt-as{padding: 0;}
+    .htw-head-bg{right: -50%; top: -35px;}
+    .htw-top-img{width: 140%;}
+    .pick-design .container{padding: 15px 20px 20px 20px;}
+    .htw-text h2{font-size: 38px;line-height: 48px;}
+    .cus-right-img{width: 130%;}
+}
+/* Medium devices (tablets, 768px and down) */
+@media only screen and (max-width: 768px) {
+    .header-right-bnr{position: static;}
+    .footer-social{position: static;text-align: center;}
+    .footer-social ul li a{font-size: 14px; margin: 0 3px;}
+    .htw-head-bg{top: 0;right: -25%;}
+    .htw-top-img{position: static;width: 100%;}
+    .htw-pic-dsg-bg img{top: 0;right: 65%;}
+    .dyp-main-img{position: static;}
+    .htw-dsg-psn-bg img{left: 10%;}
+    .blog-bg{left: 0;right: 0;}
+    .cus-right-img{width: 100%;position: static;}
+    .accordion-panel {padding: 5px;}
+    .panel-default > .panel-heading a{font-size: 18px;}
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 575px) {
+    .team-imgs{padding: 0 15px 0 15px;}
+    .htw-dsg-psn-bg img{top: 35%;left: 8%;}
+}
+/* Extra small devices (phones, 480px and down) */
+@media only screen and (max-width: 480px) {
+    .htw-dsg-psn-bg img{top: 25%;left: 6%;}
+    .panel-default > .panel-heading a{font-size: 16px;}
+}
+/* Extra small devices (phones, 360px and down) */
+@media only screen and (max-width: 360px) {
+    .footer-social ul li a{font-size: 14px;margin: 0 4px;}
+}
+/* Extra small devices (phones, 320px and down) */
+@media only screen and (max-width: 320px) {}
+
+/*Responsive web design END*/
