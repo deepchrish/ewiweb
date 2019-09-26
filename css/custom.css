@@ -889,6 +889,9 @@ button:focus{
     top: -15%;
     z-index: -1;
 }
+.cust-border-left{
+    border-left: 1px solid #dee2e6;
+}
 
 /*------------- About us Page CSS END -------------*/
 
@@ -1043,7 +1046,7 @@ button:focus{
 
 /*------------- products catalogue v2 END -------------*/
 
-/*------------- Product rating STARTS here -------------*/
+/*Product rating STARTS here */
 .rating {
     border: none;
     float: left;
@@ -1242,7 +1245,7 @@ button:focus{
 }
 
 .blog-post-area {
-    max-height: 390px;
+    max-height: 380px;
     overflow: hidden;
 }
 
@@ -1259,13 +1262,17 @@ button:focus{
 
 .blog-post-area h6 {
     font-weight: 700;
+    color: #111111;
 }
 
 .blog-post-area p {
     max-height: 100px;
     overflow: hidden;
+    font-weight: 500;
 }
-
+.blog-post-area a{
+    font-size: 14px;
+}
 /*------------- Blog CSS END -------------*/
 
 /*------------- FAQS CSS START -------------*/
@@ -1360,8 +1367,6 @@ button:focus{
 /*------------- Terms of use and service CSS END -------------*/
 
 
-
-
 /*Responsive web design START*/
 
 /*==========  Mobile First Method  ==========*/
@@ -1396,6 +1401,11 @@ button:focus{
     .pick-design .container{padding: 15px 20px 20px 20px;}
     .htw-text h2{font-size: 38px;line-height: 48px;}
     .cus-right-img{width: 130%;}
+    .abt-braces{font-size: 130px;bottom: 70%;left: -18px;}
+    .about-ewi-text h3{font-size: 20px;line-height: 30px;}
+    .blog-post-area p{line-height: 22px; margin: 0 0 8px 0;}
+    .pro-custom-pills{display: block;}
+    .pro-custom-pills .nav-link{display: inline-block;font-size: 14px;}
 }
 /* Medium devices (tablets, 768px and down) */
 @media only screen and (max-width: 768px) {
@@ -1403,7 +1413,7 @@ button:focus{
     .footer-social{position: static;text-align: center;}
     .footer-social ul li a{font-size: 14px; margin: 0 3px;}
     .htw-head-bg{top: 0;right: -25%;}
-    .htw-top-img{position: static;width: 100%;}
+    .htw-top-img{position: static;width: 120%;}
     .htw-pic-dsg-bg img{top: 0;right: 65%;}
     .dyp-main-img{position: static;}
     .htw-dsg-psn-bg img{left: 10%;}
@@ -1411,12 +1421,17 @@ button:focus{
     .cus-right-img{width: 100%;position: static;}
     .accordion-panel {padding: 5px;}
     .panel-default > .panel-heading a{font-size: 18px;}
+    .abt-print-heading{padding: 0;}
+    .about-ewi-text{padding: 0;}
+    .abt-braces{font-size: 120px;bottom: 55%;left: -48px;}
+    .cust-border-left{border: none;}
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {}
 @media only screen and (max-width: 575px) {
     .team-imgs{padding: 0 15px 0 15px;}
     .htw-dsg-psn-bg img{top: 35%;left: 8%;}
+    .blog-post-area p{line-height: 24px;}
 }
 /* Extra small devices (phones, 480px and down) */
 @media only screen and (max-width: 480px) {

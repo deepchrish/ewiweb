@@ -7,7 +7,7 @@ include('header.php');
     <section class="eager-help">
         <div class="container">
             <div class="row">
-                <div class="col-md-5 mt-4">
+                <div class="col-lg-5 col-md-6 col-sm-12 col-12 mt-4 text-center text-md-left">
                     <div class="header-heading">
                         <h1>Terms of use and service</h1>
                     </div>
@@ -17,7 +17,7 @@ include('header.php');
                         <button class="btn primary-btn-custom">Cookie Policy</button>
                     </div>
                 </div>
-                <div class="col-md-7 mt-4">
+                <div class="col-lg-7 col-md-6 col-sm-12 col-12 mt-4">
                     <div class="blog-bg">
                         <img class="img-fluid" src="img/faqs-bg.png" alt="faqs">
                     </div>

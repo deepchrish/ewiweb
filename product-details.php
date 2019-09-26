@@ -7,7 +7,7 @@ include('header.php');
     <section class="pro-cat-data">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-6 col-md-6 col-sm-6 col-12 mt-4">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-4">
                     <!--<div>-->
                     <!--<img class="img-fluid result resultimg" src="./images/header-baseimg.png">-->
                     <!--</div>-->
@@ -41,20 +41,10 @@ include('header.php');
                                 <img class="img-fluid d-block w-100" src="img/img-left.png" alt="fourth slide">
                             </div>
                         </div>
-                        <!--<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"-->
-                        <!--data-slide="prev">-->
-                        <!--<span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
-                        <!--<span class="sr-only">Previous</span>-->
-                        <!--</a>-->
-                        <!--<a class="carousel-control-next" href="#carouselExampleIndicators" role="button"-->
-                        <!--data-slide="next">-->
-                        <!--<span class="carousel-control-next-icon" aria-hidden="true"></span>-->
-                        <!--<span class="sr-only">Next</span>-->
-                        <!--</a>-->
                     </div>
                     <!--/.Carousel Wrapper-->
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-12 mt-4">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-4">
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb custom-breadcrumbs">
                             <li class="breadcrumb-item"><a href="#">Home</a></li>
