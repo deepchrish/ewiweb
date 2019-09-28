@@ -18,7 +18,7 @@
         <div class="row">
             <div class="col-md-12">
                 <nav class="navbar navbar-expand-lg navbar-custom">
-                    <a class="navbar-brand brand-logo" href="/"><img src="img/withink_logo.png" class="img-fluid">
+                    <a class="navbar-brand brand-logo" href="/ewiweb"><img src="img/withink_logo.png" class="img-fluid">
                         Everything With Ink</a>
                     <button class="navbar-toggler custom-hamburger" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"

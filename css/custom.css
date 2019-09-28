@@ -110,6 +110,7 @@ button:focus{
     background: none;
     color: #2B44FF;
     font-weight: 700;
+    padding: 0;
 }
 .login-btn:focus{
     box-shadow: none;
@@ -838,11 +839,11 @@ button:focus{
 
 .abt-braces {
     position: absolute;
-    font-size: 150px;
-    bottom: 63%;
-    left: -10px;
+    font-size: 60px;
+    top: -45px;
+    left: 10px;
     color: #2c44ff;
-    transform: skewX(-30deg) skewy(0deg);
+    transform: skewX(-25deg) skewy(0deg);
 }
 
 .print-process {
@@ -1397,7 +1398,6 @@ button:focus{
 @media only screen and (max-width: 1024px){}
 /* Large devices (laptops/desktops, 992px and Down) */
 @media only screen and (max-width: 992px) {
-    .header-nav .navbar-nav{display: inline-block;margin-top: 15px;}
     h2{font-size: 34px;}
     .header-heading h1{font-size: 38px; line-height: 55px;}
     .header-heading p{width: 100%;margin: 10px 0;}
@@ -1413,12 +1413,16 @@ button:focus{
     .pick-design .container{padding: 15px 20px 20px 20px;}
     .htw-text h2{font-size: 38px;line-height: 48px;}
     .cus-right-img{width: 130%;}
-    .abt-braces{font-size: 130px;bottom: 70%;left: -18px;}
+    /*.abt-braces{font-size: 130px;bottom: 70%;left: -18px;}*/
     .about-ewi-text h3{font-size: 20px;line-height: 30px;}
     .blog-post-area p{line-height: 22px; margin: 0 0 8px 0;}
+}
+@media only screen and (max-width: 991px){
+    .header-nav .navbar-nav{display: inline-block;margin-top: 15px;}
     .pro-custom-pills{display: block;}
     .pro-custom-pills .nav-link{display: inline-block;font-size: 14px;}
     .login-btn{background: #ffffff;color: #2b44ff;padding: 7px 45px;border: 1px solid #2b44ff;border-radius: 4px;}
+    .abt-braces{left: 0;}
 }
 /* Medium devices (tablets, 768px and down) */
 @media only screen and (max-width: 768px) {
@@ -1435,38 +1439,40 @@ button:focus{
     .accordion-panel {padding: 5px;}
     .panel-default > .panel-heading a{font-size: 18px;}
     .abt-print-heading{padding: 0;}
-    .about-ewi-text{padding: 0;}
-    .abt-braces{font-size: 120px;bottom: 60%;left: -48px;}
+    /*.about-ewi-text{padding: 0;}*/
+    /*.abt-braces{font-size: 120px;bottom: 60%;left: -48px;}*/
     .cust-border-left{border: none; padding-left: auto;}
-    .pm-bg-img{display: none;}
+    .abt-ceo-bg, .blog-store-bg, .pm-bg-img, .abt-print-bg, .abt-number-bg{display: none;}
     .connect-store{background: none;}
 }
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+    .about-ewi-text {padding: 0 0 0 8%;}
+}
 @media only screen and (max-width: 575px) {
     .team-imgs{padding: 0 15px 0 15px;}
     .htw-dsg-psn-bg img{top: 35%;left: 8%;}
     .blog-post-area p{line-height: 24px;}
     .thumb-img{display: flex;top: auto; right: 0;left: 0;bottom: -45px;background: #fff; margin: 15px auto;}
     .thumb-img li img{height: 60px;}
-    .about-ewi-text{padding: 0 15px 0 20px;}
-    .abt-braces{font-size: 85px;bottom: 80%;left: -6px;}
+    .about-ewi-text{padding: 0 0 0 7%;}
+    /*.abt-braces{font-size: 85px;bottom: 80%;left: -6px;}*/
     .htw-qt-as h5{font-size: 22px;}
 }
 /* Extra small devices (phones, 480px and down) */
 @media only screen and (max-width: 480px) {
     .htw-dsg-psn-bg img{top: 25%;left: 6%;}
     .panel-default > .panel-heading a{font-size: 16px;}
-    .abt-braces{bottom: 80%;}
+    .abt-braces{font-size: 52px;}
 }
 /* Extra small devices (phones, 360px and down) */
 @media only screen and (max-width: 360px) {
     .footer-social ul li a{font-size: 14px;margin: 0 4px;}
-    .abt-braces {bottom: 80%;}
+    .abt-braces {font-size: 48px;}
 }
 /* Extra small devices (phones, 320px and down) */
 @media only screen and (max-width: 320px) {
-    .abt-braces {bottom: 84%;}
+    .abt-braces{top: -35px;}
 }
 
 /*Responsive web design END*/

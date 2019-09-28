@@ -2484,7 +2484,6 @@ include('header.php');
         </div>
     </section>
     <!--Product Catalogue END-->
-gh
 <?php
 include('footer.php');
 ?>

@@ -42,7 +42,7 @@ include('header.php');
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-4">
-                    <div class="abt-braces">"</div>
+                    <div class="abt-braces"><span class="mdi mdi-pause"></span></div>
                     <div class="about-ewi-text">
                         <h3>I created Everything With Ink to Lorem Ipsum dot enter quote here. </h3>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
