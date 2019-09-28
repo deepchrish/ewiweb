@@ -79,10 +79,10 @@ include('header.php');
                                         <input type="text" class="form-control" id="yourname" placeholder="John Doe">
                                     </div>
                                     <div class="form-group">
-                                        <label for="emailaddress">Email Address</label>
-                                        <input type="email" class="form-control" id="emailaddress" placeholder="johndoe@example.com">
-                                    </div>
-                                    <div class="form-group">
+                                        <div class="form-group">
+                                            <label for="emailaddress">Email Address</label>
+                                            <input type="email" class="form-control" id="emailaddress" placeholder="johndoe@example.com">
+                                        </div>
                                         <label for="topic">Topic</label>
                                         <input type="text" class="form-control" id="topic" placeholder="example topic">
                                     </div>

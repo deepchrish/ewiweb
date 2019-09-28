@@ -3,14 +3,76 @@
   <component name="ChangeListManager">
     <list default="true" id="87938a91-1527-422f-bba3-1b206d9d8f9c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about-us.php" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact-us.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact-us.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/how-it-works.php" beforeDir="false" afterPath="$PROJECT_DIR$/how-it-works.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-cataogue.php" beforeDir="false" afterPath="$PROJECT_DIR$/product-cataogue.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-details.php" beforeDir="false" afterPath="$PROJECT_DIR$/product-details.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/1-josephjoseph.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/1-josephjoseph.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/2-louispoulsen.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/2-louispoulsen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/3-evasolo.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/3-evasolo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/4-magisso.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/4-magisso.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/5-alessi.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/5-alessi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/6-klober.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/6-klober.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about-us-bnr.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/about-us-bnr.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/aboutus-bg-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/aboutus-bg-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/aboutus-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/aboutus-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/abt-line.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/abt-line.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/akil.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/akil.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/amazon.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/amazon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/blog-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog-post-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/blog-post-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog-post-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/blog-post-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog-post-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/blog-post-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog-post-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/blog-post-4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog-post-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/blog-post-5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog-post-6.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/blog-post-6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog-poster.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/blog-poster.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog-shopify.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/blog-shopify.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog-stores-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/blog-stores-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bots-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/bots-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/connect-store-bnr.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/connect-store-bnr.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/contact-us-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/contact-us-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/contact-us.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/contact-us.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cup.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/cup.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/design-passion-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/design-passion-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/design-passions.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/design-passions.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/dots.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/dots.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/etsy.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/etsy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/faqs-acco-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/faqs-acco-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/faqs-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/faqs-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/faqs-poster.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/faqs-poster.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/header-right-bnr.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/header-right-bnr.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/howitworks-group.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/howitworks-group.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/howitworks-header-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/howitworks-header-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img-back.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/img-back.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img-front.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/img-front.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img-left.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/img-left.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img-right.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/img-right.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/lady-tees.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/lady-tees.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magento.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/magento.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/mug.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/mug.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/overview-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/overview-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/overview-manage.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/overview-manage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pick-design-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/pick-design-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pick-design.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/pick-design.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pro-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/pro-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pro-10.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/pro-10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pro-11.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/pro-11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pro-12.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/pro-12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pro-13.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/pro-13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pro-14.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/pro-14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pro-15.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/pro-15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pro-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/pro-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pro-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/pro-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pro-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/pro-4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pro-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/pro-5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pro-6.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/pro-6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pro-7.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/pro-7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pro-8.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/pro-8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pro-9.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/pro-9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/shopify.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/shopify.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tees.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/tees.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/term-of-use-poster.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/term-of-use-poster.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/text-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/text-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/vector.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/vector.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/withink_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/img - Copy/withink_logo.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,8 +86,8 @@
       <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="-1615">
+              <caret line="1193" selection-start-line="1193" selection-end-line="1193" />
             </state>
           </provider>
         </entry>
@@ -34,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-5284">
-              <caret line="23" column="63" lean-forward="true" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
+              <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -51,17 +113,17 @@
       <file leaf-file-name="about-us.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about-us.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="200" column="2" lean-forward="true" selection-start-line="200" selection-start-column="2" selection-end-line="200" selection-end-column="2" />
+            <state relative-caret-position="17">
+              <caret line="14" column="100" selection-start-line="14" selection-start-column="100" selection-end-line="14" selection-end-column="100" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product-details.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="product-details.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/product-details.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1547">
-              <caret line="91" column="89" lean-forward="true" selection-start-line="91" selection-start-column="89" selection-end-line="91" selection-end-column="89" />
+            <state relative-caret-position="465">
+              <caret line="138" column="2" selection-start-line="138" selection-start-column="2" selection-end-line="138" selection-end-column="2" />
               <folding>
                 <element signature="e#5680#5722#0#HTML" expanded="true" />
                 <element signature="e#5812#5857#0#HTML" expanded="true" />
@@ -76,11 +138,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="blog.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="86" column="76" lean-forward="true" selection-start-line="86" selection-start-column="76" selection-end-line="86" selection-end-column="76" />
+            <state relative-caret-position="584">
+              <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -88,15 +150,19 @@
       <file leaf-file-name="terms-of-service.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/terms-of-service.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            <state relative-caret-position="153">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="contact-us.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact-us.php">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="103" column="18" lean-forward="true" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="how-it-works.php" pinned="false" current-in-tab="false">
@@ -148,8 +214,8 @@
         <option value="$PROJECT_DIR$/product-cataogue.php" />
         <option value="$PROJECT_DIR$/blog.php" />
         <option value="$PROJECT_DIR$/footer.php" />
-        <option value="$PROJECT_DIR$/contact-us.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/contact-us.php" />
       </list>
     </option>
   </component>
@@ -237,12 +303,12 @@
       <workItem from="1569277746830" duration="29145000" />
       <workItem from="1569473228996" duration="28998000" />
       <workItem from="1569560417201" duration="21039000" />
-      <workItem from="1569647494367" duration="1317000" />
+      <workItem from="1569647494367" duration="11033000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="234983000" />
+    <option name="totallyTimeSpent" value="244699000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -533,27 +599,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/terms-of-service.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact-us.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5284">
-          <caret line="23" column="63" lean-forward="true" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
+          <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
         </state>
       </provider>
     </entry>
@@ -564,17 +613,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1615">
+          <caret line="1193" selection-start-line="1193" selection-end-line="1193" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/about-us.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="200" column="2" lean-forward="true" selection-start-line="200" selection-start-column="2" selection-end-line="200" selection-end-column="2" />
+        <state relative-caret-position="17">
+          <caret line="14" column="100" selection-start-line="14" selection-start-column="100" selection-end-line="14" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terms-of-service.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact-us.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="103" column="18" lean-forward="true" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/product-details.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="91" column="89" lean-forward="true" selection-start-line="91" selection-start-column="89" selection-end-line="91" selection-end-column="89" />
+        <state relative-caret-position="465">
+          <caret line="138" column="2" selection-start-line="138" selection-start-column="2" selection-end-line="138" selection-end-column="2" />
           <folding>
             <element signature="e#5680#5722#0#HTML" expanded="true" />
             <element signature="e#5812#5857#0#HTML" expanded="true" />
@@ -585,13 +662,6 @@
             <element signature="e#6782#6827#0#HTML" expanded="true" />
             <element signature="e#6917#6962#0#HTML" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="86" column="76" lean-forward="true" selection-start-line="86" selection-start-column="76" selection-end-line="86" selection-end-column="76" />
         </state>
       </provider>
     </entry>
