@@ -17,14 +17,14 @@ include('header.php');
                     <div class="recent-orders mt-md-2 mt-lg-4">
                         <p class="m-0">Latest Orders from:</p>
                         <div class="d-flex">
-                            <div class="d-flex align-items-center pt-2 pr-2 m-auto m-md-0 pt-3">
+                            <div class="d-flex align-items-center pt-lg-2 pr-2 m-auto m-md-0 pt-3">
                                 <div class="location-icon"><span class="ti-location-pin"></span></div>
                                 <div class="recent-locations">
                                     <p class="mb-0" id="role">Ohio, USA</p>
                                     <span id="role2">2 Minutes ago</span>
                                 </div>
                             </div>
-                            <div class="d-flex align-items-center pt-2 pt-lg-2 m-auto m-md-0 pt-3">
+                            <div class="d-flex align-items-center pt-lg-2 m-auto m-md-0 pt-3">
                                 <div class="location-icon"><span class="ti-location-pin"></span></div>
                                 <div class="recent-locations">
                                     <p class="mb-0" id="role3">Vanvcouver, Canada</p>
@@ -392,7 +392,6 @@ include('header.php');
         </div>
     </section>
     <!--We’re proud to our team in this journey END-->
-
 
 
 <?php

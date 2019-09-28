@@ -49,7 +49,7 @@ include('header.php');
                         <div class="cont-mode">
                             <h5>Email</h5>
                             <p>No matter how big or small your question is, we'll make sure to get back to you.</p>
-                            <a href="email:support@everythingwithink.com">support@everythingwithink.com</a>
+                            <a href="mailto:support@everythingwithink.com">support@everythingwithink.com</a>
                         </div>
                     </div>
                 </div>
@@ -105,8 +105,6 @@ include('header.php');
         </div>
     </section>
     <!--Contact form END-->
-
-
 <?php
 include('footer.php');
 ?>

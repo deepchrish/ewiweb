@@ -1,6 +1,6 @@
 <?php
 $title = "Product Catalogue";
-$pageDescription = "Home page description";
+$pageDescription = "Product Catalogue Page description";
 include('header.php');
 ?>
     <!--Product catalogue START-->
@@ -2484,7 +2484,7 @@ include('header.php');
         </div>
     </section>
     <!--Product Catalogue END-->
-
+gh
 <?php
 include('footer.php');
 ?>

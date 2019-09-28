@@ -1,6 +1,6 @@
 <?php
 $title = "About us";
-$pageDescription = "Contact Us page description";
+$pageDescription = "About Us page description";
 include('header.php');
 ?>
     <!--We help sellers earn more money with less effort START-->
@@ -152,7 +152,7 @@ include('header.php');
             </div>
 
             <div class="row justify-content-center">
-                <div class="col-lg-11 col-md-11 col-sm-12 col-12 mt-4 mt-md-0">
+                <div class="col-lg-11 col-md-11 col-sm-12 col-12 mt-4">
                     <div class="row text-center text-sm-left">
                         <div class="col-md-6 col-sm-12 col-12 mt-2 ">
                             <div class="d-flex flex-column mb-3 abt-tfe">

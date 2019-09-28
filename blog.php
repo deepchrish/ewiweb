@@ -1,6 +1,6 @@
 <?php
 $title = "Blog";
-$pageDescription = "Contact Us page description";
+$pageDescription = "Blog page description";
 include('header.php');
 ?>
     <!--Everything with Ink Blog START-->
