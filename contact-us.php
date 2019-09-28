@@ -7,7 +7,7 @@ include('header.php');
     <section class="eager-help">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 mt-3">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-3">
                     <div class="header-heading">
                         <h1>We’re eager to help you with your questions.</h1>
                     </div>
@@ -18,7 +18,7 @@ include('header.php');
                         <a href="#">How-to-Videos <span class="ti-arrow-right"></span></a>
                     </div>
                 </div>
-                <div class="col-md-6 mt-3">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-3">
                     <div class="cus-right-bg">
                         <img class="img-fluid" src="img/header-right-bnr.png" alt="contact us">
                     </div>
@@ -35,7 +35,7 @@ include('header.php');
     <section class="cont-options">
         <div class="container">
             <div class="row text-center">
-                <div class="col-md-6 mt-2">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-2">
                     <div class="ap-light-box contact-box v-center">
                         <div class="cont-mode">
                             <h5>Chat</h5>
@@ -44,7 +44,7 @@ include('header.php');
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 mt-2">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-2">
                     <div class="amour-bg contact-box v-center">
                         <div class="cont-mode">
                             <h5>Email</h5>
@@ -62,7 +62,7 @@ include('header.php');
     <section class="contact-form">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 col-sm-12 col-12">
                     <div class="contact-bg-art">
                         <img class="img-fluid" src="img/contact-us-bg.png" alt="bg">
                     </div>
@@ -72,7 +72,7 @@ include('header.php');
                             <p class="pt-2">Send us a message from right here using the form below!</p>
                         </div>
                         <div class="row justify-content-center">
-                            <div class="col-md-5">
+                            <div class="col-lg-5 col-md-8 col-sm-10 col-10">
                                 <form>
                                     <div class="form-group">
                                         <label for="yourname">Your Name</label>

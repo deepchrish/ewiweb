@@ -1442,8 +1442,9 @@ button:focus{
     /*.about-ewi-text{padding: 0;}*/
     /*.abt-braces{font-size: 120px;bottom: 60%;left: -48px;}*/
     .cust-border-left{border: none; padding-left: auto;}
-    .abt-ceo-bg, .blog-store-bg, .pm-bg-img, .abt-print-bg, .abt-number-bg{display: none;}
+    .abt-ceo-bg, .blog-store-bg, .pm-bg-img, .abt-print-bg, .abt-number-bg, .contact-bg-art img {display: none;}
     .connect-store{background: none;}
+    .cus-right-bg{left: 0; width: 100%;}
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
