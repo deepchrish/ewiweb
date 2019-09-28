@@ -333,7 +333,7 @@ include('header.php');
     <section class="proud-moment">
         <div class="container">
             <div class="row text-center">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-12 ">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="ap-main-heading">
                         <h2>We’re proud to our team in this journey</h2>
                         <p class="mt-3">Partners who already are a part of Everything With Ink</p>

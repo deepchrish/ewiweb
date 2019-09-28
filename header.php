@@ -50,7 +50,7 @@
                             </li>
                         </ul>
                         <form class="form-inline my-2 my-lg-0">
-                            <a href="#" class="mr-3">Login</a>
+                            <a href="#" class="btn login-btn mr-3">Login</a>
                             <button class="btn primary-btn-custom" type="submit">Start Selling</button>
                         </form>
                     </div>
