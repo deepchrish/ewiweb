@@ -7,7 +7,8 @@ include('header.php');
     <section class="middle-header">
         <div class="container">
             <div class="row">
-                <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12 text-center text-md-left" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12 text-center text-md-left" data-aos="fade-up"
+                     data-aos-duration="1000">
                     <div class="header-heading mt-4 mt-md-2 mt-lg-4">
                         <h1>The All-in-One Print-on-Demand Solution.</h1>
                         <p>Start selling products and making money online today with Everything With Ink.</p>
@@ -34,7 +35,8 @@ include('header.php');
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-7 col-lg-7 col-md-6 col-sm-12 col-12 header-right-bnr p-0 mt-5 mt-lg-3 mt-md-2" data-aos="fade-up" data-aos-duration="2000">
+                <div class="col-xl-7 col-lg-7 col-md-6 col-sm-12 col-12 header-right-bnr p-0 mt-5 mt-lg-3 mt-md-2"
+                     data-aos="fade-up" data-aos-duration="2000">
                     <div class="header-img">
                         <img class="img-fluid" src="img/vector-2.png">
                     </div>
@@ -89,7 +91,8 @@ include('header.php');
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 text-center mt-md-4 mt-4" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 text-center mt-md-4 mt-4" data-aos="fade-up"
+                     data-aos-duration="1000">
                     <a href="#">
                         <div class="ap-light-box ap-boxes">
                             <div class="ap-item-img">
@@ -103,7 +106,8 @@ include('header.php');
                     </a>
                 </div>
 
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 text-center mt-md-4 mt-4" data-aos="fade-up" data-aos-duration="1500">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 text-center mt-md-4 mt-4" data-aos="fade-up"
+                     data-aos-duration="1500">
                     <a href="#">
                         <div class="ap-pink-box ap-boxes">
                             <div class="ap-item-img">
@@ -117,7 +121,8 @@ include('header.php');
                     </a>
                 </div>
 
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 text-center mt-md-4 mt-4" data-aos="fade-up" data-aos-duration="2000">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 text-center mt-md-4 mt-4" data-aos="fade-up"
+                     data-aos-duration="2000">
                     <a href="#">
                         <div class="ap-blue-box ap-boxes">
                             <div class="ap-item-img">
@@ -319,7 +324,8 @@ include('header.php');
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-md-6 col-sm-12 header-right-bnr p-0 mt-4" data-aos="fade-up" data-aos-duration="2000">
+                <div class="col-lg-6 col-md-6 col-sm-12 header-right-bnr p-0 mt-4" data-aos="fade-up"
+                     data-aos-duration="2000">
                     <div>
                         <img class="img-fluid" src="img/lady-tees.png" alt="Lady image">
                     </div>

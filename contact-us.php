@@ -81,20 +81,24 @@ include('header.php');
                                     <div class="form-group">
                                         <div class="form-group">
                                             <label for="emailaddress">Email Address</label>
-                                            <input type="email" class="form-control" id="emailaddress" placeholder="johndoe@example.com">
+                                            <input type="email" class="form-control" id="emailaddress"
+                                                   placeholder="johndoe@example.com">
                                         </div>
                                         <label for="topic">Topic</label>
                                         <input type="text" class="form-control" id="topic" placeholder="example topic">
                                     </div>
                                     <div class="form-group">
                                         <label for="yourmessage">Message</label>
-                                        <textarea class="form-control" id="yourmessage" rows="5" placeholder="Write your Message Here"></textarea>
+                                        <textarea class="form-control" id="yourmessage" rows="5"
+                                                  placeholder="Write your Message Here"></textarea>
                                     </div>
                                     <div class="custom-control custom-checkbox">
                                         <input type="checkbox" class="custom-control-input" id="agreewithit">
-                                        <label class="custom-control-label" for="agreewithit">I agree to my data being processed in accordance with Everything With Ink’s Privacy Policy.</label>
+                                        <label class="custom-control-label" for="agreewithit">I agree to my data being
+                                            processed in accordance with Everything With Ink’s Privacy Policy.</label>
                                     </div>
-                                    <div class="text-center mt-4"><button type="submit" class="btn primary-btn-custom">Submit</button>
+                                    <div class="text-center mt-4">
+                                        <button type="submit" class="btn primary-btn-custom">Submit</button>
                                     </div>
                                 </form>
                             </div>

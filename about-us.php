@@ -7,7 +7,8 @@ include('header.php');
     <section class="eager-help">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-md-6 col-sm-12 col-12 mt-4 text-center text-md-left" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-lg-5 col-md-6 col-sm-12 col-12 mt-4 text-center text-md-left" data-aos="fade-up"
+                     data-aos-duration="1000">
                     <div class="header-heading">
                         <h1>We help sellers earn more money with less effort</h1>
                     </div>
@@ -168,7 +169,8 @@ include('header.php');
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-12 col-12 mt-2 cust-border-left" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="col-md-6 col-sm-12 col-12 mt-2 cust-border-left" data-aos="fade-up"
+                             data-aos-duration="3000">
                             <div class="d-flex flex-column mb-3 abt-tfe" data-aos="fade-up" data-aos-duration="1000">
                                 <h6>Value of Time</h6>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
