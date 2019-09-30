@@ -148,7 +148,7 @@ button:focus{
 
 .amour-bg {
     background: rgba(216, 90, 141, 0.06);
-    background: #fdf5f8;
+    /*background: #fdf5f8;*/
 }
 
 .cerulean-bg {
@@ -333,7 +333,7 @@ button:focus{
 
 .header-heading p {
     width: 70%;
-    margin: 20px 0;
+    margin: 15px 0;
 }
 
 .header-heading span {
@@ -396,9 +396,9 @@ button:focus{
 }
 
 .ap-boxes:hover {
-    -webkit-box-shadow: 0 0 10px -1px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 0 0 10px -1px rgba(0, 0, 0, 0.4);
-    box-shadow: 0 0 10px -1px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 0 10px -1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 10px -1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px -1px rgba(0, 0, 0, 0.2);
 }
 
 .ap-boxes:hover a {
@@ -437,7 +437,7 @@ button:focus{
 
 .cont-str-box:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 10px -1px rgba(0, 0, 0, 0.1), inset 0 0 135px -32px rgba(0, 0, 0, 0.1);
+    /*box-shadow: 0 0 10px -1px rgba(0, 0, 0, 0.1), inset 0 0 135px -32px rgba(0, 0, 0, 0.1);*/
 }
 
 .cont-str-img img {
@@ -492,7 +492,7 @@ button:focus{
 }
 
 .mm-calc p {
-    line-height: 27px;
+    line-height: 40px;
 }
 
 .mm-calc p a {
@@ -631,12 +631,13 @@ button:focus{
 }
 
 .footer-social ul li:hover a {
-    background: #000000;
-    border: 1px solid #000000;
+    background: #757575;
+    border: 1px solid #757575;
     color: #ffffff;
 }
 
 /*------------- Footer CSS END -------------*/
+
 
 /*------------- How it works Page CSS START -------------*/
 .htw-steps {
@@ -1345,6 +1346,7 @@ button:focus{
 /*------------- FAQs CSS END -------------*/
 
 /*------------- Terms of use and service CSS START -------------*/
+
 .term-use {
     margin-top: 5%;
 }
@@ -1394,6 +1396,9 @@ button:focus{
 @media only screen and (min-width: 992px) {}
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1400px) {
+    .header-img {padding: 20px 0 20px 50px;position: relative;right: -15px;}
+}
 
 /*==========  Non-Mobile First Method  ==========*/
 
@@ -1446,7 +1451,7 @@ button:focus{
     /*.about-ewi-text{padding: 0;}*/
     /*.abt-braces{font-size: 120px;bottom: 60%;left: -48px;}*/
     .cust-border-left{border: none; padding-left: auto;}
-    .abt-ceo-bg, .blog-store-bg, .pm-bg-img, .abt-print-bg, .abt-number-bg, .contact-bg-art img {display: none;}
+    .abt-ceo-bg, .blog-store-bg, .pm-bg-img, .abt-print-bg, .abt-number-bg, .contact-bg-art img, .htw-head-bg {display: none;}
     .connect-store{background: none;}
     .cus-right-bg{left: 0; width: 100%;}
 }

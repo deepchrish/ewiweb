@@ -7,7 +7,7 @@ include('header.php');
     <section class="eager-help">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-3">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-3" data-aos="fade-up" data-aos-duration="1000">
                     <div class="header-heading">
                         <h1>We’re eager to help you with your questions.</h1>
                     </div>
@@ -18,7 +18,7 @@ include('header.php');
                         <a href="#">How-to-Videos <span class="ti-arrow-right"></span></a>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-3">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-3" data-aos="fade-up" data-aos-duration="2000">
                     <div class="cus-right-bg">
                         <img class="img-fluid" src="img/header-right-bnr.png" alt="contact us">
                     </div>
@@ -35,7 +35,7 @@ include('header.php');
     <section class="cont-options">
         <div class="container">
             <div class="row text-center">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-2">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-2" data-aos="fade-up" data-aos-duration="1000">
                     <div class="ap-light-box contact-box v-center">
                         <div class="cont-mode">
                             <h5>Chat</h5>
@@ -44,8 +44,8 @@ include('header.php');
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-2">
-                    <div class="amour-bg contact-box v-center">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-2" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="amour-bg contact-box v-center" style="background: #fdf5f8;">
                         <div class="cont-mode">
                             <h5>Email</h5>
                             <p>No matter how big or small your question is, we'll make sure to get back to you.</p>
@@ -66,7 +66,7 @@ include('header.php');
                     <div class="contact-bg-art">
                         <img class="img-fluid" src="img/contact-us-bg.png" alt="bg">
                     </div>
-                    <div class="alabaster-bg pb-5 pt-5">
+                    <div class="alabaster-bg pb-5 pt-5" data-aos="fade-up" data-aos-duration="2000">
                         <div class="form-start text-center">
                             <h2>Contact form</h2>
                             <p class="pt-2">Send us a message from right here using the form below!</p>

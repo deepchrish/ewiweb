@@ -7,7 +7,8 @@ include('header.php');
     <section class="eager-help">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-md-6 col-sm-12 col-12 mt-4 text-center text-md-left">
+                <div class="col-lg-5 col-md-6 col-sm-12 col-12 mt-4 text-center text-md-left" data-aos="fade-up"
+                     data-aos-duration="1000">
                     <div class="header-heading">
                         <h1>Frequently asked questions</h1>
                     </div>
@@ -16,7 +17,7 @@ include('header.php');
                         <button class="btn primary-btn-custom">Ask a question</button>
                     </div>
                 </div>
-                <div class="col-lg-7 col-md-6 col-sm-12 col-12 mt-4">
+                <div class="col-lg-7 col-md-6 col-sm-12 col-12 mt-4" data-aos="fade-up" data-aos-duration="2000">
                     <div class="blog-bg">
                         <img class="img-fluid" src="img/faqs-bg.png" alt="faqs">
                     </div>
@@ -37,7 +38,7 @@ include('header.php');
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-12 accordion-panel">
                     <div class="panel-group" id="accordion">
-                        <div class="panel panel-default">
+                        <div class="panel panel-default" data-aos="fade-up" data-aos-duration="1000">
                             <div class="panel-heading " id="headingOne">
                                 <h4 class="panel-title">
                                     <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
@@ -62,7 +63,7 @@ include('header.php');
                             </div>
                         </div>
 
-                        <div class="panel panel-default">
+                        <div class="panel panel-default" data-aos="fade-up" data-aos-duration="1000">
                             <div class="panel-heading " id="headingTwo">
                                 <h4 class="panel-title">
                                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
@@ -87,8 +88,7 @@ include('header.php');
                             </div>
                         </div>
 
-
-                        <div class="panel panel-default">
+                        <div class="panel panel-default" data-aos="fade-up" data-aos-duration="1000">
                             <div class="panel-heading " id="headingThree">
                                 <h4 class="panel-title">
                                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
@@ -113,7 +113,7 @@ include('header.php');
                             </div>
                         </div>
 
-                        <div class="panel panel-default">
+                        <div class="panel panel-default" data-aos="fade-up" data-aos-duration="1000">
                             <div class="panel-heading " id="headingfourth">
                                 <h4 class="panel-title">
                                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
@@ -138,7 +138,7 @@ include('header.php');
                             </div>
                         </div>
 
-                        <div class="panel panel-default">
+                        <div class="panel panel-default" data-aos="fade-up" data-aos-duration="1000">
                             <div class="panel-heading " id="headingfive">
                                 <h4 class="panel-title">
                                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
@@ -167,7 +167,6 @@ include('header.php');
             </div>
         </div>
     </section>
-
 
 <?php
 include('footer.php');

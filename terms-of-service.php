@@ -7,7 +7,7 @@ include('header.php');
     <section class="eager-help">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-md-6 col-sm-12 col-12 mt-4 text-center text-md-left">
+                <div class="col-lg-5 col-md-6 col-sm-12 col-12 mt-4 text-center text-md-left" data-aos="fade-up" data-aos-duration="1000">
                     <div class="header-heading">
                         <h1>Terms of use and service</h1>
                     </div>
@@ -17,7 +17,7 @@ include('header.php');
                         <button class="btn primary-btn-custom">Cookie Policy</button>
                     </div>
                 </div>
-                <div class="col-lg-7 col-md-6 col-sm-12 col-12 mt-4">
+                <div class="col-lg-7 col-md-6 col-sm-12 col-12 mt-4" data-aos="fade-up" data-aos-duration="2000">
                     <div class="blog-bg">
                         <img class="img-fluid" src="img/faqs-bg.png" alt="faqs">
                     </div>
@@ -34,7 +34,7 @@ include('header.php');
     <section class="term-use">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12" data-aos="fade-up" data-aos-duration="2000">
                     <div class="d-flex flex-column term-text mt-3">
                         <h5>Terms of Service</h5>
                         <p>Thank you for using Everything With Ink,! Before using or accessing our platform, please read
@@ -45,7 +45,7 @@ include('header.php');
                             the full legal terms and text, we have provided short non-binding summaries with each
                             clause. These summaries do not aim to replace or misrepresent the full text.</p>
                     </div>
-                    <div class="d-flex flex-column term-text mt-3">
+                    <div class="d-flex flex-column term-text mt-3" data-aos="fade-up" data-aos-duration="2000">
                         <h5>A. Definitions</h5>
                         <div class="term-summery">
                             <p>Summary: These terms are used throughout this Terms of Service and it’s important that
@@ -53,22 +53,22 @@ include('header.php');
                             <span>Terms not defined in this section shall have the meaning provided elsewhere in the Terms of Service.</span>
                         </div>
                         <ul class="term-list">
-                            <li>Definitions "Copyright Holder" means the Original Code with only those rights set forth
+                            <li data-aos="fade-up" data-aos-duration="2000">Definitions "Copyright Holder" means the Original Code with only those rights set forth
                                 herein. MISCELLANEOUS. This License or may not use this license, then do not appear in
                                 your best interest to keep your copy or copies of the date You first made, used, sold,
                                 distributed, or had made, Modifications.
                             </li>
-                            <li>Definitions "Copyright Holder" means the Original Code with only those rights set forth
+                            <li data-aos="fade-up" data-aos-duration="2000">Definitions "Copyright Holder" means the Original Code with only those rights set forth
                                 herein. MISCELLANEOUS. This License or may not use this license, then do not appear in
                                 your best interest to keep your copy or copies of the date You first made, used, sold,
                                 distributed, or had made, Modifications.
                             </li>
-                            <li>Definitions "Copyright Holder" means the Original Code with only those rights set forth
+                            <li data-aos="fade-up" data-aos-duration="2000">Definitions "Copyright Holder" means the Original Code with only those rights set forth
                                 herein. MISCELLANEOUS. This License or may not use this license, then do not appear in
                                 your best interest to keep your copy or copies of the date You first made, used, sold,
                                 distributed, or had made, Modifications.
                             </li>
-                            <li>Definitions "Copyright Holder" means the Original Code with only those rights set forth
+                            <li data-aos="fade-up" data-aos-duration="2000">Definitions "Copyright Holder" means the Original Code with only those rights set forth
                                 herein. MISCELLANEOUS. This License or may not use this license, then do not appear in
                                 your best interest to keep your copy or copies of the date You first made, used, sold,
                                 distributed, or had made, Modifications.
@@ -76,54 +76,54 @@ include('header.php');
                         </ul>
                     </div>
 
-                    <div class="d-flex flex-column term-text mt-3">
+                    <div class="d-flex flex-column term-text mt-3" data-aos="fade-up" data-aos-duration="2000">
                         <h5>B. General</h5>
                         <ul class="term-list">
-                            <li>Definitions "Copyright Holder" means the Original Code with only those rights set forth
+                            <li data-aos="fade-up" data-aos-duration="2000">Definitions "Copyright Holder" means the Original Code with only those rights set forth
                                 herein. MISCELLANEOUS. This License or may not use this license, then do not appear in
                                 your best interest to keep your copy or copies of the date You first made, used, sold,
                                 distributed, or had made, Modifications.
                             </li>
-                            <li>Definitions "Copyright Holder" means the Original Code with only those rights set forth
+                            <li data-aos="fade-up" data-aos-duration="2000">Definitions "Copyright Holder" means the Original Code with only those rights set forth
                                 herein. MISCELLANEOUS. This License or may not use this license, then do not appear in
                                 your best interest to keep your copy or copies of the date You first made, used, sold,
                                 distributed, or had made, Modifications.
                             </li>
                         </ul>
-                        <h6>When You use Our Services and Content, You are agreeing to:</h6>
+                        <h6 data-aos="fade-up" data-aos-duration="2000">When You use Our Services and Content, You are agreeing to:</h6>
                         <ul class="term-list">
-                            <li>Except as they may be supplemented by additional terms and conditions, policies,
+                            <li data-aos="fade-up" data-aos-duration="2000">Except as they may be supplemented by additional terms and conditions, policies,
                                 guidelines or standards, the Agreement constitutes the entire understanding between
                                 EWI and You pertaining to the subject matter hereof, and supersedes any and all
                                 prior oral or written understandings or agreements between EWI and You in relation
                                 to the access to and use of the Service.
                             </li>
-                            <li>Except as they may be supplemented by additional terms and conditions, policies,
+                            <li data-aos="fade-up" data-aos-duration="2000">Except as they may be supplemented by additional terms and conditions, policies,
                                 guidelines or standards, the Agreement constitutes the entire understanding between
                                 EWI and You pertaining to the subject matter hereof, and supersedes any and all
                                 prior oral or written understandings or agreements between EWI and You in relation
                                 to the access to and use of the Service.
                             </li>
-                            <li>If any provision of these Terms of Service are held to be invalid or unenforceable, such
+                            <li data-aos="fade-up" data-aos-duration="2000">If any provision of these Terms of Service are held to be invalid or unenforceable, such
                                 provision will be struck and will not affect the validity and enforceability of the
                                 remaining provisions.
                             </li>
                         </ul>
                     </div>
-                    <div class="d-flex flex-column term-text mt-3">
-                        <h5>A. When Do These Terms Apply?</h5>
+                    <div class="d-flex flex-column term-text mt-3" data-aos="fade-up" data-aos-duration="2000">
+                        <h5 data-aos="fade-up" data-aos-duration="2000">A. When Do These Terms Apply?</h5>
                         <div class="term-summery">
                             <p>Summary: By using Everything With Ink, You are agreeing to all the terms below.</p>
                             <span>By using the Service, You acknowledge that You accept and agree to be bound by these Terms of Service. If You do not agree to these Terms of Service, You may not access the Service, and if You are already registered, cancel Your account.</span>
                         </div>
                         <ul class="term-list">
-                            <li>Except as they may be supplemented by additional terms and conditions, policies,
+                            <li data-aos="fade-up" data-aos-duration="2000">Except as they may be supplemented by additional terms and conditions, policies,
                                 guidelines or standards, the Agreement constitutes the entire understanding between
                                 EWI and You pertaining to the subject matter hereof, and supersedes any and all
                                 prior oral or written understandings or agreements between EWI and You in relation
                                 to the access to and use of the Service.
                             </li>
-                            <li>Except as they may be supplemented by additional terms and conditions, policies,
+                            <li data-aos="fade-up" data-aos-duration="2000">Except as they may be supplemented by additional terms and conditions, policies,
                                 guidelines or standards, the Agreement constitutes the entire understanding between
                                 EWI and You pertaining to the subject matter hereof, and supersedes any and all
                                 prior oral or written understandings or agreements between EWI and You in relation

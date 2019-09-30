@@ -10,6 +10,9 @@
     <link rel="icon" type="image/png" sizes="16x16" href="img/withink_logo.png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--Content animation CSS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--Custom CSS-->
     <link rel="stylesheet" href="css/custom.css">
 </head>
 <body>

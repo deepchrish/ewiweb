@@ -2,7 +2,7 @@
 <footer class="main-footer mt-5">
     <div class="container">
         <div class="row justify-content-md-center text-center text-sm-left">
-            <div class="col-md-2 col-sm-4 col-12 mt-5">
+            <div class="col-md-2 col-sm-4 col-12 mt-5" data-aos="fade-up" data-aos-duration="1000">
                 <div class="footer-links">
                     <h6>Products</h6>
                     <ul>
@@ -14,7 +14,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-4 col-12 mt-5">
+            <div class="col-md-3 col-sm-4 col-12 mt-5" data-aos="fade-up" data-aos-duration="1500">
                 <div class="footer-links">
                     <h6>Services</h6>
                     <ul>
@@ -27,7 +27,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-2 col-sm-4 col-12 mt-5">
+            <div class="col-md-2 col-sm-4 col-12 mt-5" data-aos="fade-up" data-aos-duration="2000">
                 <div class="footer-links">
                     <h6>Resources</h6>
                     <ul>
@@ -40,7 +40,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-2 col-sm-4 col-12 mt-5">
+            <div class="col-md-2 col-sm-4 col-12 mt-5" data-aos="fade-up" data-aos-duration="2500">
                 <div class="footer-links">
                     <h6>Features</h6>
                     <ul>
@@ -53,11 +53,11 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-2 col-sm-4 col-12 mt-5">
+            <div class="col-md-2 col-sm-4 col-12 mt-5" data-aos="fade-up" data-aos-duration="3000">
                 <div class="footer-links">
                     <h6>Everything With Ink</h6>
                     <ul>
-                        <li><a href="contact-us.php">Contacts</a></li>
+                        <li><a href="contact-us.php">Contact us</a></li>
                         <li><a href="about-us.php">About us</a></li>
                         <li><a href="#">Reviews</a></li>
                         <li><a href="#">Customers</a></li>
@@ -101,16 +101,25 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<!--Content Animation -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!--Content Animation -->
 <script src="js/custom.js"></script>
+<!--Animation-->
+<script>
+    AOS.init();
+</script>
+<!--Animation-->
 
+<!--Hamburger-->
 <script>
     $(document).ready(function(){
-        $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
+        $('#nav-icon3').click(function(){
             $(this).toggleClass('open');
         });
     });
 </script>
-
+<!--Hamburger-->
 
 <!--Sticky Navbar START-->
 <script>

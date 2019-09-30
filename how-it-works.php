@@ -7,7 +7,7 @@ include('header.php');
     <section class="htw-steps">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-md-6 col-sm-12 col-12 mt-3 text-center text-md-left">
+                <div class="col-lg-5 col-md-6 col-sm-12 col-12 mt-3 text-center text-md-left" data-aos="fade-up" data-aos-duration="1000">
                     <div class="header-heading">
                         <h1>How it works- A Three Step Guide to Success</h1>
                     </div>
@@ -20,7 +20,7 @@ include('header.php');
                         <p>Sync your products with your preferred store and sell them online.</p>
                     </div>
                 </div>
-                <div class="col-lg-7 col-md-6 col-sm-12 col-12 mt-3">
+                <div class="col-lg-7 col-md-6 col-sm-12 col-12 mt-3" data-aos="fade-up" data-aos-duration="2000">
                     <div class="htw-head-bg">
                         <img class="img-fluid" src="img/howitworks-header-bg.png" alt="header background">
                     </div>
@@ -35,9 +35,9 @@ include('header.php');
 
     <!--Pick and design what you want START-->
     <section class="pick-design">
-        <div class="container amour-bg">
+        <div class="container amour-bg" data-aos="fade-up" data-aos-duration="3000">
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-3">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-3" data-aos="fade-up" data-aos-duration="1000">
                     <div class="htw-pick-desg">
                         <img class="img-fluid" src="img/pick-design.png" alt="Pick a Design">
                     </div>
@@ -45,7 +45,7 @@ include('header.php');
                         <img class="img-fluid" src="img/pick-design-bg.png" alt="Pick design">
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-3 text-center text-md-left">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-3 text-center text-md-left" data-aos="fade-up" data-aos-duration="2000">
                     <div class="htw-text">
                         <h6>Pick what you want</h6>
                         <h2>Pick and design what you want.</h2>
@@ -59,9 +59,9 @@ include('header.php');
 
     <!--Design your passion START-->
     <section class="pick-design">
-        <div class="container cerulean-bg">
+        <div class="container cerulean-bg" data-aos="fade-up" data-aos-duration="3000">
             <div class="row flex-row-reverse">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-3">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-3" data-aos="fade-up" data-aos-duration="1000">
                     <div class="htw-pick-desg">
                         <img class="img-fluid dyp-main-img" src="img/design-passions.png" alt="Design your passion">
                     </div>
@@ -69,7 +69,7 @@ include('header.php');
                         <img class="img-fluid" src="img/design-passion-bg.png" alt="Design your passion">
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-3 text-center text-md-left">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-3 text-center text-md-left" data-aos="fade-up" data-aos-duration="2000">
                     <div class="htw-text">
                         <h6>Design your passion</h6>
                         <h2>Design what you want, however you want</h2>
@@ -83,9 +83,9 @@ include('header.php');
 
     <!--OVERVIEW AND MANAGE START-->
     <section class="pick-design">
-        <div class="container geraldine-bg">
+        <div class="container geraldine-bg" data-aos="fade-up" data-aos-duration="3000">
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-3">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-3" data-aos="fade-up" data-aos-duration="1000">
                     <div class="htw-pick-desg">
                         <img class="img-fluid" src="img/overview-manage.png" alt="Pick a Design">
                     </div>
@@ -93,7 +93,7 @@ include('header.php');
                         <img class="img-fluid" src="img/overview-bg.png" alt="Pick design">
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-3 text-center text-md-left">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-3 text-center text-md-left" data-aos="fade-up" data-aos-duration="2000">
                     <div class="htw-text">
                         <h6>Overview and Manage</h6>
                         <h2>Manage all of your orders in one place.</h2>
@@ -109,7 +109,7 @@ include('header.php');
     <section class="connect-store">
         <div class="container">
             <div class="row text-center">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12" data-aos="fade-up" data-aos-duration="1000">
                     <div class="ap-main-heading">
                         <h2>Connect your store</h2>
                         <p class="mt-3">From a one-man business till a large ecommerce store.</p>
@@ -118,7 +118,7 @@ include('header.php');
             </div>
 
             <div class="row text-center">
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12 p-0 mt-2">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 p-0 mt-2" data-aos="fade-up" data-aos-duration="1000">
                     <a href="#">
                         <div class="shopify-color cont-str-box m-2">
                             <div class="cont-str-img">
@@ -134,7 +134,7 @@ include('header.php');
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12 p-0 mt-2">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 p-0 mt-2" data-aos="fade-up" data-aos-duration="1500">
                     <a href="#">
                         <div class="etsy-color cont-str-box m-2">
                             <div class="cont-str-img">
@@ -151,7 +151,7 @@ include('header.php');
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12 p-0 mt-2">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 p-0 mt-2" data-aos="fade-up" data-aos-duration="2000">
                     <a href="#">
                         <div class="amazon-color cont-str-box m-2">
                             <div class="cont-str-img">
@@ -167,7 +167,7 @@ include('header.php');
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12 p-0 mt-2">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 p-0 mt-2" data-aos="fade-up" data-aos-duration="2500">
                     <a href="#">
                         <div class="magento-color cont-str-box m-2">
                             <div class="cont-str-img">
