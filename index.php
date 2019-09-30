@@ -16,15 +16,15 @@ include('header.php');
                     </div>
                     <div class="recent-orders mt-md-2 mt-lg-4">
                         <p class="m-0">Latest Orders from:</p>
-                        <div class="d-flex">
-                            <div class="d-flex align-items-center pt-lg-2 pr-2 m-auto m-md-0 pt-3">
+                        <div class="row">
+                            <div class="col-md-5 d-flex align-items-center pt-lg-2 pr-2 m-auto m-md-0 pt-3">
                                 <div class="location-icon"><span class="ti-location-pin"></span></div>
                                 <div class="recent-locations">
                                     <p class="mb-0" id="role">Ohio, USA</p>
                                     <span id="role2">2 Minutes ago</span>
                                 </div>
                             </div>
-                            <div class="d-flex align-items-center pt-lg-2 m-auto m-md-0 pt-3">
+                            <div class="col-md-5 d-flex align-items-center pt-lg-2 m-auto m-md-0 pt-3">
                                 <div class="location-icon"><span class="ti-location-pin"></span></div>
                                 <div class="recent-locations">
                                     <p class="mb-0" id="role3">Vanvcouver, Canada</p>
@@ -36,7 +36,7 @@ include('header.php');
                 </div>
                 <div class="col-xl-7 col-lg-7 col-md-6 col-sm-12 col-12 header-right-bnr p-0 mt-5 mt-lg-3 mt-md-2">
                     <div class="header-img">
-                        <img class="img-fluid" src="img/vector.png">
+                        <img class="img-fluid" src="img/vector-2.png">
                     </div>
                 </div>
             </div>

@@ -354,8 +354,12 @@ button:focus{
 .location-icon span {
     font-size: 25px;
     color: #2B44FF;
+    position: relative;
+    left: -4px;
 }
-
+.recent-locations{
+    white-space: nowrap;
+}
 .recent-locations span {
     font-size: 14px;
     color: #777777;
