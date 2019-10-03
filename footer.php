@@ -10,7 +10,7 @@
                         <li><a href="#">Make your own T-shirt</a></li>
                         <li><a href="#">Custom Gifts</a></li>
                         <li><a href="#">Latest News</a></li>
-                        <li><a href="#">Influencer merch</a></li>
+                        <li><a href="influencers.php">Influencer merch</a></li>
                     </ul>
                 </div>
             </div>
@@ -121,6 +121,18 @@
 </script>
 <!--Hamburger-->
 
+<!-- Product cat submenu -->
+<script>
+    $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+        if (scroll > 300) {
+            $(".drop-menu-test").addClass("product-drop-menu");
+        } else if (scroll <= 300) {
+            $(".drop-menu-test").removeClass("product-drop-menu");
+        }
+    });
+</script>
+<!-- Product cat submenu -->
 <!--Sticky Navbar START-->
 <script>
     $(document).ready(function(){
