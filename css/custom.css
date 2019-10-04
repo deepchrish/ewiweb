@@ -1460,7 +1460,7 @@ button:focus {
     white-space: nowrap;
 }
 .inf-head-text p span{
-    padding: 10px;
+    padding: 0 10px 0 0;
 }
 .inf-hit-work{
     position: relative;
@@ -1473,6 +1473,7 @@ button:focus {
     font-weight: 600;
     border-top: none;
     text-transform: uppercase;
+    white-space: nowrap;
     border-bottom: none !important;
 }
 .form-custom{
@@ -1485,6 +1486,7 @@ button:focus {
 .table-row-custom td{
     font-weight: 600;
     vertical-align: middle;
+    white-space: nowrap;
 }
 .table-row-custom select{
     font-weight: 600;
@@ -1599,6 +1601,7 @@ button:focus {
     /*.abt-braces{font-size: 130px;bottom: 70%;left: -18px;}*/
     .about-ewi-text h3 {font-size: 20px;line-height: 30px;}
     .blog-post-area p {line-height: 22px;margin: 0 0 8px 0;}
+    .boxoutline, .boxoutline2{width: 103%;}
 }
 
 @media only screen and (max-width: 991px) {
@@ -1607,6 +1610,9 @@ button:focus {
     .pro-custom-pills .nav-link {display: inline-block;font-size: 14px;}
     .login-btn {background: #ffffff;color: #2b44ff;padding: 7px 45px;border: 1px solid #2b44ff;border-radius: 4px;}
     .abt-braces {left: 0;}
+    .inf-right-img {left: 22%;top: 10px;width: 125%;}
+    .inf-head-text p{white-space: initial;}
+
 }
 
 /* Medium devices (tablets, 768px and down) */
@@ -1631,8 +1637,15 @@ button:focus {
     .connect-store {background: none;}
     .cus-right-bg {left: 0;width: 100%;}
     .login-btn {display: contents;}
-    .inf-head-text p {white-space: unset;}
+    .inf-head-text{text-align: left;}
+    .inf-head-text p {white-space: unset; font-size: 14px;}
+    .inf-right-imgposition: {relative;left: 0;right: 0;margin: 0 auto;}
+    .inf-top-bg img {position: absolute;top: 0;right: 0;width: 100%;height: auto;left: 0;z-index: -1;}
+    .inf-right-img {margin: 0 auto;position: relative;left: 0;top: 0;right: 0;width: 90%;}
+    .inf-left-bdr, .inf-right-bdr, .boxoutline, .boxoutline2{display: none;}
+    .form-custom{width: 100%;}
 }
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {

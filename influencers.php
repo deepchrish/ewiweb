@@ -85,10 +85,10 @@ include('header.php');
         <div class="container">
             <div class="row">
                 <div class="col-md-12 mt-4 text-center">
-                    <div class="header-heading">
+                    <div class="header-heading" data-aos="fade-up" data-aos-duration="1000">
                         <h2>How you make profit</h2>
                     </div>
-                    <div class="about-header-text pt-2">
+                    <div class="about-header-text pt-2" data-aos="fade-up" data-aos-duration="1000">
                         <p>There are no monthly fees—price your products how you want, and only pay Everything With Ink
                             for production and product costs when you get an order. What's left is your profit!</p>
                     </div>
@@ -96,7 +96,7 @@ include('header.php');
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <div class="table-responsive mt-4">
+                    <div class="table-responsive mt-4" data-aos="fade-up" data-aos-duration="1000">
                         <table class="table table-custom table-row-custom">
                             <thead class="text-center">
                             <tr>
@@ -160,7 +160,7 @@ include('header.php');
                             </tbody>
                         </table>
                     </div>
-                    <div class="text-center">
+                    <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
                         <button class="btn secondary-btn-cut">See all Products</button>
                     </div>
                 </div>
@@ -173,67 +173,67 @@ include('header.php');
     <section class="pt-2">
         <div class="container">
             <div class="row mt-5">
-                <div class="col-md-12 text-center">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12  text-center" data-aos="fade-up" data-aos-duration="1000">
                     <div class="header-heading">
                         <h2>Why choose Everything With Ink?</h2>
                     </div>
                 </div>
             </div>
             <div class="row text-center mt-4">
-                <div class="col-md-12">
+                <div class="col-md-12 col-sm-12 col-12" data-aos="fade-up" data-aos-duration="1000">
                     <div class="boxoutline"></div>
                     <div class="inf-left-bdr"></div>
                     <div class="inf-right-bdr"></div>
                     <div class="row">
-                        <div class="col-md-4 mt-5">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-12 mt-5" data-aos="fade-up" data-aos-duration="1500">
                             <div class="box-cls">
                                 <div class="inf-numbs"><span>1</span></div>
-                                <div class="pt-5 pb-5 pl-4 pr-4">
+                                <div class="pt-5 pb-4 pl-4 pr-4">
                                     <h5>Product range</h5>
                                     <p class="m-0">You can choose from a wide range of products</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 mt-5">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-12 mt-5" data-aos="fade-up" data-aos-duration="2000">
                             <div class="box-cls">
                                 <div class="inf-numbs"><span>2</span></div>
-                                <div class="pt-5 pb-5 pl-4 pr-4">
+                                <div class="pt-5 pb-4 pl-4 pr-4">
                                     <h5>Personalized brand</h5>
                                     <p class="m-0">Every order looks like you sent it</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 mt-5">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-12 mt-5" data-aos="fade-up" data-aos-duration="2500">
                             <div class="box-cls">
                                 <div class="inf-numbs"><span>3</span></div>
-                                <div class="pt-5 pb-5 pl-4 pr-4">
+                                <div class="pt-5 pb-4 pl-4 pr-4">
                                     <h5>Fulfillment</h5>
                                     <p class="m-0">Our fulfillment average is under 3 days</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 mt-5">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-12 mt-5" data-aos="fade-up" data-aos-duration="1000">
                             <div class="box-cls">
                                 <div class="inf-numbs"><span>4</span></div>
-                                <div class="pt-5 pb-5 pl-4 pr-4">
+                                <div class="pt-5 pb-4 pl-4 pr-4">
                                     <h5>Shipping</h5>
                                     <p class="m-0">Shipping speed is 3 business days</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 mt-5">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-12 mt-5" data-aos="fade-up" data-aos-duration="1500">
                             <div class="box-cls">
                                 <div class="inf-numbs"><span>5</span></div>
-                                <div class="pt-5 pb-5 pl-4 pr-4">
+                                <div class="pt-5 pb-4 pl-4 pr-4">
                                     <h5>Print on demand</h5>
                                     <p class="m-0">Never run out of stock or get stuck with leftovers</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 mt-5">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-12 mt-5" data-aos="fade-up" data-aos-duration="2000">
                             <div class="box-cls">
                                 <div class="inf-numbs"><span>6</span></div>
-                                <div class="pt-5 pb-5 pl-4 pr-4">
+                                <div class="pt-5 pb-4 pl-4 pr-4">
                                     <h5>Print on demand</h5>
                                     <p class="m-0">Never run out of stock or get stuck with leftovers</p>
                                 </div>
@@ -248,10 +248,10 @@ include('header.php');
     <!--Why choose Everything With Ink? END-->
 
     <!--Need design help? Leave it to us! START-->
-<section class="degn-hlp amour-bg">
+<section class="degn-hlp amour-bg" data-aos="fade-up" data-aos-duration="1000">
     <div class="container">
         <div class="row mt-5">
-            <div class="col-md-12 p-5 justify-content-center text-center">
+            <div class="col-md-12 p-5 justify-content-center text-center" data-aos="fade-up" data-aos-duration="2000">
                     <h2>Need design help? Leave it to us!</h2>
                     <p>Our team of graphic designers can help you with ideas, design, and print files for your influencer merch. Whatever you need help with, consider it done!</p>
                 <button class="btn primary-btn-custom">Hire a Designer</button>
