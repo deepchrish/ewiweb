@@ -33,228 +33,185 @@
         <!-- ============================================================== -->
         <section class="login-page">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-5 col-md-5 col-sm-6 col-12 loginbg">
-                        <div class="row">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-12 p-3">
-                                <div class="d-flex">
-                                    <div class="login-logo-img"><img class="img-fluid" src="img/withink_logo.png" alt="Everything With ink"></div>
-                                    <div class="login-logo-text">Everything With Ink</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="login-left-side">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                            <div class="w-100">
-                                <div class="row justify-content-center">
-                                    <div class="col-lg-2 col-md-2 col-sm-2 col-2">
-                                        <div class="login-icons"><i class="mdi mdi-tshirt-crew"></i></div>
-                                    </div>
-                                    <div class="col-lg-10 col-md-10 col-sm-10 col-10 d-flex align-content-center align-items-center">
-                                        <div class="login-info-line"><p>Design your products with our design tool</p></div>
-                                    </div>
-                                </div>
-                                <div class="row justify-content-center">
-                                    <div class="col-lg-2 col-md-2 col-sm-2 col-2">
-                                        <div class="login-icons"><i class="mdi mdi-arrange-send-to-back"></i></div>
-                                    </div>
-                                    <div class="col-lg-10 col-md-10 col-sm-10 col-10 d-flex align-content-center align-items-center">
-                                        <div class="login-info-line"><p>Sync the products to your stores</p></div>
-                                    </div>
-                                </div>
-                                <div class="row justify-content-center">
-                                    <div class="col-lg-2 col-md-2 col-sm-2 col-2">
-                                        <div class="login-icons"><i class="mdi mdi-view-dashboard"></i></div>
-                                    </div>
-                                    <div class="col-lg-10 col-md-10 col-sm-10 col-10 d-flex align-content-center align-items-center">
-                                        <div class="login-info-line"><p>Manage and Fulfill your orders with the best Vendors</p></div>
-                                    </div>
-                                </div>
-                                <div class="row justify-content-center">
-                                    <div class="col-lg-2 col-md-2 col-sm-2 col-2">
-                                        <div class="login-icons"><i class="mdi mdi-credit-card"></i></div>
-                                    </div>
-                                    <div class="col-lg-10 col-md-10 col-sm-10 col-10 d-flex align-content-center align-items-center">
-                                        <div class="login-info-line"><p>Earn money and grow your business.</p></div>
-                                    </div>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
+                <div class="row justify-content-center flex-row-reverse">
+                    <div class="col-lg-6 col-md-5 col-sm-12 col-12 signupbg d-flex align-items-center align-content-center">
                     </div>
-                    <div class="col-lg-7 col-md-7 col-sm-6 col-12 login-right-side">
-                        <div class="login-form-area">
-                            <div class="text-center">
-                                <h1>Tell us a bit about yourself</h1>
-                                <!--<p class="login-p">Sign up for a free 14- day trial</p>-->
+                    <div class="col-lg-6 col-md-7 col-sm-12 col-12 login-right-side d-flex align-items-center align-content-center">
+                        <div class="login-form-area d-flex align-items-center align-content-center">
+                            <div class="m-auto w-100">
+                                <div class="text-center login-title">
+                                    <a href="#"><img class="img-fluid" src="img/withink_logo.png" alt="logo"> Everything With Ink</a>
+                                    <h1 class="mt-5">Tell us a bit about yourself</h1>
+                                    <!--<p class="login-p">Sign up for a free 14- day trial</p>-->
+                                </div>
+                                <form action="sign-up-step-3.html">
+                                    <div class="form-row mt-5 justify-content-center">
+                                        <div class="form-group col-lg-8 col-md-10 col-sm-10 col-10">
+                                            <label for="sellingopt" class="login-lable">Are you already selling</label>
+                                            <select class="form-control" id="sellingopt">
+                                                <option value="">Please choose one…</option>
+                                                <option data-index="3" value="system">I sell with a different system</option>
+                                                <option data-index="1" value="notsetting">I’m not selling products yet</option>
+                                                <option data-index="2" value="notonline">I’m selling, just not online</option>
+                                                <option data-index="0" value="playingaround">I’m just playing around</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-row mt-2 justify-content-center" id="mostusedsystem" style="display: none;">
+                                        <div class="form-group col-lg-8 col-md-10 col-sm-10 col-10">
+                                            <label for="listofsystems" class="login-lable">Which system do you use the most?</label>
+                                            <select class="form-control" id="listofsystems">
+                                                <option value="nothing">Please choose one…</option>
+                                                <option data-index="2" value="Shopify">Shopify</option>
+                                                <option data-index="2" value="Big Cartel">Big Cartel</option>
+                                                <option data-index="9" value="Squarespace">Squarespace</option>
+                                                <option data-index="17" value="Lightspeed">Lightspeed</option>
+                                                <option data-index="15" value="Clover">Clover</option>
+                                                <option data-index="0" value="Amazon">Amazon</option>
+                                                <option data-index="21" value="Tictail">Tictail</option>
+                                                <option data-index="14" value="Square">Square</option>
+                                                <option data-index="22" value="PrestaShop">PrestaShop</option>
+                                                <option data-index="16" value="Vend">Vend</option>
+                                                <option data-index="20" value="OpenCart">OpenCart</option>
+                                                <option data-index="4" value="Etsy">Etsy</option>
+                                                <option data-index="1" value="BigCommerce">BigCommerce</option>
+                                                <option data-index="5" value="GoDaddy">GoDaddy</option>
+                                                <option data-index="12" value="WooCommerce">WooCommerce</option>
+                                                <option data-index="11" value="Wix">Wix</option>
+                                                <option data-index="18" value="ShopKeep">ShopKeep</option>
+                                                <option data-index="13" value="WordPress">WordPress</option>
+                                                <option data-index="3" value="eBay">eBay</option>
+                                                <option data-index="7" value="IndieGogo">IndieGogo</option>
+                                                <option data-index="6" value="Kickstarter">Kickstarter</option>
+                                                <option data-index="10" value="Volusion">Volusion</option>
+                                                <option data-index="19" value="Revel">Revel</option>
+                                                <option data-index="8" value="Magento">Magento</option>
+                                                <option data-index="23" value="Other">Other</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-row mt-2 justify-content-center" id="notsellingyet" style="display: none;">
+                                        <div class="form-group col-lg-8 col-md-10 col-sm-10 col-10">
+                                            <label for="havesomethingtosell" class="login-lable">Do you have something to sell?</label>
+                                            <select class="form-control" id="havesomethingtosell">
+                                                <option value="">Please choose one…</option>
+                                                <option value="No, I’m just playing around with Shopify">No, I’m just playing around with Shopify</option>
+                                                <option value="I’m still brainstorming ideas on what to sell">I’m still brainstorming ideas on what to sell</option>
+                                                <option value="Yes, I have product and I’ll be ready to launch in a few weeks">Yes, I have product and I’ll be ready to launch in a few weeks</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-row mt-2 justify-content-center" id="reasonforstore" style="display: none;">
+                                        <div class="form-group col-lg-8 col-md-10 col-sm-10 col-10">
+                                            <label for="storecreationreason" class="login-lable">Why are you creating this store?</label>
+                                            <select class="form-control" id="storecreationreason">
+                                                <option value="">Please choose one…</option>
+                                                <option data-index="0" value="I want to start a new business">I want to start a new business</option>
+                                                <option data-index="1" value="I want to move my existing business to EWI">I want to move my existing business to EWI</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-row mt-2 justify-content-center" id="sellingbutnotonline" style="display: none;">
+                                        <div class="form-group col-lg-8 col-md-10 col-sm-10 col-10">
+                                            <label for="whenyoulaunchstore" class="login-lable">When would you like to launch your store?</label>
+                                            <select class="form-control" id="whenyoulaunchstore">
+                                                <option value="">Please choose one…</option>
+                                                <option value="I’m just playing around with Shopify">I’m just playing around with Shopify</option>
+                                                <option value="I’m learning, and need more time">I’m learning, and need more time</option>
+                                                <option value="I’ll be ready in a few weeks">I’ll be ready in a few weeks</option>
+                                                <option value="I’m ready to go">I’m ready to go</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-row mt-2 justify-content-center" id="sellingbutnotonline2" style="display: none;">
+                                        <div class="form-group col-lg-8 col-md-10 col-sm-10 col-10">
+                                            <label for="howwanttosell" class="login-lable">How do you want to sell?</label>
+                                            <select class="form-control" id="howwanttosell">
+                                                <option value="">Please choose one…</option>
+                                                <option data-index="0" value="onlineonly">Online only</option>
+                                                <option data-index="1" value="inpersononly">In person only</option>
+                                                <option data-index="2" value="bothonlineandperson">Both online and in person</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-row mt-2 justify-content-center" id="multioptionschks" style="display: none;">
+                                        <div class="form-group col-lg-8 col-md-10 col-sm-10 col-10">
+                                            <small class="mb-5">Where will you mostly sell in person?</small>
+                                            <div class="custom-control custom-checkbox mr-sm-2 mt-1">
+                                                <input type="checkbox" class="custom-control-input" id="checkbox1">
+                                                <label class="custom-control-label" for="checkbox1">At markets and fairs</label>
+                                            </div>
+                                            <div class="custom-control custom-checkbox mr-sm-2">
+                                                <input type="checkbox" class="custom-control-input" id="checkbox2">
+                                                <label class="custom-control-label" for="checkbox2">At pop-ups</label>
+                                            </div>
+                                            <div class="custom-control custom-checkbox mr-sm-2">
+                                                <input type="checkbox" class="custom-control-input" id="checkbox3">
+                                                <label class="custom-control-label" for="checkbox3">In brick and mortar retail stores</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-row mt-2 justify-content-center" id="justplayingaround" style="display: none;">
+                                        <div class="form-group col-lg-8 col-md-10 col-sm-10 col-10">
+                                            <small class="mb-5">Let us help you kickstart your business while you play around.</small>
+                                            <div class="custom-control custom-checkbox mr-sm-2 mt-1">
+                                                <input type="checkbox" class="custom-control-input" id="checkbox4">
+                                                <label class="custom-control-label" for="checkbox4">Help me create my logo</label>
+                                            </div>
+                                            <div class="custom-control custom-checkbox mr-sm-2">
+                                                <input type="checkbox" class="custom-control-input" id="checkbox5">
+                                                <label class="custom-control-label" for="checkbox5">Help me brainstorm names for my business</label>
+                                            </div>
+                                            <div class="custom-control custom-checkbox mr-sm-2">
+                                                <input type="checkbox" class="custom-control-input" id="checkbox6">
+                                                <label class="custom-control-label" for="checkbox6">Help me get started with a free online webinar</label>
+                                            </div>
+                                            <div class="custom-control custom-checkbox mr-sm-2">
+                                                <input type="checkbox" class="custom-control-input" id="checkbox7">
+                                                <label class="custom-control-label" for="checkbox7">Help me find a product to sell</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-row mt-2 justify-content-center">
+                                        <div class="form-group col-lg-8 col-md-10 col-sm-10 col-10">
+                                            <label for="currentrevenue" class="login-lable">What is your current revenue</label>
+                                            <select class="form-control" id="currentrevenue">
+                                                <option value="">Please choose one…</option>
+                                                <option value="$0 (I'm just getting started)">Rs. 0 (I'm just getting started)</option>
+                                                <option value="Up to $5,000">Up to Rs. 5,000</option>
+                                                <option value="$5,000 to $50,000">Rs. 5,000 to Rs. 50,000</option>
+                                                <option value="$50,000 to $250,000">Rs. 50,000 to Rs. 250,000</option>
+                                                <option value="$250,000 to $1,000,000">Rs. 250,000 to Rs. 1,000,000</option>
+                                                <option value="$1,000,000+">Rs. 1,000,000+</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-row mt-0 justify-content-center">
+                                        <div class="form-group col-lg-8 col-md-10 col-sm-10 col-10">
+                                            <small>Are you setting up a store for a client</small>
+                                            <div class="custom-control custom-checkbox mr-sm-2">
+                                                <input type="checkbox" class="custom-control-input" id="storeconfirmation">
+                                                <label class="custom-control-label" for="storeconfirmation">Yes I’ am designing designing/developing this for a client.</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-row justify-content-center">
+                                        <div class="form-group col-lg-8 col-md-10 col-sm-10 col-10 text-center">
+                                            <div class="d-flex flex-column">
+                                                <button type="submit" class="btn primary-btn-custom p-2">Continue</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
-                            <form action="sign-up-step-3.html">
-                                <div class="form-row mt-5 justify-content-center">
-                                    <div class="form-group col-lg-6 col-md-8 col-sm-10 col-10">
-                                        <label for="sellingopt" class="login-lable">Are you already selling</label>
-                                        <select class="form-control" id="sellingopt">
-                                            <option value="">Please choose one…</option>
-                                            <option data-index="3" value="system">I sell with a different system</option>
-                                            <option data-index="1" value="notsetting">I’m not selling products yet</option>
-                                            <option data-index="2" value="notonline">I’m selling, just not online</option>
-                                            <option data-index="0" value="playingaround">I’m just playing around</option>
-                                        </select>
-                                    </div>
-                                </div>
-
-                                <div class="form-row mt-2 justify-content-center" id="mostusedsystem" style="display: none;">
-                                    <div class="form-group col-lg-6 col-md-8 col-sm-10 col-10">
-                                        <label for="listofsystems" class="login-lable">Which system do you use the most?</label>
-                                        <select class="form-control" id="listofsystems">
-                                            <option value="nothing">Please choose one…</option>
-                                            <option data-index="2" value="Shopify">Shopify</option>
-                                            <option data-index="2" value="Big Cartel">Big Cartel</option>
-                                            <option data-index="9" value="Squarespace">Squarespace</option>
-                                            <option data-index="17" value="Lightspeed">Lightspeed</option>
-                                            <option data-index="15" value="Clover">Clover</option>
-                                            <option data-index="0" value="Amazon">Amazon</option>
-                                            <option data-index="21" value="Tictail">Tictail</option>
-                                            <option data-index="14" value="Square">Square</option>
-                                            <option data-index="22" value="PrestaShop">PrestaShop</option>
-                                            <option data-index="16" value="Vend">Vend</option>
-                                            <option data-index="20" value="OpenCart">OpenCart</option>
-                                            <option data-index="4" value="Etsy">Etsy</option>
-                                            <option data-index="1" value="BigCommerce">BigCommerce</option>
-                                            <option data-index="5" value="GoDaddy">GoDaddy</option>
-                                            <option data-index="12" value="WooCommerce">WooCommerce</option>
-                                            <option data-index="11" value="Wix">Wix</option>
-                                            <option data-index="18" value="ShopKeep">ShopKeep</option>
-                                            <option data-index="13" value="WordPress">WordPress</option>
-                                            <option data-index="3" value="eBay">eBay</option>
-                                            <option data-index="7" value="IndieGogo">IndieGogo</option>
-                                            <option data-index="6" value="Kickstarter">Kickstarter</option>
-                                            <option data-index="10" value="Volusion">Volusion</option>
-                                            <option data-index="19" value="Revel">Revel</option>
-                                            <option data-index="8" value="Magento">Magento</option>
-                                            <option data-index="23" value="Other">Other</option>
-                                        </select>
-                                    </div>
-                                </div>
-
-                                <div class="form-row mt-2 justify-content-center" id="notsellingyet" style="display: none;">
-                                    <div class="form-group col-lg-6 col-md-8 col-sm-10 col-10">
-                                        <label for="havesomethingtosell" class="login-lable">Do you have something to sell?</label>
-                                        <select class="form-control" id="havesomethingtosell">
-                                            <option value="">Please choose one…</option>
-                                            <option value="No, I’m just playing around with Shopify">No, I’m just playing around with Shopify</option>
-                                            <option value="I’m still brainstorming ideas on what to sell">I’m still brainstorming ideas on what to sell</option>
-                                            <option value="Yes, I have product and I’ll be ready to launch in a few weeks">Yes, I have product and I’ll be ready to launch in a few weeks</option>
-                                        </select>
-                                    </div>
-                                </div>
-
-                                <div class="form-row mt-2 justify-content-center" id="reasonforstore" style="display: none;">
-                                    <div class="form-group col-lg-6 col-md-8 col-sm-10 col-10">
-                                        <label for="storecreationreason" class="login-lable">Why are you creating this store?</label>
-                                        <select class="form-control" id="storecreationreason">
-                                            <option value="">Please choose one…</option>
-                                            <option data-index="0" value="I want to start a new business">I want to start a new business</option>
-                                            <option data-index="1" value="I want to move my existing business to EWI">I want to move my existing business to EWI</option>
-                                        </select>
-                                    </div>
-                                </div>
-
-                                <div class="form-row mt-2 justify-content-center" id="sellingbutnotonline" style="display: none;">
-                                    <div class="form-group col-lg-6 col-md-8 col-sm-10 col-10">
-                                        <label for="whenyoulaunchstore" class="login-lable">When would you like to launch your store?</label>
-                                        <select class="form-control" id="whenyoulaunchstore">
-                                            <option value="">Please choose one…</option>
-                                            <option value="I’m just playing around with Shopify">I’m just playing around with Shopify</option>
-                                            <option value="I’m learning, and need more time">I’m learning, and need more time</option>
-                                            <option value="I’ll be ready in a few weeks">I’ll be ready in a few weeks</option>
-                                            <option value="I’m ready to go">I’m ready to go</option>
-                                        </select>
-                                    </div>
-                                </div>
-
-                                <div class="form-row mt-2 justify-content-center" id="sellingbutnotonline2" style="display: none;">
-                                    <div class="form-group col-lg-6 col-md-8 col-sm-10 col-10">
-                                        <label for="howwanttosell" class="login-lable">How do you want to sell?</label>
-                                        <select class="form-control" id="howwanttosell">
-                                            <option value="">Please choose one…</option>
-                                            <option data-index="0" value="onlineonly">Online only</option>
-                                            <option data-index="1" value="inpersononly">In person only</option>
-                                            <option data-index="2" value="bothonlineandperson">Both online and in person</option>
-                                        </select>
-                                    </div>
-                                </div>
-
-                                <div class="form-row mt-2 justify-content-center" id="multioptionschks" style="display: none;">
-                                    <div class="form-group col-lg-6 col-md-8 col-sm-10 col-10">
-                                        <small class="mb-5">Where will you mostly sell in person?</small>
-                                        <div class="custom-control custom-checkbox mr-sm-2 mt-1">
-                                            <input type="checkbox" class="custom-control-input" id="checkbox1">
-                                            <label class="custom-control-label" for="checkbox1">At markets and fairs</label>
-                                        </div>
-                                        <div class="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" class="custom-control-input" id="checkbox2">
-                                            <label class="custom-control-label" for="checkbox2">At pop-ups</label>
-                                        </div>
-                                        <div class="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" class="custom-control-input" id="checkbox3">
-                                            <label class="custom-control-label" for="checkbox3">In brick and mortar retail stores</label>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="form-row mt-2 justify-content-center" id="justplayingaround" style="display: none;">
-                                    <div class="form-group col-lg-6 col-md-8 col-sm-10 col-10">
-                                        <small class="mb-5">Let us help you kickstart your business while you play around.</small>
-                                        <div class="custom-control custom-checkbox mr-sm-2 mt-1">
-                                            <input type="checkbox" class="custom-control-input" id="checkbox4">
-                                            <label class="custom-control-label" for="checkbox4">Help me create my logo</label>
-                                        </div>
-                                        <div class="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" class="custom-control-input" id="checkbox5">
-                                            <label class="custom-control-label" for="checkbox5">Help me brainstorm names for my business</label>
-                                        </div>
-                                        <div class="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" class="custom-control-input" id="checkbox6">
-                                            <label class="custom-control-label" for="checkbox6">Help me get started with a free online webinar</label>
-                                        </div>
-                                        <div class="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" class="custom-control-input" id="checkbox7">
-                                            <label class="custom-control-label" for="checkbox7">Help me find a product to sell</label>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="form-row mt-2 justify-content-center">
-                                    <div class="form-group col-lg-6 col-md-8 col-sm-10 col-10">
-                                        <label for="currentrevenue" class="login-lable">What is your current revenue</label>
-                                        <select class="form-control" id="currentrevenue">
-                                            <option value="">Please choose one…</option>
-                                            <option value="$0 (I'm just getting started)">Rs. 0 (I'm just getting started)</option>
-                                            <option value="Up to $5,000">Up to Rs. 5,000</option>
-                                            <option value="$5,000 to $50,000">Rs. 5,000 to Rs. 50,000</option>
-                                            <option value="$50,000 to $250,000">Rs. 50,000 to Rs. 250,000</option>
-                                            <option value="$250,000 to $1,000,000">Rs. 250,000 to Rs. 1,000,000</option>
-                                            <option value="$1,000,000+">Rs. 1,000,000+</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="form-row mt-0 justify-content-center">
-                                    <div class="form-group col-lg-6 col-md-8 col-sm-10 col-10">
-                                        <small>Are you setting up a store for a client</small>
-                                        <div class="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" class="custom-control-input" id="storeconfirmation">
-                                            <label class="custom-control-label" for="storeconfirmation">Yes I’ am designing designing/developing this for a client.</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-row justify-content-center">
-                                    <div class="form-group col-lg-6 col-md-8 col-sm-10 col-10 text-center">
-                                        <div class="d-flex flex-column">
-                                            <button type="submit" class="btn primary-btn-custom p-2">Continue</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
                         </div>
                     </div>
                 </div>

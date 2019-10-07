@@ -1680,13 +1680,7 @@ button:focus {
     background-size: cover;
     background-color: #f8f8f8;
 }
-.signupbg{
-    background:url("../img/signup-pic.png") no-repeat center;
-    /*background: url(../../images/loginbg.png) no-repeat center;*/
-    height: 100vh;
-    background-size: cover;
-    background-color: #d8dbde;
-}
+
 .resetpass {
     background:url("../img/reset-pass.png") no-repeat center;
     /*background: url(../../images/loginbg.png) no-repeat center;*/
@@ -1701,6 +1695,14 @@ button:focus {
     background-size: cover;
     background-color: #fafafa;
 }
+.signupbg{
+    background:url("../img/signup-pic.png") no-repeat center;
+    /*background: url(../../images/loginbg.png) no-repeat center;*/
+    height: 100vh;
+    background-size: cover;
+    background-color: #d8dbde;
+}
+
 .login-logo-img img {
     filter: brightness(500%);
 }
@@ -1750,9 +1752,9 @@ button:focus {
     padding: 60px 0;
     /*height: 90vh;*/
 }
-.login-form-area select.form-control:not([size]):not([multiple]){
-    height: calc(2.0625rem + 10px);
-}
+/*.login-form-area select.form-control:not([size]):not([multiple]){*/
+    /*height: calc(2.0625rem + 10px);*/
+/*}*/
 .login-form-area .form-control{
     padding: 0.655rem 0.75rem;
     font-size: 14px;
@@ -1768,6 +1770,7 @@ button:focus {
     font-size: 12px;
     text-align: center;
     padding: 0 4px;
+    font-weight: 700;
 }
 
 .login-p {
@@ -1892,8 +1895,7 @@ button:focus {
 @media only screen and (max-width: 767px){
     .loginbg{height: 50vh;background-size: contain;}
     .login-form-area{position: relative;bottom: 10%;padding: 50px 0; height: auto;}
-    .resetpass{height: 50vh;background-size: contain;}
-    .newpass-bg{height: 50vh;background-size: contain;}
+    .resetpass, .newpass-bg, .signupbg{height: 50vh;background-size: contain;}
 }
 
 /* Extra small devices (phones, 600px and down) */
