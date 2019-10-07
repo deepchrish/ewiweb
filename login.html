@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Login</title>
+    <meta name="description" content="<?php echo $pageDescription; ?>">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="img/withink_logo.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--Content animation CSS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <!-- ============================================================== -->
+        <!-- Preloader - style you can find in spinners.css -->
+        <!-- ============================================================== -->
+        <div class="preloader">
+            <div class="lds-ripple">
+                <div class="lds-pos"></div>
+                <div class="lds-pos"></div>
+            </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- Preloader - style you can find in spinners.css -->
+        <!-- ============================================================== -->
+        <section class="login-page">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-5 col-sm-12 col-12 loginbg d-flex align-items-center align-content-center">
+                        <!--<div class="login-lift-bg">-->
+                            <!--<img class="img-fluid" src="img/login-bg.png" alt="login">-->
+                        <!--</div>-->
+                    </div>
+                    <div class="col-lg-6 col-md-7 col-sm-12 col-12 login-right-side d-flex align-items-center align-content-center">
+                        <div class="login-form-area d-flex align-items-center align-content-center">
+                            <div class="m-auto">
+                                <div class="text-center login-title">
+                                    <a href="#"><img class="img-fluid" src="img/withink_logo.png" alt="logo"> Everything With Ink</a>
+                                    <h1 class="mt-5">Hello there, Glad to see you back!</h1>
+                                    <p class="login-p">Login to your account</p>
+                                </div>
+                                <form action="/dashboard/">
+                                    <div class="form-row mt-5 justify-content-center">
+                                        <div class="form-group col-lg-12 col-md-11 col-sm-10 col-10">
+                                            <label for="loginemail" class="login-lable">Enter Email</label>
+                                            <input type="email" class="form-control" id="loginemail" placeholder="johndoe@example.com">
+                                        </div>
+                                    </div>
+                                    <div class="form-row mt-2 justify-content-center">
+                                        <div class="form-group col-lg-12 col-md-11 col-sm-10 col-10">
+                                            <a class="anchor-text mb-1 float-right" href="reset-password.html">Forgot Password?</a>
+                                            <label for="loginpassword" class="login-lable">Password</label>
+                                            <input type="password" class="form-control" id="loginpassword" placeholder="Minimum 8 character long">
+                                        </div>
+                                    </div>
+                                    <div class="form-row justify-content-center">
+                                        <div class="form-group col-lg-12 col-md-11 col-sm-10 col-10 text-center">
+                                            <div class="d-flex flex-column">
+                                                <!--<a class="anchor-text mb-1" href="reset-password.html">Forgot Password</a>-->
+                                                <button class="btn primary-btn-custom mt-3 p-2">Login Now</button>
+                                                <span class="mt-3 login-p">Not a member yet? <a class="anchor-text" href="sign-up-step-1.html">Sign up for free</a> </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- ============================================================== -->
+    <!-- All Required js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--Content Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--Content Animation -->
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>

@@ -53,8 +53,8 @@
                             </li>
                         </ul>
                         <form class="form-inline my-2 my-lg-0">
-                            <a href="#" class="btn login-btn mr-3">Login</a>
-                            <button class="btn primary-btn-custom" type="submit">Start Selling</button>
+                            <a href="login.html" class="btn login-btn mr-3">Login</a>
+                            <button class="btn primary-btn-custom" type="button" onclick="window.location.href = 'sign-up-step-1.html';">Start Selling</button>
                         </form>
                     </div>
                 </nav>
