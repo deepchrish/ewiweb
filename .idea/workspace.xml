@@ -4,8 +4,6 @@
     <list default="true" id="87938a91-1527-422f-bba3-1b206d9d8f9c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="65" column="21" lean-forward="true" selection-start-line="65" selection-start-column="2" selection-end-line="65" selection-end-column="21" />
+            <state relative-caret-position="346">
+              <caret line="1669" column="33" lean-forward="true" selection-start-line="1669" selection-start-column="33" selection-end-line="1669" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -57,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact-us.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contact-us.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact-us.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -106,8 +104,8 @@
         <option value="$PROJECT_DIR$/influencers.php" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/integrations.php" />
-        <option value="$PROJECT_DIR$/css/custom.css" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/css/custom.css" />
       </list>
     </option>
   </component>
@@ -196,12 +194,12 @@
       <workItem from="1569905969098" duration="27303000" />
       <workItem from="1570079461915" duration="9545000" />
       <workItem from="1570163832006" duration="20599000" />
-      <workItem from="1570425006224" duration="24075000" />
+      <workItem from="1570425006224" duration="25616000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="362999000" />
+    <option name="totallyTimeSpent" value="364540000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -504,13 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="65" column="21" lean-forward="true" selection-start-line="65" selection-start-column="2" selection-end-line="65" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/integrations.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
@@ -544,6 +535,13 @@
           <folding>
             <element signature="e#2488#2516#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="1669" column="33" lean-forward="true" selection-start-line="1669" selection-start-column="33" selection-end-line="1669" selection-end-column="33" />
         </state>
       </provider>
     </entry>

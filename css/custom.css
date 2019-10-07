@@ -1665,7 +1665,7 @@ button:focus {
     left: -20%;
 }
 .inte-support-bg{
-    background: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.9)), url("/img/integration-support.png");
+    background: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.9)), url("../img/integration-support.png");
     background-position: center;
     background-repeat: no-repeat;
     height: 90vh;
