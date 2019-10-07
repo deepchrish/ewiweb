@@ -21,8 +21,8 @@
                         <li><a href="#">Print-on-demand Products</a></li>
                         <li><a href="#">Branding & White label printing</a></li>
                         <li><a href="#">Design Services</a></li>
-                        <li><a href="#">Photography Services</a></li>
-                        <li><a href="#">Video Services</a></li>
+                        <li><a href="#" disabled="disabled">Photography Services</a><span class="commingsoon">Soon</span></li>
+                        <li><a href="#" disabled="disabled">Video Services</a><span class="commingsoon">Soon</span></li>
                         <li><a href="#">Store Setup Help</a></li>
                     </ul>
                 </div>
@@ -33,10 +33,10 @@
                     <ul>
                         <li><a href="blog.php">Blog</a></li>
                         <li><a href="faqs.php">FAQs</a></li>
-                        <li><a href="#">Press Release</a></li>
+                        <li><a href="#" disabled="disabled">Press Release</a><span class="commingsoon">Soon</span></li>
                         <li><a href="#">Careers</a></li>
                         <li><a href="#">Sitemap</a></li>
-                        <li><a href="#">Webinars & Tutorials</a></li>
+                        <li><a href="#" disabled="disabled">Webinars & Tutorials</a><span class="commingsoon">Soon</span></li>
                     </ul>
                 </div>
             </div>
@@ -44,10 +44,10 @@
                 <div class="footer-links">
                     <h6>Features</h6>
                     <ul>
-                        <li><a href="#">Integrations</a></li>
-                        <li><a href="#">API</a></li>
-                        <li><a href="#">EWI app</a></li>
-                        <li><a href="#">Affiliate program</a></li>
+                        <li><a href="integrations.php">Integrations</a></li>
+                        <li><a href="#" disabled="disabled">API</a><span class="commingsoon">Soon</span></li>
+                        <li><a class="disabled" href="#" disabled="disabled">EWI app</a><span class="commingsoon">Soon</span></li>
+                        <li><a href="#" disabled="disabled">Affiliate program</a><span class="commingsoon">Soon</span></li>
                         <li><a href="#">Set-up checklist</a></li>
                         <li><a href="#">EWI features</a></li>
                     </ul>
@@ -148,6 +148,23 @@
     });
 </script>
 <!--Sticky Navbar END-->
+
+<!-- integrations store -->
+<script>
+    window.onscroll = function() {myFunction()};
+
+    var navbar = document.getElementById("intenav");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("inte-fixed")
+        } else {
+            navbar.classList.remove("inte-fixed");
+        }
+    }
+</script>
+<!-- integrations Store -->
 
 <!--Index page auto latest orders update START-->
 <script>

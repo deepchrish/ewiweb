@@ -28,7 +28,7 @@ include('header.php');
                             <div class="col-lg-5 col-md-5 col-sm-6 col-7 d-flex align-items-center pt-lg-2 m-auto m-md-0 pt-3">
                                 <div class="location-icon"><span class="ti-location-pin"></span></div>
                                 <div class="recent-locations">
-                                    <p class="mb-0" id="role3">Vanvcouver, Canada</p>
+                                     <p class="mb-0" id="role3">Vanvcouver, Canada</p>
                                     <span id="role4">5 Minutes ago</span>
                                 </div>
                             </div>
@@ -159,7 +159,7 @@ include('header.php');
 
             <div class="row text-center">
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12 p-0 mt-2" data-aos="fade-up" data-aos-duration="1000">
-                    <a href="#">
+                    <a href="integrations.php">
                         <div class="shopify-color cont-str-box m-2">
                             <div class="cont-str-img">
                                 <img class="img-fluid" src="img/shopify.png">
@@ -175,7 +175,7 @@ include('header.php');
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12 p-0 mt-2" data-aos="fade-up" data-aos-duration="1500">
-                    <a href="#">
+                    <a href="integrations.php">
                         <div class="etsy-color cont-str-box m-2">
                             <div class="cont-str-img">
                                 <img class="img-fluid" src="img/etsy.png">
@@ -192,7 +192,7 @@ include('header.php');
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12 p-0 mt-2" data-aos="fade-up" data-aos-duration="2000">
-                    <a href="#">
+                    <a href="integrations.php">
                         <div class="amazon-color cont-str-box m-2">
                             <div class="cont-str-img">
                                 <img class="img-fluid" src="img/amazon.png">
