@@ -6,11 +6,12 @@
                 <div class="footer-links">
                     <h6>Products</h6>
                     <ul>
-                        <li><a href="#">Products & Pricing</a></li>
+                        <li><a href="pricing-and-plans.php">Products & Pricing</a></li>
                         <li><a href="#">Make your own T-shirt</a></li>
                         <li><a href="#">Custom Gifts</a></li>
                         <li><a href="#">Latest News</a></li>
                         <li><a href="influencers.php">Influencer merch</a></li>
+                        <li><a href="track.html">Track Order</a></li>
                     </ul>
                 </div>
             </div>

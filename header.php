@@ -43,7 +43,7 @@
                                 <a class="nav-link" href="how-it-works.php">How It Works</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Pricing</a>
+                                <a class="nav-link" href="pricing-and-plans.php">Pricing</a>
                             </li>
                             <li class="nav-item ">
                                 <a class="nav-link" href="about-us.php">About us</a>

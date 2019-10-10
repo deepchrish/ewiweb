@@ -1672,7 +1672,7 @@ button:focus {
 }
 /*------------- Integrations Page CSS END -------------*/
 
-/*Login page START*/
+/*------------- Login page START -------------*/
 .loginbg {
     background:url("../img/login-bg.png") no-repeat center;
     /*background: url(../../images/loginbg.png) no-repeat center;*/
@@ -1800,12 +1800,12 @@ button:focus {
     color: #0094FF;
     font-weight: 600;
 }
-/*Login page END*/
+/*------------- Login page END -------------*/
 
-/*Track order*/
+/*------------- Track order -------------*/
 .join-workspace {
     /*background: url("../../images/join-workspace.png") center no-repeat;*/
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("../img/track-1.jpg") center no-repeat;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("../img/track-2.png") center no-repeat;
     background-size: cover;
     height: 100vh;
 }
@@ -1831,7 +1831,20 @@ button:focus {
     background: #FFFFFF;
 }
 
-/*Track order*/
+/*------------- Track order -------------*/
+
+/*------------- Pricing and Plan CSS START -------------*/
+.pricing-sec{
+    margin-top: 5%;
+}
+.pricing-text h3{
+    color: #111111;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/*------------- Pricing and Plan CSS END -------------*/
+
 
 /*Responsive web design START*/
 
