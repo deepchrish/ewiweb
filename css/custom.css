@@ -11,7 +11,7 @@ body {
 
 html {
     overflow-x: hidden;
-    scroll-behavior: smooth;
+    /*scroll-behavior: smooth;*/
 }
 
 /*------------- Main Scroll START -------------*/
@@ -62,6 +62,7 @@ p {
 a {
     color: #2B44FF;
     font-weight: 700;
+    cursor: pointer;
 }
 a[disabled="disabled"] {
     pointer-events: none;
@@ -972,31 +973,48 @@ button:focus {
 }
 
 .drop-menu-test{
-    background: #fff;
-    text-align: center;
-    padding: 10px 0;
-    -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.1);
-    margin: 20px 0 0 0;
-    -webkit-transition: background 2s;
-    transition: background 2s;
+    background: #f5f5f5;
+    /*text-align: center;*/
+    /*padding: 10px 0;*/
+    /*-webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.1);*/
+    /*-moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.1);*/
+    /*box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.1);*/
+    /*margin: 20px 0 0 0;*/
+    /*-webkit-transition: background 2s;*/
+    /*transition: background 2s;*/
 }
 .drop-menu-test ul{
-    padding: 0;
-    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    position: relative;
+    z-index: 10;
 }
 .drop-menu-test ul li {
     list-style: none;
-    display: inline-flex;
-    margin: 0 15px;
-    white-space: nowrap;
+    display: inline-block;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    text-align: center;
+    margin: 18px 0;
 }
 .drop-menu-test ul li a {
-    color: #777777;
+    color: #111;
     font-weight: 600;
-    font-size: 14px;
+    padding: 14px 0;
+    border-bottom: 5px solid transparent;
     transition: all .3s ease-in-out;
+}
+.drop-menu-test ul li a:hover{
+    border-bottom: 5px solid #2c44ff;
 }
 .product__header h4 {
     font-family: 'Playfair Display', serif;
@@ -1122,10 +1140,12 @@ button:focus {
 
 .product-drop-menu {
     position: fixed;
+    top: 55px;
     width: 100%;
-    top: 38px;
+    z-index: 10;
+    box-shadow: 0 4px 8px -5px rgba(0, 0, 0, 0.3);
     left: 0;
-    z-index: 1;
+    right: 0;
     animation: smoothScroll 0.5s forwards;
 }
 
@@ -1592,6 +1612,8 @@ button:focus {
     width: 100%;
     z-index: 10;
     box-shadow: 0 4px 8px -5px rgba(0, 0, 0, 0.3);
+    left: 0;
+    right: 0;
     animation: smoothScroll 0.5s forwards;
 }
 
@@ -1669,6 +1691,9 @@ button:focus {
     background-position: center;
     background-repeat: no-repeat;
     height: 90vh;
+}
+.modrennav ul li a.active{
+    border-bottom: 5px solid #2c44ff;
 }
 /*------------- Integrations Page CSS END -------------*/
 
@@ -1835,7 +1860,7 @@ button:focus {
 
 /*------------- Pricing and Plan CSS START -------------*/
 .pricing-sec{
-    margin-top: 5%;
+    margin-top: 6%;
 }
 .pricing-text h3{
     color: #111111;

@@ -37,7 +37,7 @@ include('header.php');
 
     <!--Build and Grow your Ecommerce Business faster START-->
     <section class="inte-gbb">
-        <div class="inte-biz-nav" id="intenav">
+        <div class="inte-biz-nav modrennav" id="intenav">
             <ul class="nav-justified">
                 <li><a href="#shopify">Shopify</a></li>
                 <li><a href="#etsy">Etsy</a></li>
@@ -138,6 +138,22 @@ include('header.php');
     </div>
 </section>
     <!--White Label Support END-->
+    <!-- integrations store -->
+    <script>
+        window.onscroll = function() {myFunction()};
+
+        var navbar = document.getElementById("intenav");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("inte-fixed")
+            } else {
+                navbar.classList.remove("inte-fixed");
+            }
+        }
+    </script>
+    <!-- integrations Store -->
 <?php
 include('footer.php');
 ?>

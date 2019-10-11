@@ -8,10 +8,12 @@ include('header.php');
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-12 col-sm-12 col-12 mt-3">
-                    <div class="nav flex-column nav-pills pro-custom-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <div class="nav flex-column nav-pills pro-custom-pills" id="v-pills-tab" role="tablist"
+                         aria-orientation="vertical">
                         <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#allproducts"
                            role="tab" aria-controls="v-pills-home" aria-selected="true">All Products</a>
-                        <a class="nav-link" id="v-pills-accessories-tab" data-toggle="pill" href="#accessories" role="tab"
+                        <a class="nav-link" id="v-pills-accessories-tab" data-toggle="pill" href="#accessories"
+                           role="tab"
                            aria-controls="v-pills-accessories" aria-selected="false">Accessories</a>
                         <a class="nav-link" id="v-pills-Apparel-tab" data-toggle="pill" href="#Apparel"
                            role="tab" aria-controls="v-pills-Apparel" aria-selected="false">Apparel</a>
@@ -43,8 +45,9 @@ include('header.php');
                                     <div class="pro-catalogue">
                                         <div class="pro-imgarea">
                                             <div class="pro-foto">
-                                                <a href="product-details.php"> <img class="img-fluid" src="img/pro-11.png"
-                                                                  alt="product image"></a>
+                                                <a href="product-details.php"> <img class="img-fluid"
+                                                                                    src="img/pro-11.png"
+                                                                                    alt="product image"></a>
                                             </div>
                                             <div class="pro-multi-option">
                                                 <div class="d-flex justify-content-center">
@@ -760,7 +763,8 @@ include('header.php');
                                             </li>
                                             <li class="page-item"><a class="page-link" href="#">1</a></li>
                                             <li class="page-item active">
-                                                <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                                                <a class="page-link" href="#">2 <span
+                                                            class="sr-only">(current)</span></a>
                                             </li>
                                             <li class="page-item"><a class="page-link" href="#">3</a></li>
                                             <li class="page-item">
@@ -796,7 +800,8 @@ include('header.php');
                                     <div class="pro-catalogue">
                                         <div class="pro-imgarea">
                                             <div class="pro-foto">
-                                                <a href="product-details.php"> <img class="img-fluid" src="img/pro-1.png"
+                                                <a href="product-details.php"> <img class="img-fluid"
+                                                                                    src="img/pro-1.png"
                                                                                     alt="product image"></a>
                                             </div>
                                             <div class="pro-multi-option">
@@ -1374,24 +1379,25 @@ include('header.php');
                                             </div>
                                         </div>
                                     </form>
-                                    <h2 class="pt-2" id="apparel">Apparel</h2>
-                                    <div class="drop-menu-test">
-                                <ul>
-                                    <li><a href="#apparel">Kids</a></li>
-                                    <li><a href="#Sweatshirts">Sweatshirts</a></li>
-                                    <li><a href="#tshirt">T-Shirts</a></li>
-                                    <li><a href="#tanktops">Tank Tops</a></li>
-                                </ul>
-                            </div>
+                                    <h2 class="pt-2 pb-1" id="apparel">Apparel</h2>
+                                    <div class="drop-menu-test modrennav" id="intenav">
+                                        <ul class="nav-justified">
+                                            <li><a href="#kidsapparel">Kids</a></li>
+                                            <li><a href="#Sweatshirts">Sweatshirts</a></li>
+                                            <li><a href="#tshirt">T-Shirts</a></li>
+                                            <li><a href="#tanktops">Tank Tops</a></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="product__header mt-4" id="procato"> <h4>Kids Apparel</h4> </div>
+                            <div class="product__header mt-4" id="kidsapparel"><h4>Kids Apparel</h4></div>
                             <div class="row">
                                 <div class="col-lg-4 col-md-4 col-sm-6 col-12 mt-4">
                                     <div class="pro-catalogue">
                                         <div class="pro-imgarea">
                                             <div class="pro-foto">
-                                                <a href="product-details.php"> <img class="img-fluid" src="img/pro-5.png"
+                                                <a href="product-details.php"> <img class="img-fluid"
+                                                                                    src="img/pro-5.png"
                                                                                     alt="product image"></a>
                                             </div>
                                             <div class="pro-multi-option">
@@ -1789,13 +1795,14 @@ include('header.php');
                                 </div>
                             </div>
 
-                            <div class="product__header mt-4" id="Sweatshirts"> <h4>Sweatshirts</h4> </div>
+                            <div class="product__header mt-4" id="Sweatshirts"><h4>Sweatshirts</h4></div>
                             <div class="row">
                                 <div class="col-lg-4 col-md-4 col-sm-6 col-12 mt-4">
                                     <div class="pro-catalogue">
                                         <div class="pro-imgarea">
                                             <div class="pro-foto">
-                                                <a href="product-details.php"> <img class="img-fluid" src="img/pro-5.png"
+                                                <a href="product-details.php"> <img class="img-fluid"
+                                                                                    src="img/pro-5.png"
                                                                                     alt="product image"></a>
                                             </div>
                                             <div class="pro-multi-option">
@@ -2118,13 +2125,14 @@ include('header.php');
                                     </div>
                                 </div>
                             </div>
-                            <div class="product__header mt-4" id="tshirt"> <h4>T-Shirt</h4> </div>
+                            <div class="product__header mt-4" id="tshirt"><h4>T-Shirt</h4></div>
                             <div class="row">
                                 <div class="col-lg-4 col-md-4 col-sm-6 col-12 mt-4">
                                     <div class="pro-catalogue">
                                         <div class="pro-imgarea">
                                             <div class="pro-foto">
-                                                <a href="product-details.php"> <img class="img-fluid" src="img/pro-5.png"
+                                                <a href="product-details.php"> <img class="img-fluid"
+                                                                                    src="img/pro-5.png"
                                                                                     alt="product image"></a>
                                             </div>
                                             <div class="pro-multi-option">
@@ -2358,13 +2366,14 @@ include('header.php');
                                     </div>
                                 </div>
                             </div>
-                            <div class="product__header mt-4" id="tanktops"> <h4>Tank Tops</h4> </div>
+                            <div class="product__header mt-4" id="tanktops"><h4>Tank Tops</h4></div>
                             <div class="row">
                                 <div class="col-lg-4 col-md-4 col-sm-6 col-12 mt-4">
                                     <div class="pro-catalogue">
                                         <div class="pro-imgarea">
                                             <div class="pro-foto">
-                                                <a href="product-details.php"> <img class="img-fluid" src="img/pro-5.png"
+                                                <a href="product-details.php"> <img class="img-fluid"
+                                                                                    src="img/pro-5.png"
                                                                                     alt="product image"></a>
                                             </div>
                                             <div class="pro-multi-option">
@@ -2694,6 +2703,7 @@ include('header.php');
         </div>
     </section>
     <!--Product Catalogue END-->
+
 <?php
 include('footer.php');
 ?>

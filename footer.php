@@ -100,6 +100,7 @@
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <!--Content Animation -->
@@ -122,18 +123,6 @@
 </script>
 <!--Hamburger-->
 
-<!-- Product cat submenu -->
-<script>
-    $(window).scroll(function () {
-        var scroll = $(window).scrollTop();
-        if (scroll > 300) {
-            $(".drop-menu-test").addClass("product-drop-menu");
-        } else if (scroll <= 300) {
-            $(".drop-menu-test").removeClass("product-drop-menu");
-        }
-    });
-</script>
-<!-- Product cat submenu -->
 <!--Sticky Navbar START-->
 <script>
     $(document).ready(function(){
@@ -150,21 +139,34 @@
 </script>
 <!--Sticky Navbar END-->
 
-<!-- integrations store -->
+<!-- Product cat submenu -->
 <script>
-    window.onscroll = function() {myFunction()};
-
-    var navbar = document.getElementById("intenav");
-    var sticky = navbar.offsetTop;
-
-    function myFunction() {
-        if (window.pageYOffset >= sticky) {
-            navbar.classList.add("inte-fixed")
-        } else {
-            navbar.classList.remove("inte-fixed");
+    $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+        if (scroll > 300) {
+            $(".drop-menu-test").addClass("product-drop-menu");
+        } else if (scroll <= 300) {
+            $(".drop-menu-test").removeClass("product-drop-menu");
         }
-    }
+    });
 </script>
+<!-- Product cat submenu -->
+
+<!-- integrations store -->
+<!--<script>-->
+<!--    window.onscroll = function() {myFunction()};-->
+<!---->
+<!--    var navbar = document.getElementById("intenav");-->
+<!--    var sticky = navbar.offsetTop;-->
+<!---->
+<!--    function myFunction() {-->
+<!--        if (window.pageYOffset >= sticky) {-->
+<!--            navbar.classList.add("inte-fixed")-->
+<!--        } else {-->
+<!--            navbar.classList.remove("inte-fixed");-->
+<!--        }-->
+<!--    }-->
+<!--</script>-->
 <!-- integrations Store -->
 
 <!--Index page auto latest orders update START-->
@@ -229,5 +231,22 @@
     $('.panel-group').on('shown.bs.collapse', toggleIcon);
 </script>
 <!--Faq page plus mins END-->
+
+<script>
+    // function scrollNav() {
+    //     $('.modren-nav a').click(function(e){
+    //         e.preventDefault();
+    //         //Toggle Class
+    //         $(".active").removeClass("active");
+    //         $(this).closest('li').addClass("active");
+    //         var theClass = $(this).attr("class");
+    //         $('.'+theClass).parent('li').addClass('active');
+    //         //Animate
+    //     });
+    //     //$('.scrollTop a').scrollTop();
+    // }
+    // scrollNav();
+</script>
+
 </body>
 </html>
