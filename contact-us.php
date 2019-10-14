@@ -6,7 +6,7 @@ include('header.php');
     <!--We’re eager to help you with your questions START-->
     <section class="eager-help">
         <div class="container">
-            <div class="row">
+            <div class="row text-center text-md-left">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-3" data-aos="fade-up" data-aos-duration="1000">
                     <div class="header-heading">
                         <h1>We’re eager to help you with your questions.</h1>

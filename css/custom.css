@@ -2118,7 +2118,9 @@ button:focus {
 /* Extra large devices (large laptops and desktops, 1200px and Down) */
 @media only screen and (max-width: 1200px) {}
 
-@media only screen and (max-width: 1024px) {}
+@media only screen and (max-width: 1024px) {
+    .inte-right-img{left: 15%;}
+}
 
 /* Large devices (laptops/desktops, 992px and Down) */
 @media only screen and (max-width: 992px) {
@@ -2153,6 +2155,7 @@ button:focus {
     .inf-head-text p {white-space: initial;}
     #only-large {display: none;}
     #small-medium{display: block;}
+    .product-drop-menu{top: 52px;}
 }
 
 /* Medium devices (tablets, 768px and down) */
@@ -2176,7 +2179,7 @@ button:focus {
     .abt-ceo-bg, .blog-store-bg, .pm-bg-img, .abt-print-bg, .abt-number-bg, .contact-bg-art img, .htw-head-bg {display: none;}
     .connect-store {background: none;}
     .cus-right-bg {left: 0;width: 100%;}
-    .login-btn {display: contents;}
+    /*.login-btn {display: contents;}*/
     .inf-head-text {text-align: left;}
     .inf-head-text p {white-space: unset;font-size: 14px;}
     /*.inf-right-imgposition {position: relative;left: 0;right: 0;margin: 0 auto;}*/
@@ -2190,6 +2193,12 @@ button:focus {
     .loginbg {height: 50vh;background-size: contain !important;}
     .login-form-area {position: relative;bottom: 10%;padding: 50px 0;height: auto;}
     .resetpass, .newpass-bg, .signupbg {height: 50vh;background-size: contain !important;}
+    .inte-shopify-bg{display: none;}
+    .inte-right-bg{left: 0;right: 0;}
+    .inte-right-img{left: 0;right: 0;}
+    .inte-fixed{top: 52px;}
+    .htw-top-img {position: relative;width: 100%;left: 0;right: 0;}
+    .cus-eger-text p{padding: 2% 15% 0 15%;}
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -2216,18 +2225,23 @@ button:focus {
     .panel-default > .panel-heading a {font-size: 16px;}
     .abt-braces {font-size: 52px;}
     .t-head-text .secondary-btn-cut{padding: 8px 15px;}
+    .inte-biz-nav ul li .commingsoon{position: absolute;right: 40px;bottom: 5px;}
+    .cus-eger-text p{padding: 2% 0 0 0;}
 }
 
 /* Extra small devices (phones, 360px and down) */
 @media only screen and (max-width: 360px) {
     .footer-social ul li a {font-size: 14px;margin: 0 4px;}
     .abt-braces {font-size: 48px;}
+    .inte-biz-nav ul li .commingsoon{right: 30px;}
+
 }
 
 /* Extra small devices (phones, 320px and down) */
 @media only screen and (max-width: 320px) {
     .abt-braces {top: -35px;}
     .t-head-text .secondary-btn-cut{padding: 8px 10px;}
+    .inte-biz-nav ul li .commingsoon {right: 20px;}
 }
 
 /*Responsive web design END*/

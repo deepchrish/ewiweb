@@ -47,18 +47,18 @@ include('header.php');
         </div>
         <div class="container mt-5">
             <div class="row text-center">
-                <div class="col-md-12">
+                <div class="col-lg-12 col-md-12">
                     <h2>Build and grow your ecommerce business faster</h2>
                 </div>
             </div>
             <div class="row shopify-color mt-3" id="shopify">
-                <div class="col-md-6">
-                    <div class="mt-4 mb-5"><img class="img-fluid" src="img/ewi-shopify.png" alt="ewi with shopify">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="mt-4 mb-md-5 mb-2"><img class="img-fluid" src="img/ewi-shopify.png" alt="ewi with shopify">
                     </div>
                     <div class="inte-shopify-bg"><img class="img-fluid" src="img/inte-shopify-bg.png" alt="shopify bg">
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="inte-ewi-shop">
                         <span>Shopify</span>
                         <h2>EWI + Shopify</h2>
@@ -70,12 +70,12 @@ include('header.php');
             </div>
 
             <div class="row etsy-color mt-5 flex-row-reverse" id="etsy">
-                <div class="col-md-6">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="inte-etsy-bg"><img class="img-fluid" src="img/text-bg.png" alt="etsy bg"></div>
-                    <div class="mt-4 mb-5"><img class="img-fluid" src="img/ewi-etsy.png" alt="ewi with Etsy"></div>
+                    <div class="mt-4 mb-md-5 mb-2"><img class="img-fluid" src="img/ewi-etsy.png" alt="ewi with Etsy"></div>
                     <div class="inte-etsy-dot"><img class="img-fluid" src="img/dots-16.png" alt="ETSY"></div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="inte-ewi-shop ml-3">
                         <span>Etsy</span>
                         <h2>EWI + ETSY</h2>
@@ -87,11 +87,11 @@ include('header.php');
             </div>
 
             <div class="row amazon-color mt-5" id="amazon">
-                <div class="col-md-6">
-                    <div class="mt-4 mb-5"><img class="img-fluid" src="img/ewi-amazon.png" alt="ewi with shopify"></div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="mt-4 mb-md-5 mb-2"><img class="img-fluid" src="img/ewi-amazon.png" alt="ewi with shopify"></div>
                     <div class="inte-amazon-bg"><img class="img-fluid" src="img/abt-line.png" alt="shopify bg"></div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="inte-ewi-shop">
                         <span>Amazon</span>
                         <h2>EWI + Amazon</h2>
@@ -103,12 +103,12 @@ include('header.php');
             </div>
 
             <div class="row etsy-color mt-5 flex-row-reverse" id="magento">
-                <div class="col-md-6">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <!--                <div class="inte-etsy-bg"><img class="img-fluid" src="img/text-bg.png" alt="etsy bg"></div>-->
-                    <div class="mt-4 mb-5"><img class="img-fluid" src="img/ewi-magento.png" alt="ewi with Etsy"></div>
+                    <div class="mt-4 mb-md-5 mb-2"><img class="img-fluid" src="img/ewi-magento.png" alt="ewi with Etsy"></div>
                     <!--                <div class="inte-etsy-dot"><img class="img-fluid" src="img/dots-16.png" alt="ETSY"></div>-->
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="inte-ewi-shop ml-3">
                         <span>Magento</span>
                         <h2>EWI + Magento <i class="commingsoon">Soon</i></h2>

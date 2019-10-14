@@ -1963,8 +1963,7 @@ include('header.php');
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" id="pills-yearrookie-tab" data-toggle="pill" href="#yearrookie"
-                                       rol
-                                       e="tab" aria-controls="yearrookie" aria-selected="false">Rookie</a>
+                                       role="tab" aria-controls="yearrookie" aria-selected="false">Rookie</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" id="pills-yearveteran-tab" data-toggle="pill"
@@ -2504,7 +2503,7 @@ include('header.php');
                                                               data-placement="top" title="Tooltip on top"></span>
                                                     </div>
                                                 </td>
-                                                <td class="plan-opt ">
+                                                <td class="plan-opt">
                                                     <p>500/Mo</p>
                                                 </td>
                                             </tr>
@@ -2533,12 +2532,11 @@ include('header.php');
                                                 <td class="plan-opt">
                                                     <p>$5.75</p>
                                                 </td>
-
                                             </tr>
 
                                             <tr>
                                                 <td class="first-td-bg">
-                                                    <div class="plan-list d-flex justify-content-between ">
+                                                    <div class="plan-list d-flex justify-content-between">
                                                         <p>Catalog Price</p>
                                                         <span class="mdi mdi-information-outline" data-toggle="tooltip"
                                                               data-placement="top" title="Tooltip on top"></span>
@@ -2551,7 +2549,7 @@ include('header.php');
 
                                             <tr>
                                                 <td class="first-td-bg">
-                                                    <div class="plan-list d-flex justify-content-between ">
+                                                    <div class="plan-list d-flex justify-content-between">
                                                         <p>Order Routing</p>
                                                         <span class="mdi mdi-information-outline" data-toggle="tooltip"
                                                               data-placement="top" title="Tooltip on top"></span>
