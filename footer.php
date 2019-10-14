@@ -22,7 +22,8 @@
                         <li><a href="#">Print-on-demand Products</a></li>
                         <li><a href="#">Branding & White label printing</a></li>
                         <li><a href="#">Design Services</a></li>
-                        <li><a href="#" disabled="disabled">Photography Services</a><span class="commingsoon">Soon</span></li>
+                        <li><a href="#" disabled="disabled">Photography Services</a><span
+                                    class="commingsoon">Soon</span></li>
                         <li><a href="#" disabled="disabled">Video Services</a><span class="commingsoon">Soon</span></li>
                         <li><a href="#">Store Setup Help</a></li>
                     </ul>
@@ -37,7 +38,8 @@
                         <li><a href="#" disabled="disabled">Press Release</a><span class="commingsoon">Soon</span></li>
                         <li><a href="#">Careers</a></li>
                         <li><a href="#">Sitemap</a></li>
-                        <li><a href="#" disabled="disabled">Webinars & Tutorials</a><span class="commingsoon">Soon</span></li>
+                        <li><a href="#" disabled="disabled">Webinars & Tutorials</a><span
+                                    class="commingsoon">Soon</span></li>
                     </ul>
                 </div>
             </div>
@@ -47,8 +49,10 @@
                     <ul>
                         <li><a href="integrations.php">Integrations</a></li>
                         <li><a href="#" disabled="disabled">API</a><span class="commingsoon">Soon</span></li>
-                        <li><a class="disabled" href="#" disabled="disabled">EWI app</a><span class="commingsoon">Soon</span></li>
-                        <li><a href="#" disabled="disabled">Affiliate program</a><span class="commingsoon">Soon</span></li>
+                        <li><a class="disabled" href="#" disabled="disabled">EWI app</a><span
+                                    class="commingsoon">Soon</span></li>
+                        <li><a href="#" disabled="disabled">Affiliate program</a><span class="commingsoon">Soon</span>
+                        </li>
                         <li><a href="#">Set-up checklist</a></li>
                         <li><a href="#">EWI features</a></li>
                     </ul>
@@ -104,19 +108,19 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <!--Content Animation -->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!--<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>-->
 <!--Content Animation -->
 <script src="js/custom.js"></script>
 <!--Animation-->
-<script>
-    AOS.init();
-</script>
+<!--<script>-->
+<!--    AOS.init();-->
+<!--</script>-->
 <!--Animation-->
 
 <!--Hamburger-->
 <script>
-    $(document).ready(function(){
-        $('#nav-icon3').click(function(){
+    $(document).ready(function () {
+        $('#nav-icon3').click(function () {
             $(this).toggleClass('open');
         });
     });
@@ -125,9 +129,9 @@
 
 <!--Sticky Navbar START-->
 <script>
-    $(document).ready(function(){
-        $(window).bind('scroll', function() {
-            var navHeight = $( window ).height() - 400;
+    $(document).ready(function () {
+        $(window).bind('scroll', function () {
+            var navHeight = $(window).height() - 400;
             if ($(window).scrollTop() > navHeight) {
                 $('.header-bg').addClass('stickynav');
             }
@@ -247,6 +251,28 @@
     // }
     // scrollNav();
 </script>
+
+<!--Pricing and plan START-->
+<script>
+
+    window.show = function (elementId) {
+        document.getElementById("montlyprice").style.display = "none";
+        document.getElementById("annualprice").style.display = "none";
+        document.getElementById("montlyprice1").style.display = "none";
+        document.getElementById("annualprice1").style.display = "none";
+        document.getElementById(elementId).style.display = "block";
+    }
+</script>
+
+<script>
+    $(document).ready(function () {
+        $('.btn-group button').click(function () {
+            $('button').removeClass("price-green-btn");
+            $(this).addClass("price-green-btn");
+        });
+    });
+</script>
+<!--Pricing and plan END-->
 
 </body>
 </html>

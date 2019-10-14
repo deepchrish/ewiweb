@@ -6,12 +6,14 @@
       <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integrations.php" beforeDir="false" afterPath="$PROJECT_DIR$/integrations.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/custom.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new-password.html" beforeDir="false" afterPath="$PROJECT_DIR$/new-password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-cataogue.php" beforeDir="false" afterPath="$PROJECT_DIR$/product-cataogue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pricing-and-plans.php" beforeDir="false" afterPath="$PROJECT_DIR$/pricing-and-plans.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reset-password.html" beforeDir="false" afterPath="$PROJECT_DIR$/reset-password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sign-up-step-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/sign-up-step-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sign-up-step-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/sign-up-step-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sign-up-step-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/sign-up-step-3.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,69 +27,77 @@
       <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3224">
-              <caret line="1696" column="1" lean-forward="true" selection-start-line="1696" selection-start-column="1" selection-end-line="1696" selection-end-column="1" />
+            <state relative-caret-position="193">
+              <caret line="2191" column="89" selection-start-line="2191" selection-start-column="89" selection-end-line="2191" selection-end-column="89" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/header.php">
+      <file leaf-file-name="sign-up-step-2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sign-up-step-2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="340">
+              <caret line="36" column="187" selection-start-line="36" selection-start-column="187" selection-end-line="36" selection-end-column="187" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/footer.php">
+      <file leaf-file-name="sign-up-step-3.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sign-up-step-3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="36" column="136" lean-forward="true" selection-start-line="36" selection-start-column="136" selection-end-line="36" selection-end-column="136" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reset-password.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reset-password.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="122">
-              <caret line="227" column="5" lean-forward="true" selection-start-line="227" selection-start-column="5" selection-end-line="227" selection-end-column="5" />
+              <caret line="36" column="186" lean-forward="true" selection-start-line="36" selection-start-column="123" selection-end-line="36" selection-end-column="186" />
               <folding>
-                <element signature="n#script#10;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/custom.js">
+      <file leaf-file-name="new-password.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/new-password.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="28" column="56" lean-forward="true" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product-cataogue.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product-cataogue.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="1385" column="88" selection-start-line="1385" selection-start-column="88" selection-end-line="1385" selection-end-column="88" />
+            <state relative-caret-position="391">
+              <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
               <folding>
-                <element signature="e#1323#70450#0#HTML" />
-                <element signature="e#70476#124310#0#HTML" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="integrations.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/integrations.php">
+      <file leaf-file-name="sign-up-step-1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sign-up-step-1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="39" column="56" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="56" />
+            <state relative-caret-position="247">
+              <caret line="36" column="187" lean-forward="true" selection-start-line="36" selection-start-column="124" selection-end-line="36" selection-end-column="187" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add-new-product-step-2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dashboard/add-new-product-step-2.html">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="203" column="51" selection-start-line="203" selection-start-column="38" selection-end-line="203" selection-end-column="51" />
+            <state relative-caret-position="135">
+              <caret line="36" column="74" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="74" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,26 +136,26 @@
         <option value="$PROJECT_DIR$/contact-us.php" />
         <option value="$PROJECT_DIR$/influencers.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/sign-up-step-1.html" />
-        <option value="$PROJECT_DIR$/sign-up-step-3.html" />
-        <option value="$PROJECT_DIR$/sign-up-step-2.html" />
         <option value="$PROJECT_DIR$/track.html" />
-        <option value="$PROJECT_DIR$/pricing-and-plans.php" />
         <option value="$PROJECT_DIR$/dashboard/add-new-product-step-2.html" />
         <option value="$PROJECT_DIR$/terms-of-service.php" />
         <option value="$PROJECT_DIR$/dashboard/create-a-product-v2.html" />
-        <option value="$PROJECT_DIR$/reset-password.html" />
-        <option value="$PROJECT_DIR$/login.html" />
-        <option value="$PROJECT_DIR$/new-password.html" />
-        <option value="$PROJECT_DIR$/header.php" />
-        <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/dashboard/dist/js/custom.min.js" />
         <option value="$PROJECT_DIR$/dashboard/create-a-product.html" />
         <option value="$PROJECT_DIR$/dashboard/dist/css/custom.css" />
-        <option value="$PROJECT_DIR$/css/custom.css" />
         <option value="$PROJECT_DIR$/integrations.php" />
         <option value="$PROJECT_DIR$/product-cataogue.php" />
         <option value="$PROJECT_DIR$/js/custom.js" />
+        <option value="$PROJECT_DIR$/pricing-and-plans.php" />
+        <option value="$PROJECT_DIR$/footer.php" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/login.html" />
+        <option value="$PROJECT_DIR$/reset-password.html" />
+        <option value="$PROJECT_DIR$/new-password.html" />
+        <option value="$PROJECT_DIR$/sign-up-step-1.html" />
+        <option value="$PROJECT_DIR$/css/custom.css" />
+        <option value="$PROJECT_DIR$/sign-up-step-2.html" />
+        <option value="$PROJECT_DIR$/sign-up-step-3.html" />
       </list>
     </option>
   </component>
@@ -162,7 +172,7 @@
       <path value="$PROJECT_DIR$/dashboard/assets/libs/jquery-asGradient/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="92" />
     <option name="y" value="75" />
     <option name="width" value="744" />
@@ -173,6 +183,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,18 +194,12 @@
             <path>
               <item name="ewiweb" type="b2602c69:ProjectViewProjectNode" />
               <item name="ewiweb" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ewiweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ewiweb" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -246,12 +251,16 @@
       <workItem from="1570425006224" duration="25787000" />
       <workItem from="1570456164010" duration="23753000" />
       <workItem from="1570683892714" duration="21174000" />
-      <workItem from="1570770459073" duration="22560000" />
+      <workItem from="1570770459073" duration="25836000" />
+      <workItem from="1570855969418" duration="11325000" />
+      <workItem from="1570870355875" duration="903000" />
+      <workItem from="1571007750182" duration="5328000" />
+      <workItem from="1571013883367" duration="16491000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="432198000" />
+    <option name="totallyTimeSpent" value="469521000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -285,20 +294,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/terms-of-service.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1751">
-          <caret line="103" column="29" lean-forward="true" selection-start-line="103" selection-start-column="29" selection-end-line="103" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" column="25" lean-forward="true" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16150">
@@ -446,36 +441,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sign-up-step-3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="72" column="44" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sign-up-step-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sign-up-step-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/track.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pricing-and-plans.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/terms-of-service.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -491,52 +462,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="49" column="55" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-password.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-266">
-          <caret line="49" column="47" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reset-password.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="46" column="45" lean-forward="true" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/add-new-product-step-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="203" column="51" selection-start-line="203" selection-start-column="38" selection-end-line="203" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/create-a-product.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="535">
           <caret line="1729" column="72" selection-start-line="1729" selection-start-column="72" selection-end-line="1729" selection-end-column="72" />
-          <folding>
-            <element signature="n#fieldset#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#3;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#fieldset#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#3;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#fieldset#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#div#3;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#fieldset#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#div#3;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#fieldset#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -559,45 +488,134 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
+    <entry file="file://$PROJECT_DIR$/integrations.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="227" column="5" lean-forward="true" selection-start-line="227" selection-start-column="5" selection-end-line="227" selection-end-column="5" />
-          <folding>
-            <element signature="n#script#10;n#!!top" />
-          </folding>
+        <state relative-caret-position="176">
+          <caret line="102" column="18" selection-start-line="102" selection-start-column="18" selection-end-line="102" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/product-cataogue.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="1385" column="88" selection-start-line="1385" selection-start-column="88" selection-end-line="1385" selection-end-column="88" />
+        <state relative-caret-position="17">
+          <caret line="1807" column="13" selection-start-line="1807" selection-start-column="13" selection-end-line="1807" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/add-new-product-step-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="203" column="51" selection-start-line="203" selection-start-column="38" selection-end-line="203" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/icon/themify-icons/SVG/android.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/icon/themify-icons/SVG/angle-double-down.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="3" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pricing-and-plans.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="2224" column="38" lean-forward="true" selection-start-line="2224" selection-start-column="38" selection-end-line="2224" selection-end-column="38" />
           <folding>
-            <element signature="e#1323#70450#0#HTML" />
-            <element signature="e#70476#124310#0#HTML" />
+            <element signature="e#2321#24781#0#HTML" />
+            <element signature="e#24894#47373#0#HTML" />
+            <element signature="e#48591#67578#0#HTML" />
+            <element signature="e#67074#67193#0#HTML" />
+            <element signature="e#118223#118245#0#HTML" expanded="true" />
+            <element signature="e#120119#136578#0#HTML" />
+            <element signature="e#120195#136535#0#HTML" />
+            <element signature="e#136978#153445#0#HTML" />
+            <element signature="e#153847#170424#0#HTML" />
+            <element signature="e#170900#187490#0#HTML" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/integrations.php">
+    <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="39" column="56" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="56" />
+        <state relative-caret-position="329">
+          <caret line="57" column="85" lean-forward="true" selection-start-line="57" selection-start-column="85" selection-end-line="57" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-660">
+          <caret line="210" lean-forward="true" selection-start-line="210" selection-end-line="210" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reset-password.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="36" column="186" lean-forward="true" selection-start-line="36" selection-start-column="123" selection-end-line="36" selection-end-column="186" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-password.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="36" column="74" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="74" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3224">
-          <caret line="1696" column="1" lean-forward="true" selection-start-line="1696" selection-start-column="1" selection-end-line="1696" selection-end-column="1" />
+        <state relative-caret-position="193">
+          <caret line="2191" column="89" selection-start-line="2191" selection-start-column="89" selection-end-line="2191" selection-end-column="89" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/custom.js">
+    <entry file="file://$PROJECT_DIR$/sign-up-step-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="28" column="56" lean-forward="true" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
+        <state relative-caret-position="247">
+          <caret line="36" column="187" lean-forward="true" selection-start-line="36" selection-start-column="124" selection-end-line="36" selection-end-column="187" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sign-up-step-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="36" column="187" selection-start-line="36" selection-start-column="187" selection-end-line="36" selection-end-column="187" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sign-up-step-3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="36" column="136" lean-forward="true" selection-start-line="36" selection-start-column="136" selection-end-line="36" selection-end-column="136" />
         </state>
       </provider>
     </entry>

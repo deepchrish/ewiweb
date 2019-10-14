@@ -38,3 +38,10 @@ function onScroll(event){
 // -------------#intenav id that required before UL div-------------
 // -------------modrennav class add it into the div-------------
 // Anchor Smooth scrolling END
+
+
+// to enable global bootstrap Tooltip START
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+});
+// to enable global bootstrap Tooltip END
