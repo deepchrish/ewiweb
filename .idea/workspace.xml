@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87938a91-1527-422f-bba3-1b206d9d8f9c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/custom.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new-password.html" beforeDir="false" afterPath="$PROJECT_DIR$/new-password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pricing-and-plans.php" beforeDir="false" afterPath="$PROJECT_DIR$/pricing-and-plans.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reset-password.html" beforeDir="false" afterPath="$PROJECT_DIR$/reset-password.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sign-up-step-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/sign-up-step-1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sign-up-step-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/sign-up-step-2.html" afterDir="false" />
@@ -24,80 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="2191" column="89" selection-start-line="2191" selection-start-column="89" selection-end-line="2191" selection-end-column="89" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sign-up-step-2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sign-up-step-2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="36" column="187" selection-start-line="36" selection-start-column="187" selection-end-line="36" selection-end-column="187" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sign-up-step-3.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sign-up-step-3.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="36" column="136" lean-forward="true" selection-start-line="36" selection-start-column="136" selection-end-line="36" selection-end-column="136" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reset-password.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reset-password.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="36" column="186" lean-forward="true" selection-start-line="36" selection-start-column="123" selection-end-line="36" selection-end-column="186" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new-password.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/new-password.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sign-up-step-1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sign-up-step-1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="36" column="187" lean-forward="true" selection-start-line="36" selection-start-column="124" selection-end-line="36" selection-end-column="187" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="36" column="74" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="74" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="244">
+              <caret line="1762" column="27" lean-forward="true" selection-start-line="1762" selection-start-column="27" selection-end-line="1762" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -150,12 +76,12 @@
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/login.html" />
-        <option value="$PROJECT_DIR$/reset-password.html" />
-        <option value="$PROJECT_DIR$/new-password.html" />
-        <option value="$PROJECT_DIR$/sign-up-step-1.html" />
         <option value="$PROJECT_DIR$/css/custom.css" />
+        <option value="$PROJECT_DIR$/sign-up-step-1.html" />
         <option value="$PROJECT_DIR$/sign-up-step-2.html" />
         <option value="$PROJECT_DIR$/sign-up-step-3.html" />
+        <option value="$PROJECT_DIR$/reset-password.html" />
+        <option value="$PROJECT_DIR$/new-password.html" />
       </list>
     </option>
   </component>
@@ -172,7 +98,7 @@
       <path value="$PROJECT_DIR$/dashboard/assets/libs/jquery-asGradient/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="92" />
     <option name="y" value="75" />
     <option name="width" value="744" />
@@ -255,12 +181,12 @@
       <workItem from="1570855969418" duration="11325000" />
       <workItem from="1570870355875" duration="903000" />
       <workItem from="1571007750182" duration="5328000" />
-      <workItem from="1571013883367" duration="16491000" />
+      <workItem from="1571013883367" duration="17498000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="469521000" />
+    <option name="totallyTimeSpent" value="470528000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -555,67 +481,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reset-password.html">
+    <entry file="file://$PROJECT_DIR$/sign-up-step-2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="36" column="186" lean-forward="true" selection-start-line="36" selection-start-column="123" selection-end-line="36" selection-end-column="186" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="340">
+          <caret line="36" column="123" selection-start-line="36" selection-start-column="123" selection-end-line="36" selection-end-column="123" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/new-password.html">
+    <entry file="file://$PROJECT_DIR$/sign-up-step-3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="36" column="74" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="74" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="2191" column="89" selection-start-line="2191" selection-start-column="89" selection-end-line="2191" selection-end-column="89" />
+        <state relative-caret-position="204">
+          <caret line="36" column="123" selection-start-line="36" selection-start-column="123" selection-end-line="36" selection-end-column="123" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sign-up-step-1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="36" column="187" lean-forward="true" selection-start-line="36" selection-start-column="124" selection-end-line="36" selection-end-column="187" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <caret line="36" column="123" selection-start-line="36" selection-start-column="123" selection-end-line="36" selection-end-column="123" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sign-up-step-2.html">
+    <entry file="file://$PROJECT_DIR$/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="36" column="187" selection-start-line="36" selection-start-column="187" selection-end-line="36" selection-end-column="187" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="36" column="122" selection-start-line="36" selection-start-column="122" selection-end-line="36" selection-end-column="122" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sign-up-step-3.html">
+    <entry file="file://$PROJECT_DIR$/new-password.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="36" column="136" lean-forward="true" selection-start-line="36" selection-start-column="136" selection-end-line="36" selection-end-column="136" />
+        <state relative-caret-position="357">
+          <caret line="36" column="125" selection-start-line="36" selection-start-column="125" selection-end-line="36" selection-end-column="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reset-password.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="1762" column="27" lean-forward="true" selection-start-line="1762" selection-start-column="27" selection-end-line="1762" selection-end-column="27" />
         </state>
       </provider>
     </entry>
