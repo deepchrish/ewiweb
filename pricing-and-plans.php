@@ -32,7 +32,7 @@ include('header.php');
     </section>
     <!--Pricing and Plans END-->
 
-    <!--Pricing list Desktop START-->
+    <!--Pricing list START-->
     <section class="pricing-sec">
         <div class="container">
             <div class="row justify-content-center">
@@ -69,14 +69,14 @@ include('header.php');
                                     <div class="t-head-text">
                                         <h5>Startup</h5>
                                         <h6>$0</h6>
-                                        <button class="btn secondary-btn-cut">Start free trail</button>
+                                        <button class="btn secondary-btn-cut">Start free trial</button>
                                     </div>
                                 </th>
                                 <th class="custom-theading">
                                     <div class="t-head-text">
                                         <h5>Rookie</h5>
                                         <h6>$25</h6>
-                                        <button class="btn secondary-btn-cut">Start free trail</button>
+                                        <button class="btn secondary-btn-cut">Start free trial</button>
                                     </div>
                                 </th>
                                 <th class="custom-theading">
@@ -85,14 +85,14 @@ include('header.php');
                                         <div class="subs-recommendation">Recommended</div>
                                         <h5>Veteran</h5>
                                         <h6>$75</h6>
-                                        <button class="btn secondary-btn-cut">Start free trail</button>
+                                        <button class="btn secondary-btn-cut">Start free trial</button>
                                     </div>
                                 </th>
                                 <th class="custom-theading">
                                     <div class="t-head-text">
                                         <h5>Legend</h5>
                                         <h6>$200</h6>
-                                        <button class="btn secondary-btn-cut">Start free trail</button>
+                                        <button class="btn secondary-btn-cut">Start free trial</button>
                                     </div>
                                 </th>
                             </tr>
@@ -500,14 +500,14 @@ include('header.php');
                                     <div class="t-head-text">
                                         <h5>Startup</h5>
                                         <h6>$0</h6>
-                                        <button class="btn secondary-btn-cut">Start free trail</button>
+                                        <button class="btn secondary-btn-cut">Start free trial</button>
                                     </div>
                                 </th>
                                 <th class="custom-theading">
                                     <div class="t-head-text">
                                         <h5>Rookie</h5>
                                         <h6>$275</h6>
-                                        <button class="btn secondary-btn-cut">Start free trail</button>
+                                        <button class="btn secondary-btn-cut">Start free trial</button>
                                     </div>
                                 </th>
                                 <th class="custom-theading">
@@ -516,14 +516,14 @@ include('header.php');
                                         <div class="subs-recommendation">Recommended</div>
                                         <h5>Veteran</h5>
                                         <h6>$875</h6>
-                                        <button class="btn secondary-btn-cut">Start free trail</button>
+                                        <button class="btn secondary-btn-cut">Start free trial</button>
                                     </div>
                                 </th>
                                 <th class="custom-theading">
                                     <div class="t-head-text">
                                         <h5>Legend</h5>
                                         <h6>$2200</h6>
-                                        <button class="btn secondary-btn-cut">Start free trail</button>
+                                        <button class="btn secondary-btn-cut">Start free trial</button>
                                     </div>
                                 </th>
                             </tr>
@@ -919,7 +919,8 @@ include('header.php');
                         <div class="col-md-6 col-sm-10 col-11 pln-btn-area">
                             <div class="btn-group d-flex justify-content-center text-center">
                                 <div class="w-100">
-                                    <button class="btn price-green-btn w-100" onclick="show('montlyprice1');">Monthly</button>
+                                    <button class="btn price-green-btn w-100" onclick="show('montlyprice1');">Monthly
+                                    </button>
                                 </div>
                                 <div class="w-100">
                                     <button class="btn w-100" onclick="show('annualprice1');">Annual</button>
@@ -966,7 +967,7 @@ include('header.php');
                                                 </th>
                                                 <th class="custom-theading">
                                                     <div class="t-head-text">
-                                                        <button class="btn secondary-btn-cut">Start free trail</button>
+                                                        <button class="btn secondary-btn-cut">Start free trial</button>
                                                     </div>
                                                 </th>
                                             </tr>
@@ -1215,7 +1216,7 @@ include('header.php');
                                                 </th>
                                                 <th class="custom-theading">
                                                     <div class="t-head-text">
-                                                        <button class="btn secondary-btn-cut">Start free trail</button>
+                                                        <button class="btn secondary-btn-cut">Start free trial</button>
                                                     </div>
                                                 </th>
                                             </tr>
@@ -1463,7 +1464,7 @@ include('header.php');
                                                 </th>
                                                 <th class="custom-theading">
                                                     <div class="t-head-text">
-                                                        <button class="btn secondary-btn-cut">Start free trail</button>
+                                                        <button class="btn secondary-btn-cut">Start free trial</button>
                                                     </div>
                                                 </th>
                                             </tr>
@@ -1712,7 +1713,7 @@ include('header.php');
                                                 </th>
                                                 <th class="custom-theading">
                                                     <div class="t-head-text">
-                                                        <button class="btn secondary-btn-cut">Start free trail</button>
+                                                        <button class="btn secondary-btn-cut">Start free trial</button>
                                                     </div>
                                                 </th>
                                             </tr>
@@ -1966,7 +1967,8 @@ include('header.php');
                                        e="tab" aria-controls="yearrookie" aria-selected="false">Rookie</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" id="pills-yearveteran-tab" data-toggle="pill" href="#yearveteran"
+                                    <a class="nav-link" id="pills-yearveteran-tab" data-toggle="pill"
+                                       href="#yearveteran"
                                        role="tab" aria-controls="yearveteran" aria-selected="false">Veteran</a>
                                 </li>
                                 <li class="nav-item">
@@ -1990,7 +1992,7 @@ include('header.php');
                                                 </th>
                                                 <th class="custom-theading">
                                                     <div class="t-head-text">
-                                                        <button class="btn secondary-btn-cut">Start free trail</button>
+                                                        <button class="btn secondary-btn-cut">Start free trial</button>
                                                     </div>
                                                 </th>
                                             </tr>
@@ -2239,7 +2241,7 @@ include('header.php');
                                                 </th>
                                                 <th class="custom-theading">
                                                     <div class="t-head-text">
-                                                        <button class="btn secondary-btn-cut">Start free trail</button>
+                                                        <button class="btn secondary-btn-cut">Start free trial</button>
                                                     </div>
                                                 </th>
                                             </tr>
@@ -2980,9 +2982,23 @@ include('header.php');
             <!--Pricing Table for Medium and Small screens END-->
         </div>
     </section>
-    <!--Pricing list Desktop END-->
+    <!--Pricing list END-->
 
-
+    <!-- Don’t know what’s best for you? START-->
+    <section class="amour-bg mt-4 pt-1">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <div class="py-5 my-5">
+                        <h2>Don’t know what’s best for you?</h2>
+                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                        <button class="btn primary-btn-custom">Get help from us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Don’t know what’s best for you? END-->
 <?php
 include('footer.php');
 ?>

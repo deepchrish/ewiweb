@@ -2020,10 +2020,10 @@ button:focus {
     font-size: 10px;
     font-weight: 800;
     padding: 0 15px;
-    margin: 0 30px;
+    margin: 0 30px 0 35px;
     border-radius: 0;
     position: absolute;
-    top: -2px;
+    top: -10px;
     line-height: 2;
 }
 
