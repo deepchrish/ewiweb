@@ -178,7 +178,7 @@ include('header.php');
                             <div class="d-flex flex-column mb-3 abt-tfe" data-aos="fade-up" data-aos-duration="1500">
                                 <h6>Value of Money</h6>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            </div>
+                            </div> v
                             <div class="d-flex flex-column mb-3 abt-tfe" data-aos="fade-up" data-aos-duration="2000">
                                 <h6>Quality</h6>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
